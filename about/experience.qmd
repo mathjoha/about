@@ -1,0 +1,10 @@
+---
+title: Experience
+listing:
+    contents: "experience/"
+    filter-ui: false
+    date-format: iso
+    sort-ui: false
+        # type: default
+    fields: [date, title]
+---

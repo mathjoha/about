@@ -1,0 +1,19 @@
+---
+title: "Detecting Important Swedish Innovations By Text Mining Articles From the 1970s"
+Type: "MSc"
+date: "2016-09-09"
+date-format: iso
+Department: Economic History
+Journal: "N/A"
+link: "[Official page](https://lup.lub.lu.se/student-papers/search/publication/8889773)"
+File: "[{{< ai open-access >}}](http://lup.lub.lu.se/student-papers/record/8889773/file/8889775.pdf)"
+
+abstract: |
+    This study explores the possibility of detecting otherwise overlooked important innovations by analysis of journalistic texts through naïve text mining techniques. The over 1,000 articles serving as the source data come from the SWINNO, a database constructed through the Literature Based Innovation Output method, where they serve as sources for information on innovations. The contents of the texts were processed through three distinct algorithms. The outputs were compared and cross-referenced with externally assessed major Swedish innovations in order to construct a simple binary classifier. The resulting classifier uncovered 220 previously overlooked important innovations, while including 70% of the references from the external sources.
+
+---
+
+{{< meta File >}}## Abstract
+
+
+{{< meta link >}}

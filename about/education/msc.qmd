@@ -1,0 +1,10 @@
+---
+title: "Economic History"
+Type: "MSc"
+Start: "2014"
+End: "2016"
+School: Lund University
+Department: Economic History
+---
+
+{{< meta Start >}} - {{< meta End >}}

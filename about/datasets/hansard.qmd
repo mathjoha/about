@@ -1,0 +1,15 @@
+---
+title: "UK Hansard 1935-2014"
+Type: "Corpus"
+date: "2022-11-24"
+date-format: iso
+link: "[Official page](https://zenodo.org/records/7348819)"
+File: "[{{< ai open-data >}}](https://zenodo.org/api/records/7348819/files-archive)"
+abstract: |
+    The "uk_hansard_1935_2014_BvW_2022.tsv" is a metadata enriched version of the Hansard corpus. It is one of the outputs from Betto van Waarden's Marie Skłodowska-Curie project "Presenting Parliament: Parliamentarians’ visions of the communication and role of parliament within the mediated democracies of Britain, Belgium and the Netherlands, 1844-1995 ".
+
+---
+
+{{< meta File >}}
+
+{{< meta link >}}

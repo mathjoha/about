@@ -1,0 +1,14 @@
+---
+title: "Research Engineer"
+Employer: "Lund University"
+Start: "2021"
+End: "2023"
+Department: "Department of Media and Communication"
+desc: |
+    _{{< meta Department >}}, {{< meta Employer >}}_
+
+    **{{< meta Start >}} - {{< meta End >}}**
+
+---
+
+{{< meta desc >}}

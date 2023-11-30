@@ -1,0 +1,10 @@
+---
+title: Education
+listing:
+    filter-ui: false
+    sort-ui: false
+    contents: "education/"
+    type: table
+    fields: [title, Start, End, Type, School, Department]
+    sort: [Start desc, End desc]
+---

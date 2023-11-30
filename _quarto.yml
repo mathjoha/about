@@ -1,0 +1,43 @@
+project:
+  type: website
+  preview:
+    port: 5057
+
+website:
+  title: "MathiasJoha"
+  # site-url: 'fix'
+  repo-url: 'https://github.com/MatJohaDH/cv'
+  repo-actions: [edit, issue]
+
+  search: false
+  navbar:
+    background: primary
+    search: false
+    left:
+      - text: Home
+        file: index.qmd
+
+    right:
+      - icon: github
+        url: https://github.com
+
+  sidebar:
+    style: docked
+    search: false
+    contents:
+      - section: "Overview"
+        contents:
+          - index.qmd
+          - text: "Mathias Johansson"
+            file: about.qmd
+      - section: Experience
+        contents:
+          - auto: "about/*qmd"
+      - section: Publications
+        contents:
+          - auto: "pub*.qmd"
+format:
+  html:
+    theme: slate
+    css: styles.css
+    toc: true

@@ -1,0 +1,17 @@
+---
+title: "Linking innovations and patents - a machine learning assisted method"
+Type: "Working paper"
+date: "2022-06-03"
+date-format: iso
+Journal: "SSRN"
+link: "[Official page](https://papers.ssrn.com/sol3/papers.cfm)"
+File: "[{{< ai open-access >}}](https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID4127194_code4954916.pdf)"
+abstract: |
+    This paper describes the methodology behind the matching of patents and a literature-based innovation output indicator (LBIO) collected from trade journals covering the manufacturing and ICT service sectors in Sweden 1970-2015. A combination of manual processing and simple machine learning tools has enabled the identification, classification and linking of patents that otherwise would have been very difficult for either of the methods to detect on its own.
+    Data generated using this method can be used to assess many aspects of the relationship between patenting, knowledge accumulation and innovation activity.
+
+---
+
+{{< meta File >}}
+
+{{< meta link >}}

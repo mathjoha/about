@@ -1,0 +1,32 @@
+---
+title: Publications
+listing:
+    - id: papers
+      date-format: iso
+      filter-ui: false
+      sort-ui: false
+      contents: "publications/*qmd"
+      type: default
+      fields: [title, date, Type, Journal, File]
+      sort: [date desc]
+
+    - id: datasets
+      date-format: iso
+      filter-ui: false
+      sort-ui: false
+      contents: "datasets/*qmd"
+      type: default
+      fields: [title, date, Type, File]
+      sort: [date desc]
+
+---
+
+## papers
+
+:::{ #papers }
+:::
+
+## datasets
+
+:::{ #datasets }
+:::
