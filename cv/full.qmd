@@ -1,0 +1,75 @@
+---
+title:  "Mathias Johansson [{{< ai github >}}](https://github.com/mathjoha)"
+code-tools: true
+about:
+    id: header
+    template: jolla
+    links:
+        - text: "{{< ai academia >}}"
+          href: https://portal.research.lu.se/en/persons/mathias-johansson
+        - text: "{{< ai orcid >}}"
+          href: https://orcid.org/0000-0002-3338-0551
+        - icon: github
+          href: https://github.com/mathjoha
+        - icon: linkedin
+          href: https://linkedin.com/MathiasJoha
+listing:
+    -   id: experience
+        date-format: iso
+        filter-ui: false
+        sort-ui: false
+        contents: "experience/*qmd"
+        type: table
+        fields: [title, Start, End, Employer]
+        sort: [Start desc, End desc]
+    -   id: projects
+        date-format: iso
+        filter-ui: false
+        sort-ui: false
+        contents: "project/*qmd"
+        type: table
+        fields: [title, link, Start, End]
+        field-display-names:
+          title: "Project Title"
+          link: Webpage
+        sort: [Start desc, End desc]
+    -   id: education
+        date-format: iso
+        filter-ui: false
+        sort-ui: false
+        contents: "education/*qmd"
+        type: table
+        fields: [title, Start, End, Type, School]
+        sort: [Start desc, End desc]
+    -   id: publication
+        date-format: iso
+        filter-ui: false
+        sort-ui: false
+        contents: "publication/*qmd"
+        type: default
+        fields: [title, date, Type, Journal, File]
+        sort: [date desc]
+
+---
+
+::: { #header }
+:::
+
+### [Experience](experience.html)
+::: { #experience }
+:::
+
+
+### [Projects](projects.html)
+::: { #projects }
+:::
+
+
+### [Education](education.html)
+::: { #education }
+:::
+
+
+### [Publications](publications.html)
+::: { #publications }
+:::

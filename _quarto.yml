@@ -39,9 +39,9 @@ website:
           - cv/publications.qmd
       - section: Other
         contents:
-          - href: cv/short.qmd
-            text: lark
-            icon: github
+          - href: code/python.qmd
+            text: "{{< devicon python-plain >}} Python"
+
 
 format:
   html:
