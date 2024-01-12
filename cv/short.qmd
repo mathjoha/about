@@ -19,7 +19,7 @@ listing:
         date-format: iso
         filter-ui: false
         sort-ui: false
-        contents: "about/experience/*qmd"
+        contents: "experience/*qmd"
         type: table
         fields: [title, Start, End, Employer]
         sort: [Start desc, End desc]
@@ -28,7 +28,7 @@ listing:
         date-format: iso
         filter-ui: false
         sort-ui: false
-        contents: "about/project/*qmd"
+        contents: "project/*qmd"
         type: table
         fields: [title, link, Start, End]
         field-display-names:
@@ -40,7 +40,7 @@ listing:
         date-format: iso
         filter-ui: false
         sort-ui: false
-        contents: "about/education/*qmd"
+        contents: "education/*qmd"
         type: table
         fields: [title, Start, End, Type, School]
         sort: [Start desc, End desc]
@@ -59,21 +59,21 @@ listing:
 ::: { #header }
 :::
 
-### [Experience](about/experience.html)
+### [Experience](experience.html)
 ::: { #experience }
 :::
 
 
-### [Projects](about/projects.html)
+### [Projects](projects.html)
 ::: { #projects }
 :::
 
 
-### [Education](about/education.html)
+### [Education](education.html)
 ::: { #education }
 :::
 
 
-### [Publications](about/publications.html)
+### [Publications](publications.html)
 ::: { #publications }
 :::

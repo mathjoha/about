@@ -5,7 +5,7 @@ listing:
       date-format: iso
       filter-ui: false
       sort-ui: false
-      contents: "publications/*qmd"
+      contents: "publication/*qmd"
       type: default
       fields: [title, date, Type, Journal, File]
       sort: [date desc]
@@ -14,19 +14,19 @@ listing:
       date-format: iso
       filter-ui: false
       sort-ui: false
-      contents: "datasets/*qmd"
+      contents: "dataset/*qmd"
       type: default
       fields: [title, date, Type, File]
       sort: [date desc]
 
 ---
 
-## papers
+## Papers
 
 :::{ #papers }
 :::
 
-## datasets
+## Datasets
 
 :::{ #datasets }
 :::

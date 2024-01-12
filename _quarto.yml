@@ -6,7 +6,7 @@ project:
 website:
   title: "MathJoha"
   # site-url: 'fix'
-  repo-url: 'https://github.com/MatJohaDH/cv'
+  repo-url: 'https://github.com/mathjoha/cv'
   repo-actions: [edit, issue]
 
   search: false
@@ -28,14 +28,19 @@ website:
       - section: "Overview"
         contents:
           - index.qmd
-          - text: "Short CV"
-            file: about.qmd
-      - section: Experience
+      - section: CV
+        href: cv/short.html
         contents:
-          - auto: "about/*qmd"
-      - section: Publications
+          - cv/education.qmd
+          - cv/experience.qmd
+          - cv/projects.qmd
+          - cv/publications.qmd
+      - section: Other
         contents:
-          - auto: "pub*.qmd"
+          - href: cv/short.qmd
+            text: lark
+            icon: github
+
 format:
   html:
     theme: slate
