@@ -4,7 +4,7 @@ project:
     port: 5057
 
 website:
-  title: "MathiasJoha"
+  title: "MathJoha"
   # site-url: 'fix'
   repo-url: 'https://github.com/MatJohaDH/cv'
   repo-actions: [edit, issue]
@@ -13,9 +13,9 @@ website:
   navbar:
     background: primary
     search: false
-    left:
-      - text: Home
-        file: index.qmd
+    # left:
+      # - text: Home
+      #   file: index.qmd
 
     right:
       - icon: github
@@ -28,7 +28,7 @@ website:
       - section: "Overview"
         contents:
           - index.qmd
-          - text: "Mathias Johansson"
+          - text: "Short CV"
             file: about.qmd
       - section: Experience
         contents:

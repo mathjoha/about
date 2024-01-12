@@ -2,7 +2,7 @@
 title: "Modern Times 1936"
 Start: "2023"
 End: "2025+"
-link: "[Official page](http://modernatider1936.se/)"
+link: "[Project page](http://modernatider1936.se/)"
 short: "*An exploration into Ai and media historical sources.*"
 abstract: |
     **What is it that software sees, hears and perceives when technologies for pattern recognition are applied to media historical sources?**
