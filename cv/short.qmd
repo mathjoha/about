@@ -44,7 +44,7 @@ listing:
         type: table
         fields: [title, Start, End, Type, School]
         sort: [Start desc, End desc]
-    -   id: publication
+    -   id: publications
         max-items: 3
         date-format: iso
         filter-ui: false
@@ -52,6 +52,14 @@ listing:
         contents: "publication/*qmd"
         type: default
         fields: [title, date, Type, Journal, File]
+        sort: [date desc]
+    -   id: datasets
+        date-format: iso
+        filter-ui: false
+        sort-ui: false
+        contents: "dataset/*qmd"
+        type: default
+        fields: [title, date, Type, File]
         sort: [date desc]
 
 ---
@@ -75,5 +83,11 @@ listing:
 
 
 ### [Publications](publications.html)
+#### Papers
 ::: { #publications }
+:::
+
+
+#### Datasets
+:::{ #datasets }
 :::

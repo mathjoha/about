@@ -1,5 +1,7 @@
 project:
   type: website
+  pre-render:
+    prepare-long.py
   preview:
     port: 5057
 
