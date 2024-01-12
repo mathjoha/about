@@ -6,7 +6,7 @@ project:
 website:
   title: "MathJoha"
   # site-url: 'fix'
-  repo-url: 'https://github.com/mathjoha/cv'
+  repo-url: 'https://github.com/mathjoha/about'
   repo-actions: [edit, issue]
 
   search: false
