@@ -1,0 +1,10 @@
+---
+title: Teaching and Workshops
+listing:
+    filter-ui: false
+    sort-ui: false
+    contents: "teaching/"
+    type: table
+    fields: [code, year, title, level, School]
+    sort: [year desc, semester desc]
+---

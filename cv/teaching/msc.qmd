@@ -1,0 +1,10 @@
+---
+title: "Digital History"
+level: "Advanced"
+year: 2023
+School: Lund University
+description: |
+    I have been responsible for half the course ... la la la
+    about methods .. la la li
+    something
+---

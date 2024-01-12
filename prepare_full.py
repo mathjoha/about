@@ -10,5 +10,5 @@ contet = content.replace("max-items: 3", "")
 
 full_file = os.path.join(root_dir, "cv", "full.qmd")
 with open(full_file, "w", encoding="utf8") as f:
-    f.write('# Copied from "short.qmd"')
+    # f.write('# Copied from "short.qmd"\n\n')
     f.write(content)

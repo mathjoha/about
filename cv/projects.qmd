@@ -4,7 +4,7 @@ listing:
     date-format: iso
     filter-ui: false
     sort-ui: false
-    contents: "projects/*qmd"
+    contents: "project/*qmd"
     type: default
     fields: [title, short, Start, End, link]
     sort: [date desc]

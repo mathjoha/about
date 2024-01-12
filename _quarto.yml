@@ -1,42 +1,38 @@
 project:
   type: website
   pre-render:
-    prepare-long.py
+    prepare_full.py
   preview:
     port: 5057
 
 website:
   title: "MathJoha"
+  bread-crumbs: false
   # site-url: 'fix'
   repo-url: 'https://github.com/mathjoha/about'
   repo-actions: [edit, issue]
-
+  page-navigation: false
   search: false
-  navbar:
-    background: primary
-    search: false
+  # navbar:
+  #   background: primary
     # left:
       # - text: Home
       #   file: index.qmd
-
-    right:
-      - icon: github
-        url: https://github.com
 
   sidebar:
     style: docked
     search: false
     contents:
-      - section: "Overview"
-        contents:
-          - index.qmd
-      - section: CV
+      - href: about.qmd
+        text: "Mathias Johansson"
+      - section: "{{< ai cv >}}"
         href: cv/short.html
         contents:
-          - cv/education.qmd
           - cv/experience.qmd
           - cv/projects.qmd
           - cv/publications.qmd
+          - cv/teaching.qmd
+          - cv/education.qmd
       - section: Other
         contents:
           - href: code/python.qmd

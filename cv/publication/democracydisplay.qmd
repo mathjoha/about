@@ -1,16 +1,15 @@
 ---
-title: "Democracy (Not) on Display : A Structural Collocation Analysis of the Mother of All Parliaments' Reluctance to Broadcast Herself"
+title: "[{{< ai open-access >}} Democracy (Not) on Display:](democracydisplay.qmd)"
+subtitle: " A Structural Collocation Analysis of the Mother of All Parliaments' Reluctance to Broadcast Herself"
 Type: "Article"
 date: "2023-03-08"
 date-format: iso
 Journal: "Parliamentary Affairs"
-link: "[Official page](https://academic.oup.com/pa/advance-article/doi/10.1093/pa/gsad002/7072743)"
-File: "[{{< ai open-access >}}](https://academic.oup.com/pa/advance-article-pdf/doi/10.1093/pa/gsad002/50412826/gsad002.pdf)"
+doi: 10.1093/pa/gsad002
+file: "https://academic.oup.com/pa/advance-article-pdf/doi/10.1093/pa/gsad002/50412826/gsad002.pdf"
 abstract: |
     Why was the British Parliament so late in broadcasting its debates? Scholars have made recommendations on parliamentary communication, analysed its effects, and described the debates and arguments on broadcasting parliament. But who was making these arguments, and what role did parliamentarians’ identities play in these debates? We show the crucial role that partisanship—but also the distinctions between government and opposition, senior and junior, and urban and rural MPs—played in Westminster’s debates on broadcasting itself. We do so by applying our new method of ‘structural collocation analysis’ to all 3965 debate utterances on broadcasting parliament between 1935 and 2014—rather than merely the eleven official debates on broadcasting parliament studied thus far—comparing utterances by subgroups of MPs using metadata that we added to the digitised proceedings. We focus on issue ownership, discursive differences and MPs’ reflections on broadcasting parliament.
 
 ---
 
-{{< meta File >}}
-
-{{< meta link >}}
+[{{< iconify bi filetype-pdf size=3x >}}]({{< meta file >}})

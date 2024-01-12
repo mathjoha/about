@@ -1,0 +1,16 @@
+---
+title: "[{{< ai open-data >}} Historical GIS and Guidebooks:](hgis.qmd)"
+subtitle:  Czechoslovak Tourist Attractions
+Type: ""
+date: "2022-11-24"
+date-format: iso
+url: "https://zenodo.org/records/7418864"
+File: "[{{< ai open-data >}}](https://zenodo.org/api/records/7418864/files-archive)"
+doi: "10.5281/zenodo.7418864"
+abstract: |
+    A dataset of geolocated travel guide toponyms, compiled in the process of a research project Historical GIS and Guidebooks: A Scalable Reading of Czechoslovak Tourist Attractions (Bechmann Pedersen & Johansson, forthcoming) in which we performed a scalable reading of three travel guides of the former Czechoslovak lands as they were cirka 1959. We used a specialized, open-sourced tool CITADEL created for this project, which in itself relies on open-sourced data from GeoNames and WikiData.
+
+
+---
+
+[{{< ai zenodo size=3x >}}]({{< meta url >}})

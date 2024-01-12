@@ -15,6 +15,7 @@ about:
           href: https://linkedin.com/MathiasJoha
 listing:
     -   id: experience
+        max-items: 3
         date-format: iso
         filter-ui: false
         sort-ui: false
@@ -23,6 +24,7 @@ listing:
         fields: [title, Start, End, Employer]
         sort: [Start desc, End desc]
     -   id: projects
+        max-items: 3
         date-format: iso
         filter-ui: false
         sort-ui: false
@@ -34,6 +36,7 @@ listing:
           link: Webpage
         sort: [Start desc, End desc]
     -   id: education
+        max-items: 3
         date-format: iso
         filter-ui: false
         sort-ui: false
@@ -41,7 +44,17 @@ listing:
         type: table
         fields: [title, Start, End, Type, School]
         sort: [Start desc, End desc]
-    -   id: publication
+    -   id: teaching
+        max-items: 3
+        date-format: iso
+        filter-ui: false
+        sort-ui: false
+        contents: "teaching/*qmd"
+        type: table
+        fields: [code, year, title, level, School]
+        sort: [year desc, semester desc]
+    -   id: publications
+        max-items: 3
         date-format: iso
         filter-ui: false
         sort-ui: false
@@ -49,7 +62,15 @@ listing:
         type: default
         fields: [title, date, Type, Journal, File]
         sort: [date desc]
-
+    -   id: datasets
+        max-items: 3
+        date-format: iso
+        filter-ui: false
+        sort-ui: false
+        contents: "dataset/*qmd"
+        type: default
+        fields: [title, date, Type, File]
+        sort: [date desc]
 ---
 
 ::: { #header }
@@ -69,7 +90,17 @@ listing:
 ::: { #education }
 :::
 
+### [Teaching](teaching.html)
+::: { #teaching }
+:::
+
 
 ### [Publications](publications.html)
+#### Papers
 ::: { #publications }
+:::
+
+
+#### Datasets
+:::{ #datasets }
 :::

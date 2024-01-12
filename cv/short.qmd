@@ -44,6 +44,15 @@ listing:
         type: table
         fields: [title, Start, End, Type, School]
         sort: [Start desc, End desc]
+    -   id: teaching
+        max-items: 3
+        date-format: iso
+        filter-ui: false
+        sort-ui: false
+        contents: "teaching/*qmd"
+        type: table
+        fields: [code, year, title, level, School]
+        sort: [year desc, semester desc]
     -   id: publications
         max-items: 3
         date-format: iso
@@ -54,6 +63,7 @@ listing:
         fields: [title, date, Type, Journal, File]
         sort: [date desc]
     -   id: datasets
+        max-items: 3
         date-format: iso
         filter-ui: false
         sort-ui: false
@@ -61,7 +71,6 @@ listing:
         type: default
         fields: [title, date, Type, File]
         sort: [date desc]
-
 ---
 
 ::: { #header }
@@ -79,6 +88,10 @@ listing:
 
 ### [Education](education.html)
 ::: { #education }
+:::
+
+### [Teaching](teaching.html)
+::: { #teaching }
 :::
 
 

@@ -16,6 +16,8 @@ about:
       href: https://github.com/mathjoha
     - icon: linkedin
       href: https://linkedin.com/MathiasJoha
+    - text: "{{< devicon python-plain >}}"
+      href: https://pypi.org/user/MathiasJoha/
 headings: false
 ---
 

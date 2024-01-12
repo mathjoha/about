@@ -4,13 +4,11 @@ Type: "Article"
 date: "2023-05-27"
 date-format: iso
 Journal: "DHQ"
-link: "[View at DHQ](http://www.digitalhumanities.org/dhq/vol/17/2/000679/000679.html)"
-File: "[{{< ai open-access >}}](https://dhq-static.digitalhumanities.org/pdf/000679.pdf)"
+doi: 10.5281/zenodo.10498921
+file: "https://dhq-static.digitalhumanities.org/pdf/000679.pdf"
 abstract: |
     This article demonstrates the value of “scalable reading” of historical travel guides, combining traditional close reading with computer-assisted distant reading. Aiming to scrutinize the persistence of older tourist attractions under communism, we analyse guidebooks intended for similar audiences but produced under different political regimes. More specifically, we compare three travel guides to the same geographical area produced between 1905 and 1959: one to communist cold war Czechoslovakia, one to democratic interwar Czechoslovakia, and one to the Habsburg-era Czech lands and Slovakia. We analyse the geographic distribution of attractions by geoloPresentingParliament.cating the guidebook toponyms and visualizing them with Geographic Information Systems (GIS). This distant reading is complemented with a hermeneutic analysis grounded in a close reading of the guidebook text. The combination of these approaches documents the similarities in the symbolic representation of the country’s attractions across political caesuras and provides a methodological template for future explorations of travel guides with historical GIS.
 
 ---
 
-{{< meta File >}}
-
-{{< meta link >}}
+[{{< iconify bi filetype-pdf size=3x >}}]({{< meta file >}})
