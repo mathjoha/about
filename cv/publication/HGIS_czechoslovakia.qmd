@@ -1,5 +1,6 @@
 ---
-title: "Historical GIS and Guidebooks: A Scalable Reading of Czechoslovak Tourist Attractions"
+title: "[{{< ai open-access >}} Historical GIS and Guidebooks:](HGIS_czechoslovakia.qmd)"
+subtitle:  "A Scalable Reading of Czechoslovak Tourist Attractions"
 Type: "Article"
 date: "2023-05-27"
 date-format: iso

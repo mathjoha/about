@@ -1,5 +1,5 @@
 ---
-title: "[{{< ai open-data >}} Historical GIS and Guidebooks:](hgis.qmd)"
+title: "[{{< iconify bi globe >}} Historical GIS and Guidebooks:](hgis.qmd)"
 subtitle:  Czechoslovak Tourist Attractions
 Type: ""
 date: "2022-11-24"

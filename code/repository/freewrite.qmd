@@ -1,0 +1,12 @@
+---
+title: "[{{< ai open-data >}} freewrite](freewrite.qmd)"
+Type: "Application"
+date: "2022-12-16"
+date-format: iso
+repo: "https://github.com/mathjoha/freewrite"
+url: "pypi"
+abstract: |
+    "
+---
+
+[{{< ai github size=3x >}}]({{< meta url >}})

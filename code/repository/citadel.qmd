@@ -1,0 +1,17 @@
+---
+title: "[{{< ai open-data >}} CITADEL](citadel.qmd)"
+Type: "Application"
+date: "2022-12-16"
+date-format: iso
+# repo:
+#     href: "https://github.com/mathjoha/citadel"
+#     text: 'taco'
+doi: "10.5281/zenodo.7447897"
+abstract: |
+    CITADEL (plaCename dIsambiguaTion AnD gEocoding appLication) is a
+    toponym disambiguation tool developed during the course of the article
+    [**Historical GIS and Guidebooks**](../../cv/publication/HGIS_czechoslovakia.qmd)
+
+---
+
+[{{< ai github size=3x >}}]({{< meta repo >}})
