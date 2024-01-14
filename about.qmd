@@ -1,5 +1,5 @@
 ---
-title:  "Mathias Johansson [{{< ai github >}}](https://github.com/mathjoha)"
+title:  "Mathias Johansson [{{< devicon github-original >}}](https://github.com/mathjoha)"
 subtitle: "Systems Developer and Boardgame lover"
 image: /assets/images/profile.png
 about:
@@ -18,6 +18,9 @@ about:
       href: https://linkedin.com/MathiasJoha
     - text: "{{< devicon python-plain >}}"
       href: https://pypi.org/user/MathiasJoha/
+    - text: "{{< ai cv >}}"
+      href: cv/short.qmd
+
 headings: false
 ---
 

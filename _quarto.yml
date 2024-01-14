@@ -26,6 +26,7 @@ website:
       - href: about.qmd
         text: "Mathias Johansson"
       - section: "{{< ai cv >}}"
+        text: "{{< ai cv >}}"
         href: cv/short.html
         contents:
           - cv/experience.qmd

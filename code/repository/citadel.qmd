@@ -1,11 +1,10 @@
 ---
-title: "[{{< ai open-data >}} CITADEL](citadel.qmd)"
+title: "[{{< iconify bi code-square >}} CITADEL](/code/repository/citadel.qmd)"
 Type: "Application"
 date: "2022-12-16"
 date-format: iso
-# repo:
-#     href: "https://github.com/mathjoha/citadel"
-#     text: 'taco'
+repo: "https://github.com/mathjoha/citadel"
+url: "https://doi.org/10.5281/zenodo.7447897"
 doi: "10.5281/zenodo.7447897"
 abstract: |
     CITADEL (plaCename dIsambiguaTion AnD gEocoding appLication) is a
@@ -14,4 +13,5 @@ abstract: |
 
 ---
 
-[{{< ai github size=3x >}}]({{< meta repo >}})
+
+[{{< devicon github-original size=2x >}}]({{< meta repo >}}) [ {{< ai zenodo size=3x >}}]({{< meta url >}})

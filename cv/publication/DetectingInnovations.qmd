@@ -1,5 +1,5 @@
 ---
-title: "[{{< ai open-access >}} Detecting Important Swedish Innovations By Text Mining Articles From the 1970s](DetectingInnovations.qmd)"
+title: "[{{< ai open-access >}} Detecting Important Swedish Innovations By Text Mining Articles From the 1970s](/cv/publication/DetectingInnovations.qmd)"
 Type: "MSc"
 date: "2016-09-09"
 date-format: iso

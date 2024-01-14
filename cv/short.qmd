@@ -1,6 +1,5 @@
 ---
-title:  "Mathias Johansson [{{< ai github >}}](https://github.com/mathjoha)"
-code-tools: true
+title:  "Mathias Johansson [{{< devicon github-original >}}](https://github.com/mathjoha)"
 about:
     id: header
     template: jolla
@@ -13,6 +12,9 @@ about:
           href: https://github.com/mathjoha
         - icon: linkedin
           href: https://linkedin.com/MathiasJoha
+        - text: "{{< ai cv >}}"
+          href: cv/short.qmd
+
 listing:
     -   id: experience
         max-items: 3
@@ -30,11 +32,11 @@ listing:
         sort-ui: false
         contents: "project/*qmd"
         type: table
-        fields: [title, link, Start, End]
+        fields: [title, url, short, Start, End]
+        sort: [active desc, start asc]
         field-display-names:
           title: "Project Title"
           link: Webpage
-        sort: [Start desc, End desc]
     -   id: education
         max-items: 3
         date-format: iso
@@ -48,7 +50,6 @@ listing:
           title: "Title"
           start: start
           end: End
-
     -   id: teaching
         max-items: 3
         date-format: iso
@@ -76,6 +77,15 @@ listing:
         type: default
         fields: [title, date, Type, File]
         sort: [date desc]
+    -   id: software
+        max-items: 3
+        date-format: iso
+        filter-ui: false
+        sort-ui: false
+        contents: "../code/repository/*qmd"
+        type: default
+        fields: [title, date, Type, File]
+        sort: [date desc]
 ---
 
 ::: { #header }
@@ -95,17 +105,18 @@ listing:
 ::: { #education }
 :::
 
+### [Papers](publications.html)
+::: { #publications }
+:::
+
 ### [Teaching](teaching.html)
 ::: { #teaching }
 :::
 
-
-### [Publications](publications.html)
-#### Papers
-::: { #publications }
+### [Software](../code/python.html)
+::: { #repositories }
 :::
 
-
-#### Datasets
+### [Datasets](publications.html)
 :::{ #datasets }
 :::

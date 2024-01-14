@@ -1,5 +1,6 @@
 ---
-title: "[{{< ai open-data >}} UK Hansard 1935-2014](hansard.qmd)"
+title: "[{{< iconify bi file-text >}} UK Hansard 1935-2014](/cv/dataset/hansard.qmd)"
+subtitle: A metadata enriched version of the Hansard corpus
 Type: "Corpus"
 date: "2022-11-24"
 date-format: iso
@@ -7,8 +8,7 @@ url: "https://zenodo.org/records/7348819"
 File: "[{{< ai open-data >}}](https://zenodo.org/api/records/7348819/files-archive)"
 doi: "10.5281/zenodo.7348818"
 abstract: |
-    A metadata enriched version of the Hansard corpus. It is one of the outputs from Betto van Waarden's Marie Skłodowska-Curie project "Presenting Parliament: Parliamentarians’ visions of the communication and role of parliament within the mediated democracies of Britain, Belgium and the Netherlands, 1844-1995."
-
+    One of the outputs from Betto van Waarden's Marie Skłodowska-Curie project "Presenting Parliament: Parliamentarians’ visions of the communication and role of parliament within the mediated democracies of Britain, Belgium and the Netherlands, 1844-1995."
 
 ---
 

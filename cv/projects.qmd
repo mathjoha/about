@@ -6,6 +6,9 @@ listing:
     sort-ui: false
     contents: "project/*qmd"
     type: default
-    fields: [title, short, Start, End, link]
-    sort: [date desc]
+    fields: [title, link, start, end]
+    sort: [start desc]
 ---
+
+
+"{{< iconify ai cv >}}"

@@ -1,5 +1,5 @@
 ---
-title: "[{{< ai open-access >}} Democracy (Not) on Display:](democracydisplay.qmd)"
+title: "[{{< ai open-access >}} Democracy (Not) on Display:](/cv/publication/democracydisplay.qmd)"
 subtitle: " A Structural Collocation Analysis of the Mother of All Parliaments' Reluctance to Broadcast Herself"
 Type: "Article"
 date: "2023-03-08"

@@ -1,5 +1,5 @@
 ---
-title: "[{{< ai open-access >}} Historical GIS and Guidebooks:](HGIS_czechoslovakia.qmd)"
+title: "[{{< ai open-access >}} Historical GIS and Guidebooks:](/cv/publication/HGIS_czechoslovakia.qmd)"
 subtitle:  "A Scalable Reading of Czechoslovak Tourist Attractions"
 Type: "Article"
 date: "2023-05-27"

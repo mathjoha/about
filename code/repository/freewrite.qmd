@@ -1,12 +1,16 @@
 ---
-title: "[{{< ai open-data >}} freewrite](freewrite.qmd)"
+title: "[{{< iconify bi terminal >}} freewrite](/code/repository/freewrite.qmd)"
 Type: "Application"
-date: "2022-12-16"
+date: "2024-01-02"
 date-format: iso
 repo: "https://github.com/mathjoha/freewrite"
-url: "pypi"
+url: "https://pypi.org/project/freewrite/"
 abstract: |
-    "
+    A *textual*-powered application for [**freewriting**](http://peterelbow.com/pdfs/How_to_Write_Better_through_Freewriting_by_Peter_Elbow.pdf).
+
+
 ---
 
-[{{< ai github size=3x >}}]({{< meta url >}})
+
+[{{< devicon github-original size=3x >}}]({{< meta repo >}})
+[{{< devicon python-plain size=3x >}}]({{< meta url >}})
