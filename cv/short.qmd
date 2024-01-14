@@ -40,10 +40,15 @@ listing:
         date-format: iso
         filter-ui: false
         sort-ui: false
-        contents: "education/*qmd"
+        contents: "education.yaml"
         type: table
-        fields: [title, Start, End, Type, School]
-        sort: [Start desc, End desc]
+        fields: [title, start, end, type, school, department]
+        sort: [sort-order, start desc, end desc]
+        field-display-names:
+          title: "Title"
+          start: start
+          end: End
+
     -   id: teaching
         max-items: 3
         date-format: iso

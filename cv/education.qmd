@@ -1,10 +1,14 @@
 ---
 title: Education
 listing:
-    filter-ui: false
-    sort-ui: false
-    contents: "education/"
-    type: table
-    fields: [title, Start, End, Type, School, Department]
-    sort: [Start desc, End desc]
+  id: edu
+  template: ../js/edu.ejs
+  filter-ui: false
+  sort-ui: false
+  contents: "education.yaml"
+  sort: [sort-order, start desc, end desc]
 ---
+
+
+:::{ #edu }
+:::
