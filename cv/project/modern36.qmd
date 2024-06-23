@@ -1,6 +1,6 @@
 ---
-title: "Modern Times 1936"
-subtitle: "*An exploration into Ai and media historical sources.*"
+title: 'Modern Times 1936'
+subtitle: "<i>An exploration into Ai and media historical sources.</i>"
 start: "2023"
 end: "2025+"
 active: 1
@@ -23,7 +23,9 @@ about:
       href: https://www.youtube.com/@modernatider1936
     - text: "{{< iconify bi images >}}"
       href: https://www.flickr.com/photos/modernatider1936
-
+university: Lund University
+country: Sweden
+city: Lund
 ---
 
 :::{#all}

@@ -1,10 +1,20 @@
 ---
-title: Teaching and Workshops
+title:  "Pedagogy"
+
 listing:
-    filter-ui: false
-    sort-ui: false
-    contents: "teaching/"
-    type: table
-    fields: [code, year, title, level, School]
-    sort: [year desc, semester desc]
+    -   id: teaching
+        max-items: 3
+        date-format: iso
+        filter-ui: false
+        sort-ui: false
+        contents: "teaching.yaml"
+        type: default
+        fields: [code, year, title, level, School]
+        sort: [year desc, semester desc]
 ---
+
+
+
+### [Teaching]()
+::: { #teaching }
+:::

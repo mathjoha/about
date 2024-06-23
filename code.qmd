@@ -1,5 +1,5 @@
 ---
 title: Repositories
 listing:
-  contents: repository/*qmd
+  contents: code/*qmd
 ---

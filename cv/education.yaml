@@ -1,5 +1,4 @@
 - title: "Economic History"
-  desc: REPLACE
   sort-order: 1
   type: "Programme"
   level: Master
@@ -9,14 +8,12 @@
   department: Economic History
   city: Lund
   country: Sweden
-  desc: jaja
 
 
 - title: TEABL
-  desc: REPLACE
   sort-order: 10
-  type: course
-  level: 'lark'
+  type: Independent course
+  level: ' '
   start: "2022"
   end: "2023"
   school: Lund University
@@ -25,10 +22,9 @@
   country: Sweden
 
 - title: TEABL2
-  desc: REPLACE
   sort-order: 10
-  type: course
-  level: 'lark'
+  type: Independent course
+  level: ' '
   start: "2022"
   end: "2023"
   school: Lund University
@@ -37,10 +33,9 @@
   country: Sweden
 
 - title: ML and DL
-  desc: REPLACE
   sort-order: 10
-  type: course
-  level: 'lark'
+  type: Independent course
+  level: 'Master'
   start: "2022"
   end: "2023"
   school: Lund University
@@ -49,7 +44,6 @@
   country: Sweden
 
 - title: "Finance and Banking"
-  desc: REPLACE
   sort-order: 1
   type: "Programme"
   level: Bachelor

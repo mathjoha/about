@@ -5,10 +5,6 @@ listing:
     filter-ui: false
     sort-ui: false
     contents: "project/*qmd"
-    type: default
-    fields: [title, link, start, end]
-    sort: [start desc]
+    template: ../js/pro.ejs
+    sort: [active desc, start asc]
 ---
-
-
-"{{< iconify ai cv >}}"

@@ -1,5 +1,5 @@
 ---
-title:  "Mathias Johansson [{{< devicon github-original >}}](https://github.com/mathjoha)"
+title:  "Mathias Johansson"
 subtitle: "Systems Developer and Boardgame lover"
 image: /assets/images/profile.png
 about:

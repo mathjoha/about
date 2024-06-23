@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: _site
   pre-render:
     prepare_full.py
   preview:
@@ -13,35 +14,26 @@ website:
   repo-actions: [edit, issue]
   page-navigation: false
   search: false
-  # navbar:
-  #   background: primary
-    # left:
-      # - text: Home
-      #   file: index.qmd
 
   sidebar:
+    background: secondary
     style: docked
     search: false
     contents:
-      - href: about.qmd
-        text: "Mathias Johansson"
-      - section: "{{< ai cv >}}"
-        text: "{{< ai cv >}}"
-        href: cv/short.html
-        contents:
-          - cv/experience.qmd
-          - cv/projects.qmd
-          - cv/publications.qmd
-          - cv/teaching.qmd
-          - cv/education.qmd
-      - section: Other
-        contents:
-          - href: code/python.qmd
-            text: "{{< devicon python-plain >}} Python"
+      - text: "CV - short"
+        href: cv/short.qmd
+      - cv/experience.qmd
+      - cv/projects.qmd
+      - cv/education.qmd
+      - output.qmd
+      - cv/teaching.qmd
 
+      - href: cv/full.qmd
+        text: "CV - long"
 
 format:
   html:
-    theme: slate
+    theme: lux
+    backgroundcolor: rgb(220, 220, 220)
     css: styles.css
     toc: true

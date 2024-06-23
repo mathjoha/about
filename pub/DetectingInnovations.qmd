@@ -1,11 +1,11 @@
 ---
-title: "[{{< ai open-access >}} Detecting Important Swedish Innovations By Text Mining Articles From the 1970s](/cv/publication/DetectingInnovations.qmd)"
+title: "[{{< ai open-access >}} Detecting Important Swedish Innovations By Text Mining Articles From the 1970s](/pub/DetectingInnovations.qmd)"
 Type: "MSc"
 date: "2016-09-09"
 date-format: iso
 Department: Economic History
 Journal: "N/A"
-url: "https://lup.lub.lu.se/student-papers/search/publication/8889773"
+url: "https://lup.lub.lu.se/student-papers/search/pub8889773"
 file: "http://lup.lub.lu.se/student-papers/record/8889773/file/8889775.pdf"
 
 abstract: |

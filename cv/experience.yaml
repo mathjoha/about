@@ -1,0 +1,18 @@
+- title: "Systems Developer"
+  desc: 'yes'
+  employer: Lund University
+  department: "Department of Art and Cultural Sciences"
+  start: "2023"
+  end: "Current"
+  country: Sweden
+  city: Lund
+
+- title: "Research Engineer"
+  employer: "Lund University"
+  start: "2021"
+  end: "2023"
+  country: Sweden
+  city: Lund
+  department: "Department of Media and Communication"
+  desc: |
+    <a href="https://projekt.ht.lu.se/digitalhistory">DigitalHistory@Lund</a>

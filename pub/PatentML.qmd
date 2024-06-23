@@ -1,5 +1,5 @@
 ---
-title: "[{{< ai open-access >}} Linking innovations and patents - a machine learning assisted method](/cv/publication/PatentML.qmd)"
+title: "[{{< ai open-access >}} Linking innovations and patents - a machine learning assisted method](/pub/PatentML.qmd)"
 Type: "Working paper"
 date: "2022-06-03"
 date-format: iso
