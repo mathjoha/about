@@ -29,7 +29,6 @@ listing:
         fields: [title, date, Type, File]
         sort: [date desc]
 
-
 ---
 
 ## Publications
@@ -42,6 +41,6 @@ listing:
 :::{ #datasets }
 :::
 
-### Code
+## Code
 ::: { #code }
 :::

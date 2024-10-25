@@ -1,5 +1,5 @@
 ---
-title: 'Modern Times 1936'
+title: '<a href="/cv/project/modern36.html">Modern Times 1936</a>'
 subtitle: "<i>An exploration into Ai and media historical sources.</i>"
 start: "2023"
 end: "2025+"

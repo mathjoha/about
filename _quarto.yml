@@ -9,7 +9,7 @@ project:
 website:
   title: "MathJoha"
   bread-crumbs: false
-  # site-url: 'fix'
+  # site-url: 'https://www.mathjoha.se'
   repo-url: 'https://github.com/mathjoha/about'
   repo-actions: [edit, issue]
   page-navigation: false
