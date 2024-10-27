@@ -1,0 +1,29 @@
+---
+title: "[{{< ai open-access >}} Automatic Identification of Hate Speech --](/pub/HatespeechDetection.html)"
+subtitle: " A Case-Study of alt-Right YouTube Videos"
+date: "2024-04-23"
+author: "Johan Eddebo, Mika Hietanen & **<u>Mathias Johansson</a>**"
+date-format: iso
+Journal: "F100Research"
+doi: 10.12688/f1000research.147107.1
+file: "https://f1000research.com/articles/13-328/v1/pdf?article_uuid=4f6589ee-1b45-4373-8934-7dd66748fedc"
+abstract: |
+
+    Background
+
+    Identifying hate speech (HS) is a central concern within online contexts. Current methods are insufficient for efficient preemptive HS identification. In this study, we present the results of an analysis of automatic HS identification applied to popular alt-right YouTube videos.
+
+    Methods
+
+    This essay describes methodological challenges of automatic HS detection. The case study concerns data on a formative segment of contemporary radical right discourse. Our purpose is twofold. (1) To outline an interdisciplinary mixed-methods approach for using automated identification of HS. This bridges the gap between technical research on the one hand (such as machine learning, deep learning, and natural language processing, NLP) and traditional empirical research on the other. Regarding alt-right discourse and HS, we ask: (2) What are the challenges in identifying HS in popular alt-right YouTube videos?
+
+    Results
+
+    The results indicate that effective and consistent identification of HS communication necessitates qualitative interventions to avoid arbitrary or misleading applications. Binary approaches of hate/non-hate speech tend to force the rationale for designating content as HS. A context-sensitive qualitative approach can remedy this by bringing into focus the indirect character of these communications. The results should interest researchers within social sciences and the humanities adopting automatic sentiment analysis and for those analysing HS and radical right discourse.
+
+    Conclusions
+
+    Automatic identification or moderation of HS cannot account for an evolving context of indirect signification. This study exemplifies a process whereby automatic hate speech identification could be utilised effectively. Several methodological steps are needed for a useful outcome, with both technical quantitative processing and qualitative analysis being vital to achieve meaningful results. With regard to the alt-right YouTube material, the main challenge is indirect framing. Identification demands orientation in the broader discursive context and the adaptation towards indirect expressions renders moderation and suppression ethically and legally precarious.
+---
+
+[{{< iconify bi filetype-pdf size=3x >}}]({{< meta file >}})
