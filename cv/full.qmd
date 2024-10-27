@@ -12,8 +12,6 @@ about:
           href: https://github.com/mathjoha
         - icon: linkedin
           href: https://linkedin.com/MathiasJoha
-        - text: "{{< ai cv >}}"
-          href: cv/short.qmd
 
 
 listing:
