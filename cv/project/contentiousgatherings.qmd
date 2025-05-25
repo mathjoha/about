@@ -1,5 +1,5 @@
 ---
-title: "<a href=/cv/project/contentiousgatherings.html>ContentiouGatherings</a>"
+title: "<a href=/cv/project/contentiousgatherings.html>Contentious Gatherings</a>"
 subitle: <i>"*De stridbara svenskarna. Konfliktrepertoarer och demokratisering i Sverige, 1820–1939*"</i>
 start: "2024"
 end: "2027+"
