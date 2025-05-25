@@ -98,7 +98,7 @@ listing:
 ::: { #education }
 :::
 
-### [Publications](output.html)
+### [Publications](../output.html)
 ::: { #publications }
 :::
 

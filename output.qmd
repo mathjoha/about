@@ -31,16 +31,16 @@ listing:
 
 ---
 
-## Publications
+## [Publications]
 
 :::{ #papers }
 :::
 
-## Datasets
+## [Datasets](cv/datasets.html)
 
 :::{ #datasets }
 :::
 
-## Code
+## [Code](code.html)
 ::: { #code }
 :::
