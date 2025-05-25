@@ -1,0 +1,19 @@
+---
+title: "[{{< iconify bi database >}} SWINNO v3.0.0](/cv/dataset/SWINNO-sqlite3.qmd)"
+subtitle: Database of Swedish Innovations
+Type: "Dataset"
+date: "2024-01-31"
+date-format: iso
+authors: "Josef Taalbi, Karolin Sjöö, Astrid Kander, Jonas Ljungberg & Cristina Chaminade"
+url: "https://doi.org/10.5281/zenodo.10602308"
+File: "[{{< ai open-data >}}](https://doi.org/10.5281/zenodo.10602308)"
+doi: "10.5281/zenodo.10602308"
+abstract: |
+    SWINNO is a database of Swedish innovations constructed with the [LBIO method](https://lup.lub.lu.se/search/publication/7f414c8c-846a-4b98-8aea-02c657a1961a) by a research project by the [same name](https://www.lusem.lu.se/organisation/department-economic-history/research-department-economic-history/databases-department-economic-history/swedish-innovations-swinno). The dataset has been gathered and constructed since 2010 by a several researchers and assistants (I have been one of them), and had been published several times in an .xlsx format.
+
+    In this series of releases I tried to create a user-friendly dataset that retains as much of the relational-structure of the FileMaker database in a user friendlier format (SQLite3). The release is a scaled down version that does away with all the the _sensitive_ data and controls necessary for constructing the data but not necessary for using it . In more recent versions this repository also contain he original format (.xlsx) -- included since in the latest release -- and publishes a scaled down version of the original FileMaker database as a SQLite3 database and each table is in a separate .csv file. Metadata is published separately as a [living-codebook](https://swinnoproject.github.io/living_codebook/).
+
+
+---
+
+[{{< iconify academicons zenodo >}}]({{< meta url  >}}) [{{< iconify bi database >}}](https://lite.datasette.io/?metadata=https://raw.githubusercontent.com/swinnoproject/datasette-lite/refs/heads/main/metadata.yml&url=https://zenodo.org/api/records/15285784/files/SWINNO.UDIT.sqlite3/content) [{{< iconify octicon graph-24 >}}](https://swedishinnovationdata.se/dashboard)

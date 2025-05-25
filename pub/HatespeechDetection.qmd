@@ -2,7 +2,7 @@
 title: "[{{< ai open-access >}} Automatic Identification of Hate Speech --](/pub/HatespeechDetection.html)"
 subtitle: " A Case-Study of alt-Right YouTube Videos"
 date: "2024-04-23"
-author: "Johan Eddebo, Mika Hietanen & **<u>Mathias Johansson</a>**"
+author: "Johan Eddebo, Mika Hietanen & **<u>Mathias Johansson</u>**"
 date-format: iso
 Journal: "F100Research"
 doi: 10.12688/f1000research.147107.1
