@@ -31,7 +31,7 @@ listing:
 
 ---
 
-## [Publications]
+## [Publications]()
 
 :::{ #papers }
 :::
