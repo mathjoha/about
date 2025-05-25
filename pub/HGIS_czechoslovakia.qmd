@@ -1,8 +1,9 @@
 ---
-title: "[{{< ai open-access >}} Historical GIS and Guidebooks:](/cv/publication/HGIS_czechoslovakia.qmd)"
+title: "[{{< ai open-access >}} Historical GIS and Guidebooks:](/pub/HGIS_czechoslovakia.qmd)"
 subtitle:  "A Scalable Reading of Czechoslovak Tourist Attractions"
 Type: "Article"
 date: "2023-05-27"
+author: "Sune Bechmann Pedersen & **<u>Mathias Johansson</u>**"
 date-format: iso
 Journal: "DHQ"
 doi: 10.5281/zenodo.10498921

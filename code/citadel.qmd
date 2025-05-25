@@ -1,7 +1,8 @@
 ---
-title: "[{{< iconify bi code-square >}} CITADEL](/code/repository/citadel.qmd)"
+title: "[{{< iconify bi code-square >}} CITADEL](/code//citadel.qmd)"
 Type: "Application"
 date: "2022-12-16"
+author: "**<u>Mathias Johansson</u>** & Sune Bechmann Pedersen"
 date-format: iso
 repo: "https://github.com/mathjoha/citadel"
 url: "https://doi.org/10.5281/zenodo.7447897"
@@ -9,7 +10,7 @@ doi: "10.5281/zenodo.7447897"
 abstract: |
     CITADEL (plaCename dIsambiguaTion AnD gEocoding appLication) is a
     toponym disambiguation tool developed during the course of the article
-    [**Historical GIS and Guidebooks**](../../cv/publication/HGIS_czechoslovakia.qmd)
+    [**Historical GIS and Guidebooks**](../../pub/HGIS_czechoslovakia.html)
 
 ---
 

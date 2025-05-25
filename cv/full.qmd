@@ -1,5 +1,5 @@
 ---
-title:  "Mathias Johansson [{{< devicon github-original >}}](https://github.com/mathjoha)"
+title:  "Mathias Johansson"
 about:
     id: header
     template: jolla
@@ -12,77 +12,72 @@ about:
           href: https://github.com/mathjoha
         - icon: linkedin
           href: https://linkedin.com/MathiasJoha
-        - text: "{{< ai cv >}}"
-          href: cv/short.qmd
+
 
 listing:
     -   id: experience
-        max-items: 3
+        
         date-format: iso
         filter-ui: false
         sort-ui: false
-        contents: "experience/*qmd"
-        type: table
-        fields: [title, Start, End, Employer]
-        sort: [Start desc, End desc]
+        contents: "experience.yaml"
+        type: default
+
+        template: ../js/exp.ejs
     -   id: projects
-        max-items: 3
+        
         date-format: iso
         filter-ui: false
         sort-ui: false
         contents: "project/*qmd"
-        type: table
-        fields: [title, url, short, Start, End]
+        template: ../js/pro.ejs
         sort: [active desc, start asc]
         field-display-names:
           title: "Project Title"
           link: Webpage
     -   id: education
-        max-items: 3
+        
         date-format: iso
         filter-ui: false
         sort-ui: false
         contents: "education.yaml"
-        type: table
+        # type: default
+        template: ../js/edu.ejs
         fields: [title, start, end, type, school, department]
         sort: [sort-order, start desc, end desc]
-        field-display-names:
-          title: "Title"
-          start: start
-          end: End
     -   id: teaching
-        max-items: 3
+        
         date-format: iso
         filter-ui: false
         sort-ui: false
-        contents: "teaching/*qmd"
-        type: table
+        contents: "teaching.yaml"
+        type: default
         fields: [code, year, title, level, School]
         sort: [year desc, semester desc]
     -   id: publications
-        max-items: 3
+        
         date-format: iso
         filter-ui: false
         sort-ui: false
-        contents: "publication/*qmd"
+        contents: "../pub/*.qmd"
         type: default
         fields: [title, date, Type, Journal, File]
         sort: [date desc]
     -   id: datasets
-        max-items: 3
+        
         date-format: iso
         filter-ui: false
         sort-ui: false
-        contents: "dataset/*qmd"
+        contents: "../dataset/*qmd"
         type: default
         fields: [title, date, Type, File]
         sort: [date desc]
-    -   id: software
-        max-items: 3
+    -   id: repo
+        
         date-format: iso
         filter-ui: false
         sort-ui: false
-        contents: "../code/repository/*qmd"
+        contents: "../code/*qmd"
         type: default
         fields: [title, date, Type, File]
         sort: [date desc]
@@ -95,17 +90,15 @@ listing:
 ::: { #experience }
 :::
 
-
 ### [Projects](projects.html)
 ::: { #projects }
 :::
-
 
 ### [Education](education.html)
 ::: { #education }
 :::
 
-### [Papers](publications.html)
+### [Publications](../output.html)
 ::: { #publications }
 :::
 
@@ -113,10 +106,10 @@ listing:
 ::: { #teaching }
 :::
 
-### [Software](../code/python.html)
-::: { #repositories }
+### [Code](../code.html)
+::: { #repo }
 :::
 
-### [Datasets](publications.html)
+### [Datasets](output.html)
 :::{ #datasets }
 :::

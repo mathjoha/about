@@ -1,0 +1,27 @@
+---
+title: "[{{< iconify bi terminal >}} sca](/code//sca.qmd)"
+Type: "Application"
+date: "2025-05-23"
+author: "**<u>Mathias Johansson</u>**"
+date-format: iso
+repo: "https://github.com/mathjoha/sca"
+url: "https://pypi.org/project/scolan/"
+
+abstract: |
+    This is a python + sqlite implementation of the method
+    _Structural Collocation Analysis_ as described in
+    [Structural reading: Developing the method of Structural Collocation
+    Analysis using a case study on parliamentary reporting
+    ](../../pub/StructuralReading.html) and used in [Democracy
+    (Not) on Display: A Structural Collocation Analysis of the Mother of All
+    Parliaments’ Reluctance to Broadcast Herself
+    ](../../pub/democracydisplay.html)
+
+
+
+
+---
+
+
+[{{< devicon github-original size=3x >}}]({{< meta repo >}})
+[{{< devicon python-plain size=3x >}}]({{< meta url >}})

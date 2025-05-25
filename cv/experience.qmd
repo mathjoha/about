@@ -1,10 +1,10 @@
 ---
 title: Experience
 listing:
-    contents: "experience/"
+    contents: "experience.yaml"
     filter-ui: false
     date-format: iso
     sort-ui: false
-        # type: default
-    fields: [date, title]
+    template: ../js/exp.ejs
+    sort: [start desc, end desc]
 ---

@@ -1,61 +1,60 @@
 - title: "Economic History"
-  desc: REPLACE
   sort-order: 1
   type: "Programme"
   level: Master
   start: "2014"
   end: "2016"
   school: Lund University
-  department: Economic History
-  city: Lund
-  country: Sweden
-  desc: jaja
-
-
-- title: TEABL
-  desc: REPLACE
-  sort-order: 10
-  type: course
-  level: 'lark'
-  start: "2022"
-  end: "2023"
-  school: Lund University
-  department: CHECK
+  faculty: School of Economics and Management
+  department: Department of Economic History
   city: Lund
   country: Sweden
 
-- title: TEABL2
-  desc: REPLACE
+- title: Teaching and Learning in Higher Education
   sort-order: 10
-  type: course
-  level: 'lark'
+  type: |
+    <a HREF="https://www.ahu.lu.se/fileadmin/user_upload/ahu/PDF/Course_description_Teaching_and_learning_in_HE_2022.pdf">course</a>
+  level: 'Independent'
   start: "2022"
   end: "2023"
   school: Lund University
-  department: CHECK
+  faculty: Joint Faculties of Humanities and Theology
+  department: Division for Higher Education Development
   city: Lund
   country: Sweden
 
-- title: ML and DL
-  desc: REPLACE
+- title: Teaching & Learning - Extension
   sort-order: 10
-  type: course
-  level: 'lark'
+  type: <a href"=https://www.ahu.lu.se/fileadmin/user_upload/ahu/Course_Syllabi/Teaching_and_learning_-_Extension_Kursbeskrivning.pdf">course</a>
+  level: 'Independent'
+  start: "2023"
+  end: "2023"
+  school: Lund University
+  faculty: Joint Faculties of Humanities and Theology
+  department: Division for Higher Education Development
+  city: Lund
+  country: Sweden
+
+- title: Deep Learning and Artificial Intelligence Methods
+  sort-order: 10
+  type: <a href="https://kursplaner.lu.se/pdf/kurs/en/STAN47">course</a>
+  level: 'Master'
   start: "2022"
   end: "2023"
   school: Lund University
-  department: CHECK
+  faculty: School of Economics and Management
+  department: Department of Statistics
   city: Lund
   country: Sweden
 
 - title: "Finance and Banking"
-  desc: REPLACE
   sort-order: 1
   type: "Programme"
   level: Bachelor
   start: "2011"
   end: "2014"
-  school: UBB
-  department: FSEGA
-  city: Cluj-napoca
+  school: Babeș-Bolyai University
+  faculty: Faculty of Economics and Business Administration
+  department: Department of Finance
+  city: Cluj-Napoca
   country: Romania

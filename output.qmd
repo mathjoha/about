@@ -1,11 +1,11 @@
 ---
-title: Publications
+title: Output
 listing:
     - id: papers
       date-format: iso
       filter-ui: false
       sort-ui: false
-      contents: "publication/*qmd"
+      contents: "pub/*.qmd"
       type: default
       fields: [title, date, Type, Journal, File]
       sort: [date desc]
@@ -19,14 +19,28 @@ listing:
       fields: [title, date, Type, File]
       sort: [date desc]
 
+    -   id: code
+        max-items: 3
+        date-format: iso
+        filter-ui: false
+        sort-ui: false
+        contents: "code/*qmd"
+        type: default
+        fields: [title, date, Type, File]
+        sort: [date desc]
+
 ---
 
-## Papers
+## [Publications]()
 
 :::{ #papers }
 :::
 
-## Datasets
+## [Datasets](cv/datasets.html)
 
 :::{ #datasets }
+:::
+
+## [Code](code.html)
+::: { #code }
 :::

@@ -1,7 +1,8 @@
 ---
-title: "[{{< ai open-access >}} Democracy (Not) on Display:](/cv/publication/democracydisplay.qmd)"
+title: "[{{< ai open-access >}} Democracy (Not) on Display:](/pub/DemocracyDisplay.html)"
 subtitle: " A Structural Collocation Analysis of the Mother of All Parliaments' Reluctance to Broadcast Herself"
 Type: "Article"
+author: "Betto van Waarden & **<u>Mathias Johansson</u>**"
 date: "2023-03-08"
 date-format: iso
 Journal: "Parliamentary Affairs"

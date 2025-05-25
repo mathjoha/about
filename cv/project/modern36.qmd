@@ -1,10 +1,9 @@
 ---
-title: "Modern Times 1936"
-subtitle: "*An exploration into Ai and media historical sources.*"
+title: '<a href="/cv/project/modern36.html">Modern Times 1936</a>'
+subtitle: "<i>An exploration into `AI` and media historical sources.</i>"
 start: "2023"
 end: "2025+"
 active: 1
-url: "http://modernatider1936.se/"
 abstract: |
     **What is it that software sees, hears and perceives when technologies for pattern recognition are applied to media historical sources?**
 
@@ -15,6 +14,8 @@ about:
   id: all
   template: jolla
   links:
+    - icon: globe2
+      href: http://modernatider1936.se/
     - text: "{{< ai academia >}}"
       href: https://portal.research.lu.se/sv/projects/modern-times-1936-2
     - icon: github
@@ -23,7 +24,9 @@ about:
       href: https://www.youtube.com/@modernatider1936
     - text: "{{< iconify bi images >}}"
       href: https://www.flickr.com/photos/modernatider1936
-
+university: Lund University
+country: Sweden
+city: Lund
 ---
 
 :::{#all}

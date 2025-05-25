@@ -1,0 +1,16 @@
+---
+title: "[{{< ai open-access >}} Structural Reading](/pub/StructuralReading.html)"
+subtitle: " Developing the method of Structural Collocation Analysis using a case study on parliamentary reporting"
+Type: "Article"
+author: "**<u>Mathias Johansson</u>** & Betto van Waarden "
+date: "2024-10-17"
+date-format: iso
+Journal: "Historical Methods: A Journal of Quantitative and Interdisciplinary History"
+doi: 10.1080/01615440.2024.2414259
+file: "https://www.tandfonline.com/doi/pdf/10.1080/01615440.2024.2414259"
+abstract: |
+    To analyze large, digitized corpora, we introduce the new approach of “structural reading”, which combines the abstraction of distant reading with the nuance of close reading. We do so by developing the method of “structural collocation analysis” (SCA) that uses metadata categories to investigate how research topics behave across texts belonging to different categories. The method combines the robustness of traditional collocation analysis with the structural dimension of structural topic modeling, bridging corpus linguistics and text mining. SCA enables us to gain novel insights from existing corpora to shed new light on long-standing historical debates. We exemplify this method through a case study on the history of parliamentary reporting, using digitized British parliamentary proceedings. We discovered that discussions on parliamentary reporting were not dominated by a particular political party, but rather by senior MPs and MPs from urban areas – two categories we call “political insiders”. Metadata-based distinctions between different types of politicians thus enabled us to provide new perspectives on the history of parliamentary reporting.
+
+---
+
+[{{< iconify bi filetype-pdf size=3x >}}]({{< meta file >}})

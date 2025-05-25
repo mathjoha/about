@@ -1,5 +1,5 @@
 ---
-title: "[{{< iconify bi terminal >}} freewrite](/code/repository/freewrite.qmd)"
+title: "[{{< iconify bi terminal >}} freewrite](/code//freewrite.qmd)"
 Type: "Application"
 date: "2024-01-02"
 date-format: iso

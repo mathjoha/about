@@ -1,0 +1,7 @@
+---
+title: Repositories
+listing:
+  contents: code/*qmd
+  date-format: iso
+  sort: [date desc]
+---

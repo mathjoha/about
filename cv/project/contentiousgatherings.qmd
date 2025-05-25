@@ -1,0 +1,27 @@
+---
+title: "<a href=/cv/project/contentiousgatherings.html>Contentious Gatherings</a>"
+subitle: <i>"*De stridbara svenskarna. Konfliktrepertoarer och demokratisering i Sverige, 1820–1939*"</i>
+start: "2024"
+end: "2027+"
+active: 11
+abstract: |
+    The Contentious Swedes: Repertoires of contention and democratization in Sweden, 1820-1939 is a VR-financed History project that depends our understanding of Sweden's democratization by examining changes in the political use of public space from 1820 to 1939. The project sheds light on the political use of Contentious Gatherings such as public meetings, election meetings, and demonstration marches in public space. The starting point is that public meetings in Sweden in 1820 were forbidden, while they in 1939 not only were permitted, but also that most people then had knowledge of and access to the public space to make politics.
+
+    _Something had changed, what we call the repertoire of contention had assumed a modern, democratic, form._
+about:
+  id: all
+  template: jolla
+  links:
+    - icon: globe2
+      href: https://contentiousgatherings.github.io/website/
+    - text: "{{< ai academia >}}"
+      href: https://portal.research.lu.se/en/projects/de-stridbara-svenskarna-konfliktrepertoarer-och-demokratisering-i
+    - icon: github
+      href: https://github.com/ContentiousGatherings
+university: Lund University
+country: Sweden
+city: Lund
+---
+
+:::{#all}
+:::
