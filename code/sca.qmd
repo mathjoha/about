@@ -5,7 +5,7 @@ date: "2025-05-23"
 author: "**<u>Mathias Johansson</u>**"
 date-format: iso
 repo: "https://github.com/mathjoha/sca"
-url: "https://pypi.org/project/scola/"
+url: "https://pypi.org/project/scolan/"
 
 abstract: |
     This is a python + sqlite implementation of the method
