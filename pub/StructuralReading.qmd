@@ -1,5 +1,5 @@
 ---
-title: "[{{< ai open-access >}} Structural reading:](/pub/StructuralReading.html)"
+title: "[{{< ai open-access >}} Structural Reading](/pub/StructuralReading.html)"
 subtitle: " Developing the method of Structural Collocation Analysis using a case study on parliamentary reporting"
 Type: "Article"
 author: "**<u>Mathias Johansson</u>** & Betto van Waarden "
