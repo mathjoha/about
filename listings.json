@@ -1,0 +1,94 @@
+[
+  {
+    "listing": "/output.html",
+    "items": [
+      "/pub/StructuralReading.html",
+      "/pub/HatespeechDetection.html",
+      "/pub/HGIS_czechoslovakia.html",
+      "/pub/democracydisplay.html",
+      "/pub/PatentML.html",
+      "/pub/DetectingInnovations.html",
+      "/cv/dataset/hansard.html",
+      "/cv/dataset/hgis.html",
+      "/code/sca.html",
+      "/code/freewrite.html",
+      "/code/citadel.html"
+    ]
+  },
+  {
+    "listing": "/cv/full.html",
+    "items": [
+      "/cv/project/contentiousgatherings.html",
+      "/cv/project/modern36.html",
+      "/pub/StructuralReading.html",
+      "/pub/HatespeechDetection.html",
+      "/pub/HGIS_czechoslovakia.html",
+      "/pub/democracydisplay.html",
+      "/pub/PatentML.html",
+      "/pub/DetectingInnovations.html",
+      "/cv/dataset/hansard.html",
+      "/cv/dataset/hgis.html",
+      "/code/sca.html",
+      "/code/freewrite.html",
+      "/code/citadel.html"
+    ]
+  },
+  {
+    "listing": "/cv/education.html",
+    "items": []
+  },
+  {
+    "listing": "/cv/projects.html",
+    "items": [
+      "/cv/project/contentiousgatherings.html",
+      "/cv/project/modern36.html"
+    ]
+  },
+  {
+    "listing": "/cv/teaching.html",
+    "items": []
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/2024/07/first.html"
+    ]
+  },
+  {
+    "listing": "/code.html",
+    "items": [
+      "/code/sca.html",
+      "/code/freewrite.html",
+      "/code/citadel.html"
+    ]
+  },
+  {
+    "listing": "/cv/short.html",
+    "items": [
+      "/cv/project/contentiousgatherings.html",
+      "/cv/project/modern36.html",
+      "/pub/StructuralReading.html",
+      "/pub/HatespeechDetection.html",
+      "/pub/HGIS_czechoslovakia.html",
+      "/pub/democracydisplay.html",
+      "/pub/PatentML.html",
+      "/pub/DetectingInnovations.html",
+      "/cv/dataset/hansard.html",
+      "/cv/dataset/hgis.html",
+      "/code/sca.html",
+      "/code/freewrite.html",
+      "/code/citadel.html"
+    ]
+  },
+  {
+    "listing": "/cv/experience.html",
+    "items": []
+  },
+  {
+    "listing": "/cv/datasets.html",
+    "items": [
+      "/cv/dataset/hansard.html",
+      "/cv/dataset/hgis.html"
+    ]
+  }
+]
