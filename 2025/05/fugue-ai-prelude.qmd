@@ -1,0 +1,154 @@
+---
+title: "A Fugue on Thinking Machines"
+date: "2024-05-26"
+date-format: iso
+description: "An Edgardian & Shakespearian Dialogue"
+author: Mathias Johansson & Gemini
+categories:
+  - Fugue
+  - Gemini
+  - AI
+---
+
+A few weeks ago I started playing around with Google's AI-Studio and Gemini.app
+trying to test the limits of their public AI-systems can do. Among the
+experiments were a series of disappoinging attempts to make it produce code and
+a lot of amusement generating images and videos. I also gave it's 'research'
+mode a spin which, unlike the code-generation and image-generation, requires
+very little effort in the way of prompt-engineering to produce decent results.
+You tell it to 'research' a topic (or topics), it presentes a plan of
+investigation (which you can influence further) and 20-30 minutes later you
+have your own wikipedia-like report (with less reliability). What impressed me
+the most was how neatly it can be used on my phone, once it starts
+'researching' I can close down the app and get a notification when the report
+is ready (Not so for the other modes). This means that I can play around with
+it before I walk somewhere and by the time I am there, I have something to new to read!
+
+However, if I close down the app I do not get to see the number of 'researched'
+sources tick upwards. Which is part of my fascination with the process; it
+gives me a metric to target as I play around with it. Not only can you see how
+many sources (sites) it searches, a selection of these sources are also
+included as references in the report. To me, this is like having my own
+personalized pesudo-Wikipedia-article generator. Only, less reliable, worse
+prose, without images diagrams and links to other articles. But, it is a lot
+more flexible and a lot more convenient. It can be used similarly to how I tend
+to use Wikipedia: Get a basic understanding for some topic and gather further
+resources to read further.
+
+Besides the high dubiousness-level (technical term) of the fact checking, the
+prose tends to be very boring and bland. It has a tendency to over-summarise
+and sometimes over-explain simple information (based on my limited
+experiments). So, I decided to attempt to make the prose more entertaining.
+Specifically, to mimic the style of Douglas Hofstadter's fugues in _Gödel,
+Escher, Bach_.
+
+Hofstadter's fugues manage to be downright entertaining despite dealing with
+abstract and complex ideas. So, I instructed Gemini to mimic this style while
+explaining the ascent of AI. A secondary motive for picking this topic was to
+produce a text or a case that I could use in teaching. At worst the output
+would be nonsense and therefore an interesting case to discuss, OR it would
+create a decent instructive overview. Either way, it had the potential to be
+both entertaining and useful. Having picked the topic, picking the two main
+discussants remained. Being lazy, I went with to of my default personas for an
+LLM to impersonate: Edgar Allan Pie and William Shakespeare -- specifying that
+more temporary characters can be introduced as needed.
+
+The result was an 8,00 word report based on 167 'researches' websites out of which 124 were
+cited in the report! Two personal records right there! In total the report
+includes 7 fugues, and a prelude (included below). I must admit that I have to
+date only read the preamble and the overviews (of which there are two in the
+report!), but so far I am satisfied and entertained. Quite frankly, the most
+disappointing part of the report is that it ends with the release of Chat-GPT;
+sure it was an important event, but a lot of interesting things have happened
+since then!
+
+
+/MJ
+---
+
+## Prelude: A Midnight Dreary, A Question Airy
+
+
+`SCENE`:
+```
+A dimly lit study, overflowing with books and arcane instruments.
+EDGAR ALLAN POE sits hunched over a desk, quill in hand,
+the flickering candlelight casting long, dancing shadows.
+
+The hour is late.
+```
+
+`POE`:
+```
+(Muttering to himself)
+Once upon a midnight dreary, while I pondered, weak and weary,
+Over many a quaint and curious volume of forgotten lore—
+Not of demons, nor of ravens tapping at my chamber door,
+But of intellect—that spectral architect of thought,
+Its ghostly gears and levers, how a notion might be wrought
+From the ether of the mind, a phantasm given form.
+This engine in the skull, that conjures calm and storm,
+Is it a sacred fire, a uniquely human spark?
+Or can its essence be distilled, to animate the dark
+And silent artifice of man, a mimicry of soul?
+To cede to brass and wire, our intellectual control?
+```
+
+```
+(WILLIAM SHAKESPEARE enters, a knowing glimmer in his eye.
+He carries a folio, perhaps of his own works.)
+```
+`SHAKESPEARE`:
+
+```
+Good Master Poe, still wrestling with the shades of night?
+Your brow is furrowed deep, as if by some internal fight.
+What phantoms vex thee now? Is it the muse, that fickle sprite,
+Or some new terror of the soul, that shuns the morning's light?
+```
+
+`POE`:
+```
+Ah, good Will. 'Tis not the muse, but a query yet more dire.
+This "stuff that dreams are made on," as your Prospero did conspire
+To name our fleeting thoughts – this power to reason and to feel,
+Is it a gift divine, or something we might steal,
+Or rather, replicate, in constructs of our own design?
+Could mind itself be patterned, line by intricate line,
+Like verse, or like the workings of some complex, ticking clock?
+The ancients whispered of such things, a brazen head to talk,
+Or clockwork men that moved and mimicked life's display.
+A fancy, then.
+But now… new arts hold sway.
+```
+
+`SHAKESPEARE`:
+```
+Indeed, a timeless yearning! Since first we learned to frame
+Our thoughts in words, we've sought to give intelligence a name
+And form beyond ourselves. To breathe a semblance of our wit
+Into the clay, the wood, the metal. Is it not writ
+Across the ages, this desire to see our image cast
+Not just in flesh and blood, but in creations built to last,
+And, peradventure, think? This grand ambition, to my eye,
+Sets a most curious stage for dramas yet to fly From human ingenuity.
+The play's the thing, you see,
+
+And this new act, though strange, holds potent mystery.
+The human mind, a universe of wonder and of dread,
+Has long been fascinated by the thought of raising from the dead,
+Or rather, from the inert, a mind not born but made.
+This is no fleeting whim, but a foundation deeply laid
+In our collective soul. The very urge to understand our own
+Intricate mental workings, pushes us toward the unknown,
+To see if such a marvel can be mirrored, piece by piece.
+This long-held fascination, this intellectual unease,
+Provides the fertile ground from which the seeds of what they call
+"Artificial Intelligence" would rise, to stand or fall.
+```
+
+`POE`:
+```
+A fertile ground, perhaps, for wonders, or for woes untold.
+Let us then trace this "red thread," as the story starts to unfold.
+```
