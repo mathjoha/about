@@ -1,11 +1,5 @@
 [
   {
-    "listing": "/index.html",
-    "items": [
-      "/2025/05/fugue-ai-prelude.html"
-    ]
-  },
-  {
     "listing": "/output.html",
     "items": [
       "/pub/StructuralReading.html",
@@ -21,6 +15,22 @@
       "/code/freewrite.html",
       "/code/citadel.html"
     ]
+  },
+  {
+    "listing": "/cv/teaching.html",
+    "items": []
+  },
+  {
+    "listing": "/cv/datasets.html",
+    "items": [
+      "/cv/dataset/SWINNO-sqlite3.html",
+      "/cv/dataset/hansard.html",
+      "/cv/dataset/hgis.html"
+    ]
+  },
+  {
+    "listing": "/cv/education.html",
+    "items": []
   },
   {
     "listing": "/cv/short.html",
@@ -42,31 +52,15 @@
     ]
   },
   {
+    "listing": "/cv/experience.html",
+    "items": []
+  },
+  {
     "listing": "/cv/projects.html",
     "items": [
       "/cv/project/contentiousgatherings.html",
       "/cv/project/modern36.html"
     ]
-  },
-  {
-    "listing": "/cv/datasets.html",
-    "items": [
-      "/cv/dataset/SWINNO-sqlite3.html",
-      "/cv/dataset/hansard.html",
-      "/cv/dataset/hgis.html"
-    ]
-  },
-  {
-    "listing": "/cv/education.html",
-    "items": []
-  },
-  {
-    "listing": "/cv/experience.html",
-    "items": []
-  },
-  {
-    "listing": "/cv/teaching.html",
-    "items": []
   },
   {
     "listing": "/cv/full.html",
@@ -85,6 +79,12 @@
       "/code/sca.html",
       "/code/freewrite.html",
       "/code/citadel.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/2025/05/fugue-ai-prelude.html"
     ]
   },
   {

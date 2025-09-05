@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Mathias Johansson",
+    "objectID": "wg.html",
+    "href": "wg.html",
+    "title": "Working Group",
     "section": "",
-    "text": "A Fugue on Thinking Machines\n\n\n\nFugue\n\nGemini\n\nAI\n\n\n\nAn Edgardian & Shakespearian Dialogue\n\n\n\n\n\n2024-05-26\n\n\nMathias Johansson & Gemini\n\n\n\n\n\nNo matching items"
+    "text": "Redirecting to https://www.kultur.lu.se/forskning/working-group-digital-cultures-digital-history/kalendarium/"
   },
   {
     "objectID": "output.html",
@@ -47,6 +47,50 @@
     ]
   },
   {
+    "objectID": "cv/teaching.html",
+    "href": "cv/teaching.html",
+    "title": "Pedagogy",
+    "section": "",
+    "text": "Teaching\n\n\n\n\n\nHISS41 - Digital History\n\n\n\n\n\n2024\n\n\nAdvanced\n\n\nLund University\n\n\n\n\n\n\n\nABMM06 - ALM: Research Methods\n\n\n\n\n\n2024\n\n\nAdvanced\n\n\nLund University\n\n\n\n\n\n\n\nHISS41 - Digital History\n\n\n\n\n\n2023\n\n\nAdvanced\n\n\nLund University\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Pedagogy"
+    ]
+  },
+  {
+    "objectID": "cv/failures.html",
+    "href": "cv/failures.html",
+    "title": "CV of Failures",
+    "section": "",
+    "text": "A short, and ever expanding, list of failed applications and the like."
+  },
+  {
+    "objectID": "cv/datasets.html",
+    "href": "cv/datasets.html",
+    "title": "Repositories",
+    "section": "",
+    "text": "SWINNO v3.0.0\n\n\nDatabase of Swedish Innovations\n\n\nSWINNO is a database of Swedish innovations constructed with the LBIO method by a research project by the same name. The dataset has been gathered and constructed since 2010 by a several researchers and assistants (I have been one of them), and had been published several times in an .xlsx format.\nIn this series of releases I tried to create a user-friendly dataset that retains as much of the relational-structure of the FileMaker database in a user friendlier format (SQLite3). The release is a scaled down version that does away with all the the sensitive data and controls necessary for constructing the data but not necessary for using it . In more recent versions this repository also contain he original format (.xlsx) – included since in the latest release – and publishes a scaled down version of the original FileMaker database as a SQLite3 database and each table is in a separate .csv file. Metadata is published separately as a living-codebook.\n\n\n\n\n\nJan 31, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n UK Hansard 1935-2014\n\n\nA metadata enriched version of the Hansard corpus\n\n\nOne of the outputs from Betto van Waarden’s Marie Skłodowska-Curie project “Presenting Parliament: Parliamentarians’ visions of the communication and role of parliament within the mediated democracies of Britain, Belgium and the Netherlands, 1844-1995.”\n\n\n\n\n\nNov 24, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n Historical GIS and Guidebooks:\n\n\nCzechoslovak Tourist Attractions\n\n\nA dataset of geolocated travel guide toponyms, compiled in the process of a research project Historical GIS and Guidebooks: A Scalable Reading of Czechoslovak Tourist Attractions (Bechmann Pedersen & Johansson, forthcoming) in which we performed a scalable reading of three travel guides of the former Czechoslovak lands as they were cirka 1959. We used a specialized, open-sourced tool CITADEL created for this project, which in itself relies on open-sourced data from GeoNames and WikiData.\n\n\n\n\n\nNov 24, 2022\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "cv/education.html",
+    "href": "cv/education.html",
+    "title": "Education",
+    "section": "",
+    "text": "Economic History \n                    2014-2016\n                \n        \n\n        \n        \n                Master\n                    ProgrammeLund University, Lund, Sweden\n                        \n            \n\n        \n\n        \n            Finance and Banking \n                    2011-2014\n                \n        \n\n        \n        \n                Bachelor\n                    ProgrammeBabeș-Bolyai University, Cluj-Napoca, Romania\n                        \n            \n\n        \n\n        \n            Teaching & Learning - Extension \n                    2023-2023\n                \n        \n\n        \n        \n                Independent\n                    courseLund University, Lund, Sweden\n                        \n            \n\n        \n\n        \n            Teaching and Learning in Higher Education \n                    2022-2023\n                \n        \n\n        \n        \n                Independent\n                    course\nLund University, Lund, Sweden\n                        \n            \n\n        \n\n        \n            Deep Learning and Artificial Intelligence Methods \n                    2022-2023\n                \n        \n\n        \n        \n                Master\n                    courseLund University, Lund, Sweden\n                        \n            \n\n        \n\nNo matching items",
+    "crumbs": [
+      "Education"
+    ]
+  },
+  {
+    "objectID": "cv/short.html",
+    "href": "cv/short.html",
+    "title": "Mathias Johansson",
+    "section": "",
+    "text": "Experience\n\n\n    \n\n        \n            Systems Developer \n                    2023-Now\n                \n        \n\n        \n            Department of Art and Cultural Sciences\n        \n        \n        \n                Lund University, Lund, Sweden\n\n            \n\n        \n\n        \n            Research Engineer \n                    2021-2023\n                \n        \n\n        \n            DigitalHistory@Lund\n\n        \n        \n        \n                Lund University, Lund, Sweden\n\n            \n\n        \n\n        \n            Research Assistant \n                    2020-2021\n                \n        \n\n        \n            \n        \n        \n        \n                Lund University, Lund, Sweden\n\n            \n\n        \n\nNo matching items\n\n\n\nProjects\n\n\n    \n\n        \n            Contentious Gatherings \n                    2024-2027+\n                \n        \n\n        \n            \n        \n        \n        \n                Lund University, Lund, Sweden\n\n            \n\n        \n\n        \n            Modern Times 1936 \n                    2023-2025+\n                \n        \n\n        \n            An exploration into `AI` and media historical sources.\n        \n        \n        \n                Lund University, Lund, Sweden\n\n            \n\n        \n\nNo matching items\n\n\n\nEducation\n\n\n    \n\n        \n            Economic History \n                    2014-2016\n                \n        \n\n        \n        \n                Master\n                    ProgrammeLund University, Lund, Sweden\n                        \n            \n\n        \n\n        \n            Finance and Banking \n                    2011-2014\n                \n        \n\n        \n        \n                Bachelor\n                    ProgrammeBabeș-Bolyai University, Cluj-Napoca, Romania\n                        \n            \n\n        \n\n        \n            Teaching & Learning - Extension \n                    2023-2023\n                \n        \n\n        \n        \n                Independent\n                    courseLund University, Lund, Sweden\n                        \n            \n\n        \n\nNo matching items\n\n\n\nPublications\n\n\n\n\n\n Structural Reading\n\n\n\n\n\n2024-10-17\n\n\nArticle\n\n\nHistorical Methods: A Journal of Quantitative and Interdisciplinary History\n\n\n\n\n\n\n\n Automatic Identification of Hate Speech –\n\n\n\n\n\n2024-04-23\n\n\nF100Research\n\n\n\n\n\n\n\n Historical GIS and Guidebooks:\n\n\n\n\n\n2023-05-27\n\n\nArticle\n\n\nDHQ\n\n\n\n\n\nNo matching items\n\n\n\nTeaching\n\n\n\n\n\nHISS41 - Digital History\n\n\n\n\n\n2024\n\n\nAdvanced\n\n\nLund University\n\n\n\n\n\n\n\nABMM06 - ALM: Research Methods\n\n\n\n\n\n2024\n\n\nAdvanced\n\n\nLund University\n\n\n\n\n\n\n\nHISS41 - Digital History\n\n\n\n\n\n2023\n\n\nAdvanced\n\n\nLund University\n\n\n\n\n\nNo matching items\n\n\n\nCode\n\n\n\n\n\n sca\n\n\n\n\n\n2025-05-23\n\n\nApplication\n\n\n\n\n\n\n\n freewrite\n\n\n\n\n\n2024-01-02\n\n\nApplication\n\n\n\n\n\n\n\n CITADEL\n\n\n\n\n\n2022-12-16\n\n\nApplication\n\n\n\n\n\nNo matching items\n\n\n\nDatasets\n\n\n\n\n\n SWINNO v3.0.0\n\n\n\n\n\n2024-01-31\n\n\nDataset\n\n\n\n\n\n\n\n\n\n\n UK Hansard 1935-2014\n\n\n\n\n\n2022-11-24\n\n\nCorpus\n\n\n\n\n\n\n\n\n\n\n Historical GIS and Guidebooks:\n\n\n\n\n\n2022-11-24\n\n\n \n\n\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "CV - short"
+    ]
+  },
+  {
     "objectID": "2025/05/fugue-ai-prelude.html",
     "href": "2025/05/fugue-ai-prelude.html",
     "title": "A Fugue on Thinking Machines",
@@ -68,21 +112,14 @@
     "text": "Prelude: A Midnight Dreary, A Question Airy\nSCENE:\nA dimly lit study, overflowing with books and arcane instruments.\nEDGAR ALLAN POE sits hunched over a desk, quill in hand,\nthe flickering candlelight casting long, dancing shadows.\n\nThe hour is late.\nPOE:\n(Muttering to himself)\nOnce upon a midnight dreary, while I pondered, weak and weary,\nOver many a quaint and curious volume of forgotten lore—\nNot of demons, nor of ravens tapping at my chamber door,\nBut of intellect—that spectral architect of thought,\nIts ghostly gears and levers, how a notion might be wrought\nFrom the ether of the mind, a phantasm given form.\nThis engine in the skull, that conjures calm and storm,\nIs it a sacred fire, a uniquely human spark?\nOr can its essence be distilled, to animate the dark\nAnd silent artifice of man, a mimicry of soul?\nTo cede to brass and wire, our intellectual control?\n(WILLIAM SHAKESPEARE enters, a knowing glimmer in his eye.\nHe carries a folio, perhaps of his own works.)\nSHAKESPEARE:\nGood Master Poe, still wrestling with the shades of night?\nYour brow is furrowed deep, as if by some internal fight.\nWhat phantoms vex thee now? Is it the muse, that fickle sprite,\nOr some new terror of the soul, that shuns the morning's light?\nPOE:\nAh, good Will. 'Tis not the muse, but a query yet more dire.\nThis \"stuff that dreams are made on,\" as your Prospero did conspire\nTo name our fleeting thoughts – this power to reason and to feel,\nIs it a gift divine, or something we might steal,\nOr rather, replicate, in constructs of our own design?\nCould mind itself be patterned, line by intricate line,\nLike verse, or like the workings of some complex, ticking clock?\nThe ancients whispered of such things, a brazen head to talk,\nOr clockwork men that moved and mimicked life's display.\nA fancy, then.\nBut now… new arts hold sway.\nSHAKESPEARE:\nIndeed, a timeless yearning! Since first we learned to frame\nOur thoughts in words, we've sought to give intelligence a name\nAnd form beyond ourselves. To breathe a semblance of our wit\nInto the clay, the wood, the metal. Is it not writ\nAcross the ages, this desire to see our image cast\nNot just in flesh and blood, but in creations built to last,\nAnd, peradventure, think? This grand ambition, to my eye,\nSets a most curious stage for dramas yet to fly From human ingenuity.\nThe play's the thing, you see,\n\nAnd this new act, though strange, holds potent mystery.\nThe human mind, a universe of wonder and of dread,\nHas long been fascinated by the thought of raising from the dead,\nOr rather, from the inert, a mind not born but made.\nThis is no fleeting whim, but a foundation deeply laid\nIn our collective soul. The very urge to understand our own\nIntricate mental workings, pushes us toward the unknown,\nTo see if such a marvel can be mirrored, piece by piece.\nThis long-held fascination, this intellectual unease,\nProvides the fertile ground from which the seeds of what they call\n\"Artificial Intelligence\" would rise, to stand or fall.\nPOE:\nA fertile ground, perhaps, for wonders, or for woes untold.\nLet us then trace this \"red thread,\" as the story starts to unfold."
   },
   {
-    "objectID": "cv/short.html",
-    "href": "cv/short.html",
-    "title": "Mathias Johansson",
+    "objectID": "cv/experience.html",
+    "href": "cv/experience.html",
+    "title": "Experience",
     "section": "",
-    "text": "Experience\n\n\n    \n\n        \n            Systems Developer \n                    2023-Now\n                \n        \n\n        \n            Department of Art and Cultural Sciences\n        \n        \n        \n                Lund University, Lund, Sweden\n\n            \n\n        \n\n        \n            Research Engineer \n                    2021-2023\n                \n        \n\n        \n            DigitalHistory@Lund\n\n        \n        \n        \n                Lund University, Lund, Sweden\n\n            \n\n        \n\n        \n            Research Assistant \n                    2020-2021\n                \n        \n\n        \n            \n        \n        \n        \n                Lund University, Lund, Sweden\n\n            \n\n        \n\nNo matching items\n\n\n\nProjects\n\n\n    \n\n        \n            Contentious Gatherings \n                    2024-2027+\n                \n        \n\n        \n            \n        \n        \n        \n                Lund University, Lund, Sweden\n\n            \n\n        \n\n        \n            Modern Times 1936 \n                    2023-2025+\n                \n        \n\n        \n            An exploration into `AI` and media historical sources.\n        \n        \n        \n                Lund University, Lund, Sweden\n\n            \n\n        \n\nNo matching items\n\n\n\nEducation\n\n\n    \n\n        \n            Economic History \n                    2014-2016\n                \n        \n\n        \n        \n                Master\n                    ProgrammeLund University, Lund, Sweden\n                        \n            \n\n        \n\n        \n            Finance and Banking \n                    2011-2014\n                \n        \n\n        \n        \n                Bachelor\n                    ProgrammeBabeș-Bolyai University, Cluj-Napoca, Romania\n                        \n            \n\n        \n\n        \n            Teaching & Learning - Extension \n                    2023-2023\n                \n        \n\n        \n        \n                Independent\n                    courseLund University, Lund, Sweden\n                        \n            \n\n        \n\nNo matching items\n\n\n\nPublications\n\n\n\n\n\n Structural Reading\n\n\n\n\n\n2024-10-17\n\n\nArticle\n\n\nHistorical Methods: A Journal of Quantitative and Interdisciplinary History\n\n\n\n\n\n\n\n Automatic Identification of Hate Speech –\n\n\n\n\n\n2024-04-23\n\n\nF100Research\n\n\n\n\n\n\n\n Historical GIS and Guidebooks:\n\n\n\n\n\n2023-05-27\n\n\nArticle\n\n\nDHQ\n\n\n\n\n\nNo matching items\n\n\n\nTeaching\n\n\n\n\n\nHISS41 - Digital History\n\n\n\n\n\n2024\n\n\nAdvanced\n\n\nLund University\n\n\n\n\n\n\n\nABMM06 - ALM: Research Methods\n\n\n\n\n\n2024\n\n\nAdvanced\n\n\nLund University\n\n\n\n\n\n\n\nHISS41 - Digital History\n\n\n\n\n\n2023\n\n\nAdvanced\n\n\nLund University\n\n\n\n\n\nNo matching items\n\n\n\nCode\n\n\n\n\n\n sca\n\n\n\n\n\n2025-05-23\n\n\nApplication\n\n\n\n\n\n\n\n freewrite\n\n\n\n\n\n2024-01-02\n\n\nApplication\n\n\n\n\n\n\n\n CITADEL\n\n\n\n\n\n2022-12-16\n\n\nApplication\n\n\n\n\n\nNo matching items\n\n\n\nDatasets\n\n\n\n\n\n SWINNO v3.0.0\n\n\n\n\n\n2024-01-31\n\n\nDataset\n\n\n\n\n\n\n\n\n\n\n UK Hansard 1935-2014\n\n\n\n\n\n2022-11-24\n\n\nCorpus\n\n\n\n\n\n\n\n\n\n\n Historical GIS and Guidebooks:\n\n\n\n\n\n2022-11-24\n\n\n \n\n\n\n\n\n\n\n\nNo matching items",
+    "text": "Systems Developer \n                    2023-Now\n                \n        \n\n        \n            Department of Art and Cultural Sciences\n        \n        \n        \n                Lund University, Lund, Sweden\n\n            \n\n        \n\n        \n            Research Engineer \n                    2021-2023\n                \n        \n\n        \n            DigitalHistory@Lund\n\n        \n        \n        \n                Lund University, Lund, Sweden\n\n            \n\n        \n\n        \n            Research Assistant \n                    2020-2021\n                \n        \n\n        \n            \n        \n        \n        \n                Lund University, Lund, Sweden\n\n            \n\n        \n\n        \n            Research Assistant \n                    2015-2018\n                \n        \n\n        \n            \n        \n        \n        \n                Lund University, Lund, Sweden\n\n            \n\n        \n\nNo matching items",
     "crumbs": [
-      "CV - short"
+      "Experience"
     ]
-  },
-  {
-    "objectID": "cv/failures.html",
-    "href": "cv/failures.html",
-    "title": "CV of Failures",
-    "section": "",
-    "text": "A short, and ever expanding, list of failed applications and the like."
   },
   {
     "objectID": "cv/projects.html",
@@ -95,43 +132,6 @@
     ]
   },
   {
-    "objectID": "cv/datasets.html",
-    "href": "cv/datasets.html",
-    "title": "Repositories",
-    "section": "",
-    "text": "SWINNO v3.0.0\n\n\nDatabase of Swedish Innovations\n\n\nSWINNO is a database of Swedish innovations constructed with the LBIO method by a research project by the same name. The dataset has been gathered and constructed since 2010 by a several researchers and assistants (I have been one of them), and had been published several times in an .xlsx format.\nIn this series of releases I tried to create a user-friendly dataset that retains as much of the relational-structure of the FileMaker database in a user friendlier format (SQLite3). The release is a scaled down version that does away with all the the sensitive data and controls necessary for constructing the data but not necessary for using it . In more recent versions this repository also contain he original format (.xlsx) – included since in the latest release – and publishes a scaled down version of the original FileMaker database as a SQLite3 database and each table is in a separate .csv file. Metadata is published separately as a living-codebook.\n\n\n\n\n\nJan 31, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n UK Hansard 1935-2014\n\n\nA metadata enriched version of the Hansard corpus\n\n\nOne of the outputs from Betto van Waarden’s Marie Skłodowska-Curie project “Presenting Parliament: Parliamentarians’ visions of the communication and role of parliament within the mediated democracies of Britain, Belgium and the Netherlands, 1844-1995.”\n\n\n\n\n\nNov 24, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n Historical GIS and Guidebooks:\n\n\nCzechoslovak Tourist Attractions\n\n\nA dataset of geolocated travel guide toponyms, compiled in the process of a research project Historical GIS and Guidebooks: A Scalable Reading of Czechoslovak Tourist Attractions (Bechmann Pedersen & Johansson, forthcoming) in which we performed a scalable reading of three travel guides of the former Czechoslovak lands as they were cirka 1959. We used a specialized, open-sourced tool CITADEL created for this project, which in itself relies on open-sourced data from GeoNames and WikiData.\n\n\n\n\n\nNov 24, 2022\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "cv/education.html",
-    "href": "cv/education.html",
-    "title": "Education",
-    "section": "",
-    "text": "Economic History \n                    2014-2016\n                \n        \n\n        \n        \n                Master\n                    ProgrammeLund University, Lund, Sweden\n                        \n            \n\n        \n\n        \n            Finance and Banking \n                    2011-2014\n                \n        \n\n        \n        \n                Bachelor\n                    ProgrammeBabeș-Bolyai University, Cluj-Napoca, Romania\n                        \n            \n\n        \n\n        \n            Teaching & Learning - Extension \n                    2023-2023\n                \n        \n\n        \n        \n                Independent\n                    courseLund University, Lund, Sweden\n                        \n            \n\n        \n\n        \n            Teaching and Learning in Higher Education \n                    2022-2023\n                \n        \n\n        \n        \n                Independent\n                    course\nLund University, Lund, Sweden\n                        \n            \n\n        \n\n        \n            Deep Learning and Artificial Intelligence Methods \n                    2022-2023\n                \n        \n\n        \n        \n                Master\n                    courseLund University, Lund, Sweden\n                        \n            \n\n        \n\nNo matching items",
-    "crumbs": [
-      "Education"
-    ]
-  },
-  {
-    "objectID": "cv/experience.html",
-    "href": "cv/experience.html",
-    "title": "Experience",
-    "section": "",
-    "text": "Systems Developer \n                    2023-Now\n                \n        \n\n        \n            Department of Art and Cultural Sciences\n        \n        \n        \n                Lund University, Lund, Sweden\n\n            \n\n        \n\n        \n            Research Engineer \n                    2021-2023\n                \n        \n\n        \n            DigitalHistory@Lund\n\n        \n        \n        \n                Lund University, Lund, Sweden\n\n            \n\n        \n\n        \n            Research Assistant \n                    2020-2021\n                \n        \n\n        \n            \n        \n        \n        \n                Lund University, Lund, Sweden\n\n            \n\n        \n\n        \n            Research Assistant \n                    2015-2018\n                \n        \n\n        \n            \n        \n        \n        \n                Lund University, Lund, Sweden\n\n            \n\n        \n\nNo matching items",
-    "crumbs": [
-      "Experience"
-    ]
-  },
-  {
-    "objectID": "cv/teaching.html",
-    "href": "cv/teaching.html",
-    "title": "Pedagogy",
-    "section": "",
-    "text": "Teaching\n\n\n\n\n\nHISS41 - Digital History\n\n\n\n\n\n2024\n\n\nAdvanced\n\n\nLund University\n\n\n\n\n\n\n\nABMM06 - ALM: Research Methods\n\n\n\n\n\n2024\n\n\nAdvanced\n\n\nLund University\n\n\n\n\n\n\n\nHISS41 - Digital History\n\n\n\n\n\n2023\n\n\nAdvanced\n\n\nLund University\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Pedagogy"
-    ]
-  },
-  {
     "objectID": "cv/full.html",
     "href": "cv/full.html",
     "title": "Mathias Johansson",
@@ -140,6 +140,13 @@
     "crumbs": [
       "CV - long"
     ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mathias Johansson",
+    "section": "",
+    "text": "A Fugue on Thinking Machines\n\n\n\nFugue\n\nGemini\n\nAI\n\n\n\nAn Edgardian & Shakespearian Dialogue\n\n\n\n\n\n2024-05-26\n\n\nMathias Johansson & Gemini\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "code.html",
