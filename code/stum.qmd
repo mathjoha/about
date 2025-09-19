@@ -1,0 +1,15 @@
+---
+title: "[{{< iconify bi terminal >}} stum](/code//stum.html)"
+Type: "Application"
+date: "2025-06-02"
+date-format: iso
+repo: "https://github.com/modern36/stum"
+url: "https://pypi.org/project/stum/"
+abstract: |
+    A tool for extracting intertitle-texts from Swedish newsreels.
+
+---
+
+
+[{{< devicon github-original size=3x >}}]({{< meta repo >}})
+[{{< devicon python-plain size=3x >}}]({{< meta url >}})

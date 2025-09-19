@@ -1,0 +1,15 @@
+---
+title: "[{{< iconify bi terminal >}} SweScribe](/code//swescribe.qmd)"
+Type: "Application"
+date: "2025-06-02"
+date-format: iso
+repo: "https://github.com/mathjoha/swescribe"
+url: "https://pypi.org/project/swescribe/"
+abstract: |
+    Tool for automatic speech recognition of Swedish newsreels.
+
+---
+
+
+[{{< devicon github-original size=3x >}}]({{< meta repo >}})
+[{{< devicon python-plain size=3x >}}]({{< meta url >}})

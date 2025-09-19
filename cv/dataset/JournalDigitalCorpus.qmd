@@ -1,0 +1,17 @@
+---
+title: "[{{< iconify bi file-text >}} Journal Digital Corpus](/cv/dataset/JournalDigitalCorpus.qmd)"
+subtitle: ""
+Type: "Corpus"
+date: "2025-06-05"
+date-format: iso
+url: "https://zenodo.org/records/15596192"
+File: "[{{< ai open-data >}}](https://zenodo.org/records/15596192/files/Modern36/journal_digital_corpus-2025.06.04.zip?download=1)"
+doi: "10.5281/zenodo.15596191"
+abstract: |
+    A corpus of the speech and intertitles of the Swedish Newsreel archive _Journal Digital_. Created with [SweScribe](/code/SweScribe.html) and [stum](/code/stum.html).
+repo: https://github.com/Modern36/journal_digital_corpus
+
+---
+
+[{{< ai zenodo size=3x >}}]({{< meta url >}})
+[{{< devicon github-original size=3x >}}]({{< meta repo >}})
