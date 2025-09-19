@@ -1,0 +1,16 @@
+---
+title: "[{{< ai open-access >}} Journal Digital Corpus](/pub/JDC.html)"
+subtitle: " Swedish Newsreel Transcriptions"
+Type: "Article"
+author: "Robert Aspenskog, **<u>Mathias Johansson</u>** & Pelle Snickars"
+date: "2025-08-04"
+date-format: iso
+Journal: "Journal of Open Humanities Data"
+doi: https://doi.org/10.5334/johd.344
+file: "https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.344"
+abstract: |
+    The Journal Digital Corpus (JDC) is a corpus comprising transcriptions of Swedish historical newsreels, primarily sourced from the SF Veckorevy newsreels produced between the early 1910s and the 1960s. JDC includes transcribed speech from 2,553 newsreels (over two million words) and intertitles from 4,333 videos. Utilizing custom-built Python libraries, SweScribe and stum, the corpus facilitates unprecedented access to historical narratives of Swedish modernity. It offers extensive research opportunities across history, cultural studies, linguistics, and media analysis, enabling detailed examinations of societal shifts, media representation, and linguistic developments throughout twentieth-century Sweden.
+
+---
+
+[{{< iconify bi filetype-pdf size=3x >}}]({{< meta file >}})
