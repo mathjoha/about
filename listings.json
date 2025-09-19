@@ -2,15 +2,19 @@
   {
     "listing": "/output.html",
     "items": [
+      "/pub/JDC.html",
       "/pub/StructuralReading.html",
       "/pub/HatespeechDetection.html",
       "/pub/HGIS_czechoslovakia.html",
       "/pub/democracydisplay.html",
       "/pub/PatentML.html",
       "/pub/DetectingInnovations.html",
+      "/cv/dataset/JournalDigitalCorpus.html",
       "/cv/dataset/SWINNO-sqlite3.html",
       "/cv/dataset/hansard.html",
       "/cv/dataset/hgis.html",
+      "/code/stum.html",
+      "/code/swescribe.html",
       "/code/sca.html",
       "/code/freewrite.html",
       "/code/citadel.html"
@@ -24,6 +28,7 @@
     "listing": "/cv/datasets.html",
     "items": [
       "/cv/dataset/SWINNO-sqlite3.html",
+      "/cv/dataset/JournalDigitalCorpus.html",
       "/cv/dataset/hansard.html",
       "/cv/dataset/hgis.html"
     ]
@@ -37,15 +42,19 @@
     "items": [
       "/cv/project/contentiousgatherings.html",
       "/cv/project/modern36.html",
+      "/pub/JDC.html",
       "/pub/StructuralReading.html",
       "/pub/HatespeechDetection.html",
       "/pub/HGIS_czechoslovakia.html",
       "/pub/democracydisplay.html",
       "/pub/PatentML.html",
       "/pub/DetectingInnovations.html",
+      "/cv/dataset/JournalDigitalCorpus.html",
       "/cv/dataset/SWINNO-sqlite3.html",
       "/cv/dataset/hansard.html",
       "/cv/dataset/hgis.html",
+      "/code/stum.html",
+      "/code/swescribe.html",
       "/code/sca.html",
       "/code/freewrite.html",
       "/code/citadel.html"
@@ -67,15 +76,19 @@
     "items": [
       "/cv/project/contentiousgatherings.html",
       "/cv/project/modern36.html",
+      "/pub/JDC.html",
       "/pub/StructuralReading.html",
       "/pub/HatespeechDetection.html",
       "/pub/HGIS_czechoslovakia.html",
       "/pub/democracydisplay.html",
       "/pub/PatentML.html",
       "/pub/DetectingInnovations.html",
+      "/cv/dataset/JournalDigitalCorpus.html",
       "/cv/dataset/SWINNO-sqlite3.html",
       "/cv/dataset/hansard.html",
       "/cv/dataset/hgis.html",
+      "/code/stum.html",
+      "/code/swescribe.html",
       "/code/sca.html",
       "/code/freewrite.html",
       "/code/citadel.html"
@@ -90,6 +103,8 @@
   {
     "listing": "/code.html",
     "items": [
+      "/code/stum.html",
+      "/code/swescribe.html",
       "/code/sca.html",
       "/code/freewrite.html",
       "/code/citadel.html"

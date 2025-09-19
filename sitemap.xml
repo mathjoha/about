@@ -2,114 +2,130 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mathjoha.se/wg.html</loc>
-    <lastmod>2025-09-05T14:05:04.526Z</lastmod>
+    <lastmod>2025-09-19T17:58:20.652Z</lastmod>
   </url>
   <url>
     <loc>https://mathjoha.se/output.html</loc>
-    <lastmod>2025-09-05T14:05:04.525Z</lastmod>
+    <lastmod>2025-09-19T17:58:20.651Z</lastmod>
   </url>
   <url>
     <loc>https://mathjoha.se/cv/teaching.html</loc>
-    <lastmod>2025-09-05T14:05:04.525Z</lastmod>
+    <lastmod>2025-09-19T17:58:20.650Z</lastmod>
   </url>
   <url>
     <loc>https://mathjoha.se/cv/failures.html</loc>
-    <lastmod>2025-09-05T14:05:04.524Z</lastmod>
+    <lastmod>2025-09-19T17:58:20.650Z</lastmod>
   </url>
   <url>
     <loc>https://mathjoha.se/cv/project/modern36.html</loc>
-    <lastmod>2025-09-05T14:05:04.525Z</lastmod>
+    <lastmod>2025-09-19T17:58:20.650Z</lastmod>
   </url>
   <url>
     <loc>https://mathjoha.se/cv/datasets.html</loc>
-    <lastmod>2025-09-05T14:05:04.524Z</lastmod>
+    <lastmod>2025-09-19T17:58:20.650Z</lastmod>
   </url>
   <url>
     <loc>https://mathjoha.se/cv/education.html</loc>
-    <lastmod>2025-09-05T14:05:04.524Z</lastmod>
+    <lastmod>2025-09-19T17:58:20.650Z</lastmod>
   </url>
   <url>
     <loc>https://mathjoha.se/cv/dataset/hgis.html</loc>
-    <lastmod>2025-09-05T14:05:04.524Z</lastmod>
+    <lastmod>2025-09-19T17:58:20.650Z</lastmod>
   </url>
   <url>
-    <loc>https://mathjoha.se/cv/short.html</loc>
-    <lastmod>2025-09-05T14:05:04.525Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/code/sca.html</loc>
-    <lastmod>2025-09-05T14:05:04.524Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/code/freewrite.html</loc>
-    <lastmod>2025-09-05T14:05:04.524Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/pub/StructuralReading.html</loc>
-    <lastmod>2025-09-05T14:05:04.526Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/pub/DetectingInnovations.html</loc>
-    <lastmod>2025-09-05T14:05:04.525Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/pub/PatentML.html</loc>
-    <lastmod>2025-09-05T14:05:04.525Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/pub/HGIS_czechoslovakia.html</loc>
-    <lastmod>2025-09-05T14:05:04.525Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/pub/HatespeechDetection.html</loc>
-    <lastmod>2025-09-05T14:05:04.525Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/pub/democracydisplay.html</loc>
-    <lastmod>2025-09-05T14:05:04.526Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/2025/05/fugue-ai-prelude.html</loc>
-    <lastmod>2025-09-05T14:05:04.496Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/code/citadel.html</loc>
-    <lastmod>2025-09-05T14:05:04.524Z</lastmod>
+    <loc>https://mathjoha.se/cv/dataset/JournalDigitalCorpus.html</loc>
+    <lastmod>2025-09-19T17:58:20.649Z</lastmod>
   </url>
   <url>
     <loc>https://mathjoha.se/about.html</loc>
-    <lastmod>2025-09-05T14:05:04.519Z</lastmod>
+    <lastmod>2025-09-19T17:58:20.644Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/code/swescribe.html</loc>
+    <lastmod>2025-09-19T17:58:20.649Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/code/citadel.html</loc>
+    <lastmod>2025-09-19T17:58:20.649Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/2025/05/fugue-ai-prelude.html</loc>
+    <lastmod>2025-09-19T17:58:20.621Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/pub/democracydisplay.html</loc>
+    <lastmod>2025-09-19T17:58:20.651Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/pub/DetectingInnovations.html</loc>
+    <lastmod>2025-09-19T17:58:20.651Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/pub/PatentML.html</loc>
+    <lastmod>2025-09-19T17:58:20.651Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/pub/HGIS_czechoslovakia.html</loc>
+    <lastmod>2025-09-19T17:58:20.651Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/pub/HatespeechDetection.html</loc>
+    <lastmod>2025-09-19T17:58:20.651Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/pub/JDC.html</loc>
+    <lastmod>2025-09-19T17:58:20.651Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/pub/StructuralReading.html</loc>
+    <lastmod>2025-09-19T17:58:20.651Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/code/freewrite.html</loc>
+    <lastmod>2025-09-19T17:58:20.649Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/code/stum.html</loc>
+    <lastmod>2025-09-19T17:58:20.649Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/code/sca.html</loc>
+    <lastmod>2025-09-19T17:58:20.649Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/cv/short.html</loc>
+    <lastmod>2025-09-19T17:58:20.650Z</lastmod>
   </url>
   <url>
     <loc>https://mathjoha.se/cv/dataset/hansard.html</loc>
-    <lastmod>2025-09-05T14:05:04.524Z</lastmod>
+    <lastmod>2025-09-19T17:58:20.650Z</lastmod>
   </url>
   <url>
     <loc>https://mathjoha.se/cv/dataset/SWINNO-sqlite3.html</loc>
-    <lastmod>2025-09-05T14:05:04.524Z</lastmod>
+    <lastmod>2025-09-19T17:58:20.650Z</lastmod>
   </url>
   <url>
     <loc>https://mathjoha.se/cv/experience.html</loc>
-    <lastmod>2025-09-05T14:05:04.524Z</lastmod>
+    <lastmod>2025-09-19T17:58:20.650Z</lastmod>
   </url>
   <url>
     <loc>https://mathjoha.se/cv/project/contentiousgatherings.html</loc>
-    <lastmod>2025-09-05T14:05:04.524Z</lastmod>
+    <lastmod>2025-09-19T17:58:20.650Z</lastmod>
   </url>
   <url>
     <loc>https://mathjoha.se/cv/projects.html</loc>
-    <lastmod>2025-09-05T14:05:04.525Z</lastmod>
+    <lastmod>2025-09-19T17:58:20.650Z</lastmod>
   </url>
   <url>
     <loc>https://mathjoha.se/cv/full.html</loc>
-    <lastmod>2025-09-05T14:05:15.820Z</lastmod>
+    <lastmod>2025-09-19T17:58:33.399Z</lastmod>
   </url>
   <url>
     <loc>https://mathjoha.se/index.html</loc>
-    <lastmod>2025-09-05T14:05:04.525Z</lastmod>
+    <lastmod>2025-09-19T17:58:20.651Z</lastmod>
   </url>
   <url>
     <loc>https://mathjoha.se/code.html</loc>
-    <lastmod>2025-09-05T14:05:04.523Z</lastmod>
+    <lastmod>2025-09-19T17:58:20.649Z</lastmod>
   </url>
 </urlset>
