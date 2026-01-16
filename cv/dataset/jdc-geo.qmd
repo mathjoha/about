@@ -1,0 +1,24 @@
+---
+title: "[{{< iconify bi globe >}} Geographical Analysis of Journal Digital](/cv/dataset/jdc-geo.qmd)"
+Type: "Dataset with code"
+date: "2026-01-02"
+date-format: iso
+url: "https://zenodo.org/records/18131655"
+File: "[{{< ai open-data >}}](https://zenodo.org/api/records/18131655/files-archive)"
+doi: "10.5281/zenodo.18131655"
+abstract: |
+    Derrived from Journal Digital Corpus in order to perform a
+    geographical analysis of Swedish newsreels from the
+    Journal Digital corpus (1930-1965) using Named Entity Recognition (NER),
+    geolocation validation, and geocoding. The pipeline extracts location mentions
+    from video subtitles, validates them against the GeoNames gazetteer, and
+    converts them to geographic coordinates using Nominatim. Results include
+    validated location datasets, temporal analysis of geographic mentions, regional
+    distribution statistics, and JSON exports for spatial visualization. The
+    project provides tools for preprocessing NER data, analyzing location patterns
+    over time, and generating interactive visualizations of geographic coverage in
+    Swedish newsreel production.
+
+---
+
+[{{< ai zenodo size=3x >}}]({{< meta url >}})
