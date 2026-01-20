@@ -409,7 +409,6 @@ format:
     documentclass: article
     papersize: a4
     fontsize: 10pt
-    mainfont: "Times New Roman"
     geometry:
       - margin=2.5cm
     header-includes: |
