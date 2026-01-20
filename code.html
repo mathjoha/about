@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.24">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,10 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-5c21b47ae32fb5e2218bd0017a28360b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-f2a62bc89161cb14d0406993ad940604.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/iconify-1.0.8/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "language": {
@@ -138,8 +138,9 @@ window.Quarto = {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
-      <a href="./index.html" class="sidebar-logo-link">
-      </a>
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">MathJoha</a> 
+    </div>
       </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
@@ -221,7 +222,102 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1748822400000" data-listing-file-modified-sort="1758304700649" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1766016000000" data-listing-file-modified-sort="1768902320401" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="27">
+<div class="thumbnail"><a href="./code/kb-trend.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./code/kb-trend.html" class="no-external"></a><a href="./code/kb-trend.html"><iconify-icon inline="" icon="bi:terminal"></iconify-icon> kb-trend</a>
+</h3>
+<div class="delink listing-description"><a href="./code/kb-trend.html" class="no-external">
+<p>This is a tool for extracting trendlines for sesarches in the National Library of Sweden’s (Kungliga Biblioteket; KB) search API. It comes in two variants, firtsly is the python implementation published on PyPI and therefore pip-installable. This tool is able to perform a battery of queries to create aggregated and disaggregated timelines. The second is a much simpler form, which is a SPA (Single Page Application) hosted as a static site on GitHub. This version performs a single query at a time and produces a downloadable .csv file of the data and relevant metadata – such as the full URL of the query.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./code/kb-trend.html" class="no-external">
+<div class="listing-date">
+2025-12-18
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1765324800000" data-listing-file-modified-sort="1768902320401" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
+<div class="thumbnail"><a href="./code/tok-reader.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./code/tok-reader.html" class="no-external"></a><a href="./code/tok-reader.html"><iconify-icon inline="" icon="bi:terminal"></iconify-icon> ToK reader</a>
+</h3>
+<div class="delink listing-description"><a href="./code/tok-reader.html" class="no-external">
+</a><p><a href="./code/tok-reader.html" class="no-external">This is a JavaScript based tool for reading exchanges of utterances from the swedish parliamentary debates for the <em>Tal om Kvinnor</em> project. The material is retrieved from the SWERIK project and has been </a><a href="https://github.com/DigitalHistory-Lund/ToK-Preparer/tree/2025-12-09">pre processed</a> in preparation for this reader, namely:</p>
+<ol type="1">
+<li>The corpus has been segmented into individual utterances.</li>
+<li>Speaker party and gender are in the utterance-level metadata.</li>
+<li>Utterances have been tagged with categories relevant for the research project.</li>
+<li>The corpus has been split into one file per year, from 1900-1940 (the period under study).</li>
+</ol>
+<p>The files are hosted next to the code that prepared them – and each year’s file is loaded into the reader as the user reaches that year. In this way the data becomes searchable, readable and browsable – accessible – to people without having to wrangle with .xml files. However, searches are limited to a single year at a time.</p>
+</div>
+</div>
+<div class="metadata">
+<a href="./code/tok-reader.html" class="no-external">
+<div class="listing-date">
+2025-12-10
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1763769600000" data-listing-file-modified-sort="1768902320401" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
+<div class="thumbnail"><a href="./code/jdc-reader.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./code/jdc-reader.html" class="no-external"></a><a href="./code/jdc-reader.html"><iconify-icon inline="" icon="bi:terminal"></iconify-icon> Journal Digital Corpus - Reader</a>
+</h3>
+<div class="delink listing-description"><a href="./code/jdc-reader.html" class="no-external">
+<p>A javascript based SPA (Single Page Application) for exploring and reading the timestamped Journal Digital Corpus right in the browser. This is hosted as a static website on GitHub and loads the publicly available corpus into the user’s browser to make it readable and searchable. It can also produce stable URLs with seach queries and selected results. This way it is possible to create a permanent bookmark to a specific part of a specified version of the corpus.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./code/jdc-reader.html" class="no-external">
+<div class="listing-date">
+2025-11-22
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1760572800000" data-listing-file-modified-sort="1768902320401" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
+<div class="thumbnail"><a href="./code/jdc-map.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./code/jdc-map.html" class="no-external"></a><a href="./code/jdc-map.html"><iconify-icon inline="" icon="bi:terminal"></iconify-icon> Journal Digital Corpus - Map</a>
+</h3>
+<div class="delink listing-description"><a href="./code/jdc-map.html" class="no-external">
+<p>A javascript based tool for exploring the geographical dimensions of the Journal Digital Corpus.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./code/jdc-map.html" class="no-external">
+<div class="listing-date">
+2025-10-16
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1748822400000" data-listing-file-modified-sort="1768902320401" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
 <div class="thumbnail"><a href="./code/stum.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -243,7 +339,7 @@ window.Quarto = {
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1748822400000" data-listing-file-modified-sort="1758304700649" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
+<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1748822400000" data-listing-file-modified-sort="1768902320401" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
 <div class="thumbnail"><a href="./code/swescribe.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -265,7 +361,7 @@ window.Quarto = {
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1747958400000" data-listing-file-modified-sort="1758304700649" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
+<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1747958400000" data-listing-file-modified-sort="1768902320401" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
 <div class="thumbnail"><a href="./code/sca.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -290,7 +386,29 @@ window.Quarto = {
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1704153600000" data-listing-file-modified-sort="1758304700649" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
+<div class="quarto-post image-right" data-index="7" data-listing-date-sort="1727913600000" data-listing-file-modified-sort="1768902320401" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="16">
+<div class="thumbnail"><a href="./code/kultur-personalplaneraren.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./code/kultur-personalplaneraren.html" class="no-external"></a><a href="./code/kultur-personalplaneraren.html"><iconify-icon inline="" icon="bi:terminal"></iconify-icon> Personal Planerare</a>
+</h3>
+<div class="delink listing-description"><a href="./code/kultur-personalplaneraren.html" class="no-external">
+<p>A javascript based SPA (Single Page Application) for planning ratios between teaching and research at the Department of Arts and Cultural Sciences.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./code/kultur-personalplaneraren.html" class="no-external">
+<div class="listing-date">
+2024-10-03
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8" data-listing-date-sort="1704153600000" data-listing-file-modified-sort="1768902320401" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
 <div class="thumbnail"><a href="./code/freewrite.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -312,7 +430,7 @@ window.Quarto = {
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1671148800000" data-listing-file-modified-sort="1758304700649" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
+<div class="quarto-post image-right" data-index="9" data-listing-date-sort="1671148800000" data-listing-file-modified-sort="1768902320401" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
 <div class="thumbnail"><a href="./code/citadel.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
