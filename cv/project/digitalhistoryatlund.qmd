@@ -1,0 +1,45 @@
+---
+title: "<a href=/cv/project/digitalhistoryatlund.html>DigitalHistory@Lund</a>"
+subitle: <i>"*A 2 year platform*"</i>
+start: "2021"
+end: "2023+"
+active: 0.5
+abstract: |
+    DigitalHistory@Lund is an interdepartmental research platform dedicated to
+    advancing digital history research at Lund University. It works to
+    integrate existing digital history projects and supports the design and
+    execution of new projects. At the same time, the platform strives to build
+    local digital history capacity through skills training workshops, research
+    seminars, research engineer support, and by developing new courses in digital history.
+
+    We help researchers develop new cutting-edge historical projects, e.g. by
+    supporting the collection, cleaning, and analysis of data, and by preparing
+    grant applications.
+
+    DigitalHistory@Lund is an initiative by the Section for Media History in
+    close collaboration with Lund Centre for the History of Knowledge (LUCK)
+    and Lund University Humanities Lab. The platform works with Lund University
+    Libraries and other GLAM-partners in Sweden. It was funded by the Joint
+    Faculties of Humanities and Theology.
+
+    Since 2023 we have been arranging regular meetings for people to drop in
+    with their Digital History/Humanities projects and problems to get help
+    or just to focus working on them.
+
+about:
+  id: all
+  template: jolla
+  links:
+    - icon: globe2
+      href: https://projekt.ht.lu.se/digitalhistory
+    - text: "{{< ai academia >}}"
+      href: https://portal.research.lu.se/en/projects/de-stridbara-svenskarna-konfliktrepertoarer-och-demokratisering-i
+    - icon: github
+      href: https://github.com/DigitalHistory-Lund
+university: Lund University
+country: Sweden
+city: Lund
+---
+
+:::{#all}
+:::

@@ -3,6 +3,8 @@ project:
   output-dir: _site
   pre-render:
     prepare_full.py
+  resources:
+    - CV_MJ.latest.pdf
   preview:
     port: 5057
 

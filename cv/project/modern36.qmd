@@ -2,8 +2,8 @@
 title: '<a href="/cv/project/modern36.html">Modern Times 1936</a>'
 subtitle: "<i>An exploration into `AI` and media historical sources.</i>"
 start: "2023"
-end: "2025+"
-active: 1
+end: "2025"
+active: 0
 abstract: |
     **What is it that software sees, hears and perceives when technologies for pattern recognition are applied to media historical sources?**
 

@@ -4,6 +4,8 @@ about:
     id: header
     template: jolla
     links:
+        - text: "{{< ai cv >}}"
+          href: /CV_MJ.latest.pdf
         - text: "{{< ai academia >}}"
           href: https://portal.research.lu.se/en/persons/mathias-johansson
         - text: "{{< ai orcid >}}"

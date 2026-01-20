@@ -1,0 +1,20 @@
+---
+title: "[{{< iconify bi terminal >}} Journal Digital Corpus - Map](/code/jdc-map.qmd)"
+Type: "Application"
+date: "2025-10-16"
+date-format: iso
+repo: "https://github.com/Modern36/jdc-map"
+url: "https://modern36.github.io/jdc-map/"
+abstract: |
+    A javascript based tool for exploring the geographical dimensions of
+    the Journal Digital Corpus.
+
+---
+
+
+<iframe src="https://modern36.github.io/jdc-map/" width="100%" height="60%">
+If you can read this the Iframe did not work.
+</iframe>
+
+[{{< devicon github-original size=3x >}}]({{< meta repo >}})
+[{{< iconify bi globe size=3x >}}]({{< meta url >}})

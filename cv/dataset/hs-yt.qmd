@@ -1,0 +1,18 @@
+---
+title: "[{{< iconify bi globe >}} Supplementary material to 'Automatic Identification of Hate Speech – A Case-Study of Alt-Right YouTube Videos'](/cv/dataset/hs-yt.qmd)"
+Type: "Annotated corpus"
+date: "2024-01-08"
+date-format: iso
+url: "https://zenodo.org/records/10471915"
+File: "[{{< ai open-data >}}](https://zenodo.org/api/records/10471915/files-archive)"
+doi: "10.5281/zenodo.10471915"
+abstract: |
+    Supplementary material for the article
+    [Supplementary material to 'Automatic Identification of Hate Speech – A Case-Study of Alt-Right YouTube Videos'](/pub/HatespeechDetection.qmd).
+    The dataset is _restricted_ due to the sensitive nature of its contents:
+    Transcriptions gathered from YouTube which we have processed with a
+    classifier trained to detect _hate speech_.
+
+---
+
+[{{< ai zenodo size=3x >}}]({{< meta url >}})

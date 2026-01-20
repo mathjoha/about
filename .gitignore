@@ -3,5 +3,10 @@
 _site/
 docs/
 
+.DS_Store
 
 /.quarto/
+
+# Generated PDF CV
+cv_for_pdf.qmd
+cv_for_pdf.pdf

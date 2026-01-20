@@ -1,0 +1,27 @@
+---
+title: "[{{< iconify bi terminal >}} kb-trend](/code/kb-trend.qmd)"
+Type: "Application"
+date: "2025-12-18"
+date-format: iso
+repo: "https://github.com/DigitalHistory-Lund/kb-trend"
+url: "https://pypi.org/project/kb-trend/"
+abstract: |
+    This is a tool for extracting trendlines for sesarches in the National
+    Library of Sweden's (Kungliga Biblioteket; KB) search API. It comes in two
+    variants, firtsly is the python implementation published on PyPI and
+    therefore pip-installable. This tool is able to perform a battery of
+    queries to create aggregated and disaggregated timelines. The second is a
+    much simpler form, which is a SPA (Single Page Application) hosted as a
+    static site on GitHub. This version performs a single query at a time and
+    produces a downloadable .csv file of the data and relevant metadata --
+    such as the full URL of the query.
+
+---
+
+
+<iframe src="https://digitalhistory-lund.github.io/kb-trend/" width="100%" height="60%">
+If you can read this the Iframe did not work.
+</iframe>
+
+[{{< devicon github-original size=3x >}}]({{< meta repo >}})
+[{{< devicon python-plain size=3x >}}]({{< meta url >}})
