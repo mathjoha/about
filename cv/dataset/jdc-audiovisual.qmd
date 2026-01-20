@@ -1,0 +1,31 @@
+---
+title: "[{{< iconify bi globe >}} Audiovisual Analysis of Journal Digital](/cv/dataset/jdc-audiovisual.qmd)"
+Type: "Dataset with code"
+date: "2026-01-02"
+date-format: iso
+url: "https://zenodo.org/records/18130784"
+File: "[{{< ai open-data >}}](https://zenodo.org/api/records/18130784/files-archive)"
+doi: "10.5281/zenodo.18130784"
+abstract: |
+    Derrived from Journal Digital collections in order to perform
+    analyzes temporal co-occurrences of audio and visual features in
+    videos:
+
+    - Audio extraction : Uses MIT's Audio Spectrogram Transformer (AST) to
+    classify audio content
+    - Visual extraction : Uses Moondream vision model for object detection in
+    frames
+    - Pairing analysis : Identifies audio-visual co-occurrences with temporal
+    alignment
+    - Temporal analysis : Tracks changes in audio-visual patterns across years
+
+    **Structure**
+
+    - src.zip  : The source code for the library
+    - results.zip  : The .csv outputs
+    - moon_results.tar.gz : Results from the Visual extraction pipeline
+    - audio_results.tar.gz : Results forom the Audio extraction pipeline
+
+---
+
+[{{< ai zenodo size=3x >}}]({{< meta url >}})

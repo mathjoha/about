@@ -1,0 +1,31 @@
+---
+title: "[{{< iconify bi terminal >}} ToK reader](/code/tok-reader.qmd)"
+Type: "Application"
+date: "2025-12-10"
+date-format: iso
+repo: "https://github.com/DigitalHistory-Lund/ToK-Reader"
+url: "https://digitalhistory-lund.github.io/ToK-Reader/"
+abstract: |
+    This is a JavaScript based tool for reading exchanges of utterances from
+    the swedish parliamentary debates for the _Tal om Kvinnor_ project.
+    The material is retrieved from the SWERIK project and has been
+    [pre processed](https://github.com/DigitalHistory-Lund/ToK-Preparer/tree/2025-12-09)
+    in preparation for this reader, namely:
+
+      1. The corpus has been segmented into individual utterances.
+      2. Speaker party and gender are in the utterance-level metadata.
+      3. Utterances have been tagged with categories relevant for the research project.
+      4. The corpus has been split into one file per year, from 1900-1940 (the period under study).
+
+    The files are hosted next to the code that prepared them -- and each year's
+    file is loaded into the reader as the user reaches that year. In this way
+    the data becomes searchable, readable and browsable -- accessible --
+    to people without having to wrangle with .xml files. However, searches are
+    limited to a single year at a time.
+
+
+---
+
+
+[{{< devicon github-original size=3x >}}]({{< meta repo >}})
+[{{< devicon python-plain size=3x >}}]({{< meta url >}})

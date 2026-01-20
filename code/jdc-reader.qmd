@@ -1,0 +1,25 @@
+---
+title: "[{{< iconify bi terminal >}} Journal Digital Corpus - Reader](/code/jdc-reader.qmd)"
+Type: "Application"
+date: "2025-11-22"
+date-format: iso
+repo: "https://github.com/Modern36/jdc_reader"
+url: "https://modern36.github.io/jdc_reader/"
+abstract: |
+    A javascript based SPA (Single Page Application) for exploring and reading
+    the timestamped Journal Digital Corpus right in the browser. This is
+    hosted as a static website on GitHub and loads the publicly available
+    corpus into the user's browser to make it readable and searchable. It can
+    also produce stable URLs with seach queries and selected results. This way
+    it is possible to create a permanent bookmark to a specific part of a
+    specified version of the corpus.
+
+---
+
+
+<iframe src="https://modern36.github.io/jdc_reader/" width="100%" height="60%">
+If you can read this the Iframe did not work.
+</iframe>
+
+[{{< devicon github-original size=3x >}}]({{< meta repo >}})
+[{{< iconify bi globe size=3x >}}]({{< meta url >}})

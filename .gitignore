@@ -4,4 +4,6 @@ _site/
 docs/
 
 
+.DS_Store
+
 /.quarto/

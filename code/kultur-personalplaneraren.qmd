@@ -1,0 +1,16 @@
+---
+title: "[{{< iconify bi terminal >}} Personal Planerare](/code/kultur-personalplaneraren.qmd)"
+Type: "Application"
+date: "2024-10-03"
+date-format: iso
+repo: "https://github.com/mathjoha/Kultur_Personalplaneraren"
+url: "https://mathjoha.github.io/Kultur_Personalplaneraren/"
+abstract: |
+    A javascript based SPA (Single Page Application) for planning ratios
+    between teaching and research at the Department of Arts and Cultural
+    Sciences.
+---
+
+
+[{{< devicon github-original size=3x >}}]({{< meta repo >}})
+[{{< iconify bi globe size=3x >}}]({{< meta url >}})
