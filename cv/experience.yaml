@@ -7,6 +7,13 @@
   country: Sweden
   city: Lund
 
+- title: "Systemingenjör"
+  employer: "[Tourbus AB](https://tourbus.ai)"
+  start: "2026"
+  end: "Now"
+  country: Sweden
+  city: Malmö
+
 - title: "Research Engineer"
   employer: "Lund University"
   start: "2021"
@@ -19,6 +26,7 @@
 
 - title: "Research Assistant"
   employer: "Lund University"
+  desc: "Experimentally Organised Economy, CIRCLE"
   start: "2020"
   end: "2021"
   country: Sweden
@@ -26,6 +34,7 @@
   department:  "CIRCLE"
 
 - title: "Research Assistant"
+  desc: "SWINNO, Department of Economic History"
   employer: "Lund University"
   start: "2015"
   end: "2018"
