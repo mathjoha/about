@@ -2,7 +2,9 @@
 title: "[{{< iconify bi code-square >}} CITADEL](/code//citadel.qmd)"
 Type: "Application"
 date: "2022-12-16"
-author: "**<u>Mathias Johansson</u>** & Sune Bechmann Pedersen"
+authors:
+ - "**<u>Mathias Johansson</u>**"
+ - "Sune Bechmann Pedersen"
 date-format: iso
 repo: "https://github.com/mathjoha/citadel"
 url: "https://doi.org/10.5281/zenodo.7447897"

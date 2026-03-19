@@ -1,7 +1,9 @@
 ---
 title: "[{{< ai open-access >}} Digitala metoder och verktyg](/pub/DigitalaMetoderVerktyg.html)"
 Type: "Chapter"
-author: "**<u>Mathias Johansson</u>** & Emil Stjernholm"
+authors:
+ - "**<u>Mathias Johansson</u>**"
+ - Emil Stjernholm
 date: "2026-02-19"
 date-format: iso
 Journal: "Att skriva idèhistoria (ed. Bruno Hamnell & Frits Gåvertsson)"

@@ -2,7 +2,9 @@
 title: "[{{< ai open-access >}} Structural Reading](/pub/StructuralReading.html)"
 subtitle: " Developing the method of Structural Collocation Analysis using a case study on parliamentary reporting"
 Type: "Article"
-author: "**<u>Mathias Johansson</u>** & Betto van Waarden "
+authors:
+ - "**<u>Mathias Johansson</u>**"
+ - "Betto van Waarden"
 date: "2024-10-17"
 date-format: iso
 Journal: "Historical Methods: A Journal of Quantitative and Interdisciplinary History"
