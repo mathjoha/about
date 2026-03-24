@@ -1,5 +1,5 @@
 ---
-title: "[{{< ai open-access >}} The Jobs Ads Database (JABD) Prototype](/pub/WP_JADB.qmd)"
+title: "[{{< ai open-access >}} The Job Ads Database (JADB) Prototype](/pub/WP_JADB.qmd)"
 subtitle: Building a New Resource for Historical Labour Market Research
 Type: "Working paper"
 authors:
