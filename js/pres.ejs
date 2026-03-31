@@ -1,0 +1,17 @@
+```{=html}
+<ul>
+  <% for (const item of items) { %>
+    <li>
+      <% if (item.url) { %>
+        <strong><a href="<%= item.url %>"><%= item.title %></a></strong>
+      <% } else { %>
+        <strong><%= item.title %></strong>
+      <% } %>
+      <% if (item.context) { %> — <%= item.context %><% } %>
+      <% if (item.date) { %> (<%= item.date %><% if (item.type) { %>, <%= item.type %><% } %>)<% } %>
+      <% if (item.authors) { %><br><small><%= item.authors %></small><% } %>
+      <% if (item.description) { %><br><small><%= item.description %></small><% } %>
+    </li>
+  <% } %>
+</ul>
+```

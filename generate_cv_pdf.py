@@ -101,6 +101,8 @@ def simple_yaml_parse_dict(content: str) -> dict:
     current_key = None
     current_value_lines = []
     in_multiline = False
+    in_list = False
+    current_list = []
 
     for line in content.split("\n"):
         if in_multiline:
@@ -113,6 +115,22 @@ def simple_yaml_parse_dict(content: str) -> dict:
                 current_value_lines = []
                 in_multiline = False
 
+        if in_list:
+            stripped = line.strip()
+            if stripped.startswith("- "):
+                val = stripped[2:].strip()
+                if val.startswith('"') and val.endswith('"'):
+                    val = val[1:-1]
+                elif val.startswith("'") and val.endswith("'"):
+                    val = val[1:-1]
+                current_list.append(val)
+                continue
+            else:
+                result[current_key] = current_list
+                current_key = None
+                current_list = []
+                in_list = False
+
         if ":" in line and not line.startswith(" "):
             key, _, val = line.partition(":")
             key = key.strip()
@@ -121,6 +139,10 @@ def simple_yaml_parse_dict(content: str) -> dict:
                 current_key = key
                 current_value_lines = []
                 in_multiline = True
+            elif val == "":
+                current_key = key
+                current_list = []
+                in_list = True
             elif val.startswith('"') and val.endswith('"'):
                 result[key] = val[1:-1]
             elif val.startswith("'") and val.endswith("'"):
@@ -130,6 +152,8 @@ def simple_yaml_parse_dict(content: str) -> dict:
 
     if current_key and current_value_lines:
         result[current_key] = "\n".join(current_value_lines).strip()
+    if current_key and in_list:
+        result[current_key] = current_list
 
     return result
 
@@ -292,10 +316,14 @@ def format_publications(pub_dir: Path) -> str:
         subtitle = item.get("subtitle", "").strip()
         pub_type = item.get("Type", "")
         pub_date = item.get("date", "")
+        authors = item.get("authors", [])
         author = item.get("author", "")
         journal = item.get("Journal", "")
         doi = item.get("doi", "")
 
+        # Build author string from list or single value
+        if isinstance(authors, list) and authors:
+            author = ", ".join(authors)
         # Clean author formatting
         author = re.sub(r'\*\*<u>([^<]+)</u>\*\*', r'**\1**', author)
 
@@ -356,6 +384,99 @@ def format_datasets(dataset_dir: Path) -> str:
             lines.append(f"\\")
             lines.append(f"URL: {url}")
         lines.append("")
+    return "\n".join(lines)
+
+
+def format_presentations(items: list) -> str:
+    """Format presentation entries."""
+    lines = ["## Presentations\n"]
+    for item in items:
+        title = item.get("title", "")
+        context = item.get("context", "")
+        url = item.get("url", "")
+        date = item.get("date", "")
+        pres_type = item.get("type", "")
+        authors = item.get("authors", "")
+        description = item.get("description", "").strip()
+        meta_parts = []
+        if context:
+            meta_parts.append(context)
+        if date:
+            meta_parts.append(date)
+        if pres_type:
+            meta_parts.append(pres_type)
+        meta = " — ".join(meta_parts) if meta_parts else ""
+        if meta:
+            lines.append(f"**{title}** — {meta}\\")
+        else:
+            lines.append(f"**{title}**\\")
+        if authors:
+            lines.append(f"{authors}\\")
+        if url:
+            lines.append(f"URL: {url}")
+        if description:
+            lines.append(description)
+        lines.append("")
+    return "\n".join(lines)
+
+
+def format_events(items: list) -> str:
+    """Format event organization entries."""
+    lines = ["## Events\n"]
+    for item in items:
+        title = item.get("title", "")
+        role = item.get("role", "")
+        date = item.get("date", "")
+        end = item.get("end", "")
+        event_type = item.get("type", "")
+        date_str = f"{date} – {end}" if end else date
+        meta_parts = []
+        if role:
+            meta_parts.append(role)
+        if date_str:
+            meta_parts.append(date_str)
+        if event_type:
+            meta_parts.append(event_type)
+        meta = ", ".join(meta_parts)
+        lines.append(f"**{title}** — {meta}")
+        lines.append("")
+    return "\n".join(lines)
+
+
+def format_visualizations(items: list) -> str:
+    """Format visualization entries."""
+    lines = ["## Explorations\n"]
+    for item in items:
+        title = item.get("title", "")
+        context = item.get("context", "")
+        url = item.get("url", "")
+        description = item.get("description", "").strip()
+        if url:
+            lines.append(f"**{title}** — {context}\\")
+            lines.append(f"URL: {url}")
+        else:
+            lines.append(f"**{title}** — {context}")
+        if description:
+            lines.append(f"\\")
+            lines.append(description)
+        lines.append("")
+    return "\n".join(lines)
+
+
+def format_skills(items: list) -> str:
+    """Format skills & languages entries."""
+    lines = ["## Skills & Languages\n"]
+    for item in items:
+        title = item.get("title", "")
+        level = item.get("level", "")
+        if level:
+            lines.append(f"**{title}** — {level}\\")
+        else:
+            lines.append(f"**{title}**\\")
+    # Remove trailing backslash from last entry
+    if lines and lines[-1].endswith("\\"):
+        lines[-1] = lines[-1][:-1]
+    lines.append("")
     return "\n".join(lines)
 
 
@@ -487,6 +608,26 @@ format:
     # Software & Code
     if CODE_DIR.exists():
         sections.append(format_code(CODE_DIR))
+
+    # Presentations
+    pres_file = CV_DIR / "presentations.yaml"
+    if pres_file.exists():
+        sections.append(format_presentations(load_yaml(pres_file)))
+
+    # Events
+    events_file = CV_DIR / "events.yaml"
+    if events_file.exists():
+        sections.append(format_events(load_yaml(events_file)))
+
+    # Explorations
+    vis_file = CV_DIR / "visualizations.yaml"
+    if vis_file.exists():
+        sections.append(format_visualizations(load_yaml(vis_file)))
+
+    # Skills & Languages
+    skills_file = CV_DIR / "skills.yaml"
+    if skills_file.exists():
+        sections.append(format_skills(load_yaml(skills_file)))
 
     # Datasets
     dataset_dir = CV_DIR / "dataset"

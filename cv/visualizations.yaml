@@ -1,0 +1,74 @@
+- title: "SWINNO Dashboard"
+  context: "SWINNO"
+  url: "https://github.com/swinnoproject/website"
+  description: "Interactive JS dashboard for innovation data."
+
+- title: "SWINNO Datasette Lite"
+  context: "SWINNO"
+  url: "https://github.com/swinnoproject/datasette-lite"
+  description: "Browser-based database explorer using Datasette Lite."
+
+- title: "JDC Reader"
+  context: "ModernTimes1936"
+  url: "https://modern36.github.io/jdc_reader/"
+  description: "JS corpus reader with stable URLs to individual entries."
+
+- title: "JDC Map"
+  context: "ModernTimes1936"
+  url: "https://modern36.github.io/jdc-map/"
+  description: "Browser-based visualization of locations mentioned in the corpus."
+
+- title: "Tropes 1500"
+  context: "ModernTimes1936"
+  url: "https://modern36.github.io/tropes_1500/"
+  description: "Image and annotation browser with interactive bounding box visualizations."
+
+- title: "JADB Timelines"
+  context: "JADB"
+  url: "https://jobadsdata.github.io/jadb-1-timelines/"
+  description: "Interactive visualizations of job ad data over time."
+
+- title: "JADB-37040"
+  context: "JADB"
+  url: "https://jobadsdata.github.io/JADB-37040/"
+  description: "Interactive visualizations of occurrences of a specific work title."
+
+- title: "HISCOTrend"
+  context: "JADB"
+  url: "https://jobadsdata.github.io/HISCOTrend/"
+  description: "Interactive visualizations of all HISCO work titles."
+
+- title: "YouthTrend"
+  context: "JADB"
+  url: "https://jobadsdata.github.io/YouthTrend/"
+  description: "Interactive visualizations of youth job titles."
+
+- title: "ToK Explorer"
+  context: "Tal om Kvinnor"
+  url: "https://digitalhistory-lund.github.io/ToK-explorer/"
+  description: "Visualizations of counts and relative counts of utterances about women."
+
+- title: "ToK Reader"
+  context: "Tal om Kvinnor"
+  url: "https://digitalhistory-lund.github.io/ToK-Reader/"
+  description: "Corpus reader with pattern-marked utterances and static URLs."
+
+- title: "SecToPat Experiment Visualization"
+  context: "Secrets to Patents"
+  url: "https://digitalhistory-lund.github.io/SecToPat-PhilTrans-ExperimentExtraction-Example1/"
+  description: "Visualization of an LLM experiment on historical text extraction."
+
+- title: "Digital History Map"
+  context: "Personal"
+  url: "https://digital-history.se/"
+  description: "Geographical visualization of Digital History projects."
+
+- title: "Towers of Hanoi"
+  context: "Personal"
+  url: "https://mathjoha.github.io/hanoi/"
+  description: "Towers of Hanoi in three.js."
+
+- title: "Weekly Activity Tracker"
+  context: "Personal"
+  url: "https://mathjoha.github.io/weekly/"
+  description: "GitHub activity tracker across projects."

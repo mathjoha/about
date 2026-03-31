@@ -1,0 +1,13 @@
+---
+title: Slides
+listing:
+  id: slides
+  template: ../js/pres.ejs
+  filter-ui: false
+  sort-ui: false
+  contents: "slides.yaml"
+---
+
+
+:::{ #slides }
+:::

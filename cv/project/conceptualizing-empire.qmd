@@ -1,0 +1,26 @@
+---
+title: '<a href="/cv/project/conceptualizing-empire.html">Conceptualizing Empire</a>'
+subtitle: "<i>Using Digital Tools to Evaluate Historical Language Use about Colonialism.</i>"
+start: "2026"
+end: "2026"
+active: 1
+abstract: |
+    Recent years have seen increasingly large and vocal movements calling for restitution for the crimes of colonialism. But who exactly was responsible? How did different groups of citizens in colonizing countries understand and think about colonial conquest and rule? What political role did they play supporting such aggression?
+
+    This pilot project, funded by the Åke Wiberg Foundation, employs newly-available digital history methods and digitized source material collections to reinvigorate this important research field. It examines the use of the term "colony" (shokuminchi) in large digitized corpora of Japanese newspapers from 1900–1920 to investigate spatial conceptualizations of empire at a time when the Japanese public was both proud of their country's expansionist achievements and critical of Western racism and imperialism in Asia.
+about:
+  id: all
+  template: jolla
+  links:
+    - text: "{{< ai academia >}}"
+      href: https://portal.research.lu.se/en/projects/conceptualizing-empire-using-digital-tools-to-evaluate-historical/
+    - icon: github
+      href: https://github.com/Conceptual-History-of-Empire
+university: Lund University
+country: Sweden
+city: Lund
+---
+
+:::{#all}
+
+:::
