@@ -7,8 +7,8 @@ url: "https://zenodo.org/records/18130784"
 File: "[{{< ai open-data >}}](https://zenodo.org/api/records/18130784/files-archive)"
 doi: "10.5281/zenodo.18130784"
 abstract: |
-    Derrived from Journal Digital collections in order to perform
-    analyzes temporal co-occurrences of audio and visual features in
+    Derived from Journal Digital collections in order to perform
+    analysis of temporal co-occurrences of audio and visual features in
     videos:
 
     - Audio extraction : Uses MIT's Audio Spectrogram Transformer (AST) to
@@ -24,7 +24,7 @@ abstract: |
     - src.zip  : The source code for the library
     - results.zip  : The .csv outputs
     - moon_results.tar.gz : Results from the Visual extraction pipeline
-    - audio_results.tar.gz : Results forom the Audio extraction pipeline
+    - audio_results.tar.gz : Results from the Audio extraction pipeline
 
 ---
 

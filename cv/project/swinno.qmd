@@ -5,7 +5,7 @@ start: "2015"
 end: "2025"
 active: 0
 abstract: |
-    The SWINNO project is an ongoing series of research projects into Swedish innovations and the Swedish innovation system. Many of these projects are based on the SWINNO database of Swedish innovations, often with additional data from for example surveys, interviews and policy documents.
+    The SWINNO project was a series of research projects into Swedish innovations and the Swedish innovation system. Many of these projects are based on the SWINNO database of Swedish innovations, often with additional data from for example surveys, interviews and policy documents.
 
     From 2010 onwards, the database has grown from a single spreadsheet into a full-blown relational database. The initial dataset comprised the years 1970–2007. SWINNO 2 extended this to 2019 and SWINNO 3 continues to update. A historical extension is available going back to 1889.
 about:

@@ -6,7 +6,7 @@ authors:
  - Emil Stjernholm
 date: "2026-02-19"
 date-format: iso
-Journal: "Att skriva idèhistoria (ed. Bruno Hamnell & Frits Gåvertsson)"
+Journal: "Att skriva idéhistoria (ed. Bruno Hamnell & Frits Gåvertsson)"
 doi: 10.37852/oblu.348.c804
 file: "https://books.lub.lu.se/catalog/view/348/528/2171"
 abstract: |

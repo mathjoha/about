@@ -10,7 +10,7 @@ abstract: |
     the timestamped Journal Digital Corpus right in the browser. This is
     hosted as a static website on GitHub and loads the publicly available
     corpus into the user's browser to make it readable and searchable. It can
-    also produce stable URLs with seach queries and selected results. This way
+    also produce stable URLs with search queries and selected results. This way
     it is possible to create a permanent bookmark to a specific part of a
     specified version of the corpus.
 

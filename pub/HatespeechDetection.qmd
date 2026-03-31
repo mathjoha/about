@@ -7,7 +7,7 @@ authors:
  - Mika Hietanen
  - "**<u>Mathias Johansson</u>**"
 date-format: iso
-Journal: "F100Research"
+Journal: "F1000Research"
 doi: 10.12688/f1000research.147107.1
 file: "https://f1000research.com/articles/13-328/v1/pdf?article_uuid=4f6589ee-1b45-4373-8934-7dd66748fedc"
 abstract: |
