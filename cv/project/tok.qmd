@@ -1,0 +1,22 @@
+---
+title: '<a href="/cv/project/tok.html">Tal om Kvinnor</a>'
+subtitle: "<i>Tal om Kvinnor i Sveriges riksdag, 1900–1940.</i>"
+start: "2025"
+end: "2026"
+active: 1
+abstract: |
+    Vem talar om kvinnor, när, i vilken utsträckning och hur i Sveriges riksdag under perioden 1900–1940? Vilka positivt och negativt laddade ord, epitet, metaforer och mönster av argument framkommer i några utvalda anföranden och replikväxlingar, jämt fördelade över perioden? Hur kommenteras dessa anföranden i den samtida pressen?
+about:
+  id: all
+  template: jolla
+  links:
+    - icon: github
+      href: https://github.com/digitalhistory-lund
+university: Lund University
+country: Sweden
+city: Lund
+---
+
+:::{#all}
+
+:::

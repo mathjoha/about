@@ -2,7 +2,10 @@
 title: "[{{< ai open-access >}} Journal Digital Corpus](/pub/JDC.html)"
 subtitle: " Swedish Newsreel Transcriptions"
 Type: "Article"
-author: "Robert Aspenskog, **<u>Mathias Johansson</u>** & Pelle Snickars"
+authors:
+ - Robert Aspenskog
+ - "**<u>Mathias Johansson</u>**"
+ - Pelle Snickars
 date: "2025-08-04"
 date-format: iso
 Journal: "Journal of Open Humanities Data"

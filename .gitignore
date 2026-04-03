@@ -10,3 +10,9 @@ docs/
 # Generated PDF CV
 cv_for_pdf.qmd
 cv_for_pdf.pdf
+
+# Grant application CV (private)
+cv/experience.private.yaml
+generate_grant_pdf.py
+cv_grant.qmd
+cv_grant.pdf

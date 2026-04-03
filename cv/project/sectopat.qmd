@@ -1,0 +1,26 @@
+---
+title: '<a href="/cv/project/sectopat.html">Secrets to Patents</a>'
+subtitle: "<i>Trans-Imperial Strategies for Keeping Medicines as Private Assets from 1500 to 1900.</i>"
+start: "2025"
+end: "2030"
+active: 1
+abstract: |
+    The Research Environment Secrets to Patents investigates the long-term history of how life-saving and health-improving medicines became for-profit commodities from 1500 to 1900. Focusing on the Atlantic Colonial Nexus, the project's team investigates the strategies that different historical agents used to claim ownership of medicinal knowledge.
+
+    Funded by the Swedish Research Council (2025–2030) and hosted at Lund University, in collaboration with the Centre for Privacy Studies at the University of Copenhagen and the History Department of Universidade Federal de Santa Maria.
+about:
+  id: all
+  template: jolla
+  links:
+    - icon: globe2
+      href: https://secretstopatents.org/
+    - icon: github
+      href: https://github.com/digitalhistory-lund
+university: Lund University
+country: Sweden
+city: Lund
+---
+
+:::{#all}
+
+:::

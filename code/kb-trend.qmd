@@ -6,9 +6,9 @@ date-format: iso
 repo: "https://github.com/DigitalHistory-Lund/kb-trend"
 url: "https://pypi.org/project/kb-trend/"
 abstract: |
-    This is a tool for extracting trendlines for sesarches in the National
+    This is a tool for extracting trendlines for searches in the National
     Library of Sweden's (Kungliga Biblioteket; KB) search API. It comes in two
-    variants, firtsly is the python implementation published on PyPI and
+    variants, firstly is the python implementation published on PyPI and
     therefore pip-installable. This tool is able to perform a battery of
     queries to create aggregated and disaggregated timelines. The second is a
     much simpler form, which is a SPA (Single Page Application) hosted as a

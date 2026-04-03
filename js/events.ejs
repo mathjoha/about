@@ -1,0 +1,14 @@
+```{=html}
+<ul>
+  <% for (const item of items) { %>
+    <li>
+      <strong><%= item.title %></strong> — <%= item.role %>
+      <% if (item.end) { %>
+        (<%= item.date %> – <%= item.end %>, <%= item.type %>)
+      <% } else { %>
+        (<%= item.date %>, <%= item.type %>)
+      <% } %>
+    </li>
+  <% } %>
+</ul>
+```

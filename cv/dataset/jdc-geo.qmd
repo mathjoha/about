@@ -7,7 +7,7 @@ url: "https://zenodo.org/records/18131655"
 File: "[{{< ai open-data >}}](https://zenodo.org/api/records/18131655/files-archive)"
 doi: "10.5281/zenodo.18131655"
 abstract: |
-    Derrived from Journal Digital Corpus in order to perform a
+    Derived from Journal Digital Corpus in order to perform a
     geographical analysis of Swedish newsreels from the
     Journal Digital corpus (1930-1965) using Named Entity Recognition (NER),
     geolocation validation, and geocoding. The pipeline extracts location mentions

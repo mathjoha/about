@@ -1,6 +1,6 @@
 ---
 title: "<a href=/cv/project/digitalhistoryatlund.html>DigitalHistory@Lund</a>"
-subitle: <i>"*A 2 year platform*"</i>
+subtitle: <i>"*A 2 year platform*"</i>
 start: "2021"
 end: "2023+"
 active: 0.5

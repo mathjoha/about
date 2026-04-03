@@ -7,7 +7,7 @@ repo: "https://github.com/DigitalHistory-Lund/ToK-Reader"
 url: "https://digitalhistory-lund.github.io/ToK-Reader/"
 abstract: |
     This is a JavaScript based tool for reading exchanges of utterances from
-    the swedish parliamentary debates for the _Tal om Kvinnor_ project.
+    the Swedish parliamentary debates for the _Tal om Kvinnor_ project.
     The material is retrieved from the SWERIK project and has been
     [pre processed](https://github.com/DigitalHistory-Lund/ToK-Preparer/tree/2025-12-09)
     in preparation for this reader, namely:

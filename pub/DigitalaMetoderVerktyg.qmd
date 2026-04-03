@@ -1,0 +1,17 @@
+---
+title: "[{{< ai open-access >}} Digitala metoder och verktyg](/pub/DigitalaMetoderVerktyg.html)"
+Type: "Chapter"
+authors:
+ - "**<u>Mathias Johansson</u>**"
+ - Emil Stjernholm
+date: "2026-02-19"
+date-format: iso
+Journal: "Att skriva idéhistoria (ed. Bruno Hamnell & Frits Gåvertsson)"
+doi: 10.37852/oblu.348.c804
+file: "https://books.lub.lu.se/catalog/view/348/528/2171"
+abstract: |
+    This is a short (and in Swedish) chapter aimed at History of Ideas and Sciences (Idè och lärdomshistoria) students -- but our hope is that it will be useful for anyone curious about Digital History. We cover the very basics of working with digital texts, from encoding, to digitizing texts with OCR and HTR tools to using (and how not to use) topic modelling.
+
+---
+
+[{{< iconify bi filetype-pdf size=3x >}}]({{< meta file >}})

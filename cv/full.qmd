@@ -83,6 +83,34 @@ listing:
         type: default
         fields: [title, date, Type, File]
         sort: [date desc]
+    -   id: skills
+        filter-ui: false
+        sort-ui: false
+        contents: "skills.yaml"
+        template: ../js/skills.ejs
+    -   id: presentations
+        
+        date-format: iso
+        filter-ui: false
+        sort-ui: false
+        contents: "presentations.yaml"
+        template: ../js/pres.ejs
+        sort: [upcoming asc, date desc]
+    -   id: visualizations
+        
+        filter-ui: false
+        sort-ui: false
+        contents: "visualizations.yaml"
+        template: ../js/vis.ejs
+        sort: [featured desc]
+    -   id: events
+        
+        date-format: iso
+        filter-ui: false
+        sort-ui: false
+        contents: "events.yaml"
+        template: ../js/events.ejs
+        sort: [date desc]
 ---
 
 ::: { #header }
@@ -91,6 +119,11 @@ listing:
 ### [Experience](experience.html)
 ::: { #experience }
 :::
+
+### Skills & Languages
+::: { #skills }
+:::
+
 
 ### [Projects](projects.html)
 ::: { #projects }
@@ -114,4 +147,16 @@ listing:
 
 ### [Datasets](output.html)
 :::{ #datasets }
+:::
+
+### Presentations
+::: { #presentations }
+:::
+
+### Explorations
+::: { #visualizations }
+:::
+
+### Events
+::: { #events }
 :::
