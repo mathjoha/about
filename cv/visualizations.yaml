@@ -2,6 +2,7 @@
   context: "SWINNO"
   url: "https://github.com/swinnoproject/website"
   description: "Interactive JS dashboard for innovation data."
+  featured: true
 
 - title: "SWINNO Datasette Lite"
   context: "SWINNO"
@@ -17,6 +18,7 @@
   context: "ModernTimes1936"
   url: "https://modern36.github.io/jdc-map/"
   description: "Browser-based visualization of locations mentioned in the corpus."
+  featured: true
 
 - title: "Tropes 1500"
   context: "ModernTimes1936"
@@ -52,6 +54,7 @@
   context: "Tal om Kvinnor"
   url: "https://digitalhistory-lund.github.io/ToK-Reader/"
   description: "Corpus reader with pattern-marked utterances and static URLs."
+  featured: true
 
 - title: "SecToPat Experiment Visualization"
   context: "Secrets to Patents"
