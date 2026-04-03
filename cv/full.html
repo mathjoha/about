@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Mathias Johansson – MathJoha</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -30,14 +33,13 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-f2a62bc89161cb14d0406993ad940604.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-113ae7f35e2fcbe05c6a19643ee6378d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
 <script src="../site_libs/quarto-contrib/iconify-1.0.8/iconify-icon.min.js"></script>
@@ -94,9 +96,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-subitle','listing-start','listing-end','listing-active','listing-abstract','listing-about','listing-university','listing-country','listing-city','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-engines','listing-language','listing-title','listing-subtitle','listing-start','listing-end','listing-active','listing-abstract','listing-about','listing-university','listing-country','listing-city','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-subitle","listing-start","listing-end","listing-active","listing-abstract","listing-about","listing-university","listing-country","listing-city","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-subtitle"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-engines","listing-language","listing-title","listing-subtitle","listing-start","listing-end","listing-active","listing-abstract","listing-about","listing-university","listing-country","listing-city","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -252,10 +254,122 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-skills .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-level',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-level"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-skills'] = new List('listing-skills', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-presentations .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-context','listing-date','listing-type','listing-authors','listing-upcoming',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-context","listing-date","listing-type","listing-authors","listing-upcoming"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-presentations'] = new List('listing-presentations', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-visualizations .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-context','listing-url','listing-description','listing-featured',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-context","listing-url","listing-description","listing-featured"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-visualizations'] = new List('listing-visualizations', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-events .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-role','listing-date','listing-type','listing-end',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-role","listing-date","listing-type","listing-end"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-events'] = new List('listing-events', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -355,6 +469,12 @@ window.Quarto = {
  <span class="menu-text">CV - long</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../cv/slides.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Slides</span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -366,12 +486,16 @@ window.Quarto = {
    
   <ul>
   <li><a href="#experience" id="toc-experience" class="nav-link active" data-scroll-target="#experience">Experience</a></li>
+  <li><a href="#skills-languages" id="toc-skills-languages" class="nav-link" data-scroll-target="#skills-languages">Skills &amp; Languages</a></li>
   <li><a href="#projects" id="toc-projects" class="nav-link" data-scroll-target="#projects">Projects</a></li>
   <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a></li>
   <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a></li>
   <li><a href="#teaching" id="toc-teaching" class="nav-link" data-scroll-target="#teaching">Teaching</a></li>
   <li><a href="#code" id="toc-code" class="nav-link" data-scroll-target="#code">Code</a></li>
   <li><a href="#datasets" id="toc-datasets" class="nav-link" data-scroll-target="#datasets">Datasets</a></li>
+  <li><a href="#presentations" id="toc-presentations" class="nav-link" data-scroll-target="#presentations">Presentations</a></li>
+  <li><a href="#explorations" id="toc-explorations" class="nav-link" data-scroll-target="#explorations">Explorations</a></li>
+  <li><a href="#events" id="toc-events" class="nav-link" data-scroll-target="#events">Events</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/mathjoha/about/edit/main/cv/full.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/mathjoha/about/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -436,6 +560,23 @@ window.Quarto = {
         
 
         <h4>
+            Systemingenjör <span style="float:right;">
+                    2026-Now
+                </span>
+        </h4>
+
+        <p>
+            
+        </p>
+        <p>
+        </p><p><i>
+                Tourbus AB, Malmö, Sweden
+
+            </i></p>
+
+        
+
+        <h4>
             Research Engineer <span style="float:right;">
                     2021-2023
                 </span>
@@ -460,7 +601,7 @@ window.Quarto = {
         </h4>
 
         <p>
-            
+            Experimentally Organised Economy, CIRCLE
         </p>
         <p>
         </p><p><i>
@@ -477,7 +618,7 @@ window.Quarto = {
         </h4>
 
         <p>
-            
+            SWINNO, Department of Economic History
         </p>
         <p>
         </p><p><i>
@@ -487,6 +628,25 @@ window.Quarto = {
 
         
 </lu>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="skills-languages" class="level3">
+<h3 data-anchor-id="skills-languages">Skills &amp; Languages</h3>
+<div id="listing-skills" class="quarto-listing quarto-listing-container-custom">
+<ul>
+  
+    <li><strong>Swedish</strong> — Native</li>
+  
+    <li><strong>English</strong> — Fluent</li>
+  
+    <li><strong>Romanian</strong> — Conversational</li>
+  
+    <li><strong>Python</strong></li>
+  
+    <li><strong>SQL</strong></li>
+  
+</ul>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 </section>
@@ -503,7 +663,58 @@ window.Quarto = {
         </h4>
 
         <p>
-            
+            <i>"*De stridbara svenskarna. Konfliktrepertoarer och demokratisering i Sverige, 1820–1939*"</i>
+        </p>
+        <p>
+        </p><p><i>
+                Lund University, Lund, Sweden
+
+            </i></p>
+
+        
+
+        <h4>
+            <a href="../cv/project/sectopat.html">Secrets to Patents</a> <span style="float:right;">
+                    2025-2030
+                </span>
+        </h4>
+
+        <p>
+            <i>Trans-Imperial Strategies for Keeping Medicines as Private Assets from 1500 to 1900.</i>
+        </p>
+        <p>
+        </p><p><i>
+                Lund University, Lund, Sweden
+
+            </i></p>
+
+        
+
+        <h4>
+            <a href="../cv/project/tok.html">Tal om Kvinnor</a> <span style="float:right;">
+                    2025-2026
+                </span>
+        </h4>
+
+        <p>
+            <i>Tal om Kvinnor i Sveriges riksdag, 1900–1940.</i>
+        </p>
+        <p>
+        </p><p><i>
+                Lund University, Lund, Sweden
+
+            </i></p>
+
+        
+
+        <h4>
+            <a href="../cv/project/conceptualizing-empire.html">Conceptualizing Empire</a> <span style="float:right;">
+                    2026-2026
+                </span>
+        </h4>
+
+        <p>
+            <i>Using Digital Tools to Evaluate Historical Language Use about Colonialism.</i>
         </p>
         <p>
         </p><p><i>
@@ -520,7 +731,24 @@ window.Quarto = {
         </h4>
 
         <p>
-            
+            <i>"*A 2 year platform*"</i>
+        </p>
+        <p>
+        </p><p><i>
+                Lund University, Lund, Sweden
+
+            </i></p>
+
+        
+
+        <h4>
+            <a href="../cv/project/swinno.html">SWINNO</a> <span style="float:right;">
+                    2015-2025
+                </span>
+        </h4>
+
+        <p>
+            <i>A database of Swedish Innovations, 1970 to the present.</i>
         </p>
         <p>
         </p><p><i>
@@ -595,7 +823,7 @@ window.Quarto = {
         <p>
         </p><p><i>
                 Independent
-                    <a href"="https://www.ahu.lu.se/fileadmin/user_upload/ahu/Course_Syllabi/Teaching_and_learning_-_Extension_Kursbeskrivning.pdf&quot;">course</a><span style="float:right;">Lund University, Lund, Sweden
+                    <a href="https://www.ahu.lu.se/fileadmin/user_upload/ahu/Course_Syllabi/Teaching_and_learning_-_Extension_Kursbeskrivning.pdf">course</a><span style="float:right;">Lund University, Lund, Sweden
                         </span>
             </i></p>
 
@@ -639,7 +867,64 @@ window.Quarto = {
 <h3 data-anchor-id="publications"><a href="../output.html">Publications</a></h3>
 <div id="listing-publications" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1754265600000" data-listing-file-modified-sort="1768902320403" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
+<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1775212100961" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../pub/JDH_m36.html" class="no-external">[IN PRESS] </a><a href="../pub/JDH_m36.html"><i class="ai  ai-open-access"></i> Algorithmic toolboxes for the study of the filmic past</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="../pub/JDH_m36.html" class="no-external">
+<div class="metadata-value listing-Type">
+Article
+</div>
+<div class="metadata-value listing-Journal">
+Journal of Digital History
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1772582400000" data-listing-file-modified-sort="1775212100961" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../pub/WP_JADB.html" class="no-external"></a><a href="../pub/WP_JADB.html"><i class="ai  ai-open-access"></i> The Job Ads Database (JADB) Prototype</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="../pub/WP_JADB.html" class="no-external">
+<div class="listing-date">
+2026-03-04
+</div>
+<div class="metadata-value listing-Type">
+Working paper
+</div>
+<div class="metadata-value listing-Journal">
+Lund Papers in Economic History
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1771459200000" data-listing-file-modified-sort="1775212100961" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../pub/DigitalaMetoderVerktyg.html" class="no-external"></a><a href="../pub/DigitalaMetoderVerktyg.html"><i class="ai  ai-open-access"></i> Digitala metoder och verktyg</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="../pub/DigitalaMetoderVerktyg.html" class="no-external">
+<div class="listing-date">
+2026-02-19
+</div>
+<div class="metadata-value listing-Type">
+Chapter
+</div>
+<div class="metadata-value listing-Journal">
+Att skriva idéhistoria (ed.&nbsp;Bruno Hamnell &amp; Frits Gåvertsson)
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1754265600000" data-listing-file-modified-sort="1775212100961" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../pub/JDC.html" class="no-external"></a><a href="../pub/JDC.html"><i class="ai  ai-open-access"></i> Journal Digital Corpus</a>
@@ -659,7 +944,7 @@ Journal of Open Humanities Data
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1729123200000" data-listing-file-modified-sort="1768902320403" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
+<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1729123200000" data-listing-file-modified-sort="1775212100961" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../pub/StructuralReading.html" class="no-external"></a><a href="../pub/StructuralReading.html"><i class="ai  ai-open-access"></i> Structural Reading</a>
@@ -679,7 +964,7 @@ Historical Methods: A Journal of Quantitative and Interdisciplinary History
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1713830400000" data-listing-file-modified-sort="1768902320403" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
+<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1713830400000" data-listing-file-modified-sort="1775212100961" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../pub/HatespeechDetection.html" class="no-external"></a><a href="../pub/HatespeechDetection.html"><i class="ai  ai-open-access"></i> Automatic Identification of Hate Speech –</a>
@@ -691,12 +976,12 @@ Historical Methods: A Journal of Quantitative and Interdisciplinary History
 2024-04-23
 </div>
 <div class="metadata-value listing-Journal">
-F100Research
+F1000Research
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1685145600000" data-listing-file-modified-sort="1768902320402" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
+<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1685145600000" data-listing-file-modified-sort="1775212100961" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../pub/HGIS_czechoslovakia.html" class="no-external"></a><a href="../pub/HGIS_czechoslovakia.html"><i class="ai  ai-open-access"></i> Historical GIS and Guidebooks:</a>
@@ -716,7 +1001,7 @@ DHQ
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1678233600000" data-listing-file-modified-sort="1768902320403" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
+<div class="quarto-post image-right" data-index="7" data-listing-date-sort="1678233600000" data-listing-file-modified-sort="1775212100961" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../pub/democracydisplay.html" class="no-external"></a><a href="../pub/DemocracyDisplay.html"><i class="ai  ai-open-access"></i> Democracy (Not) on Display:</a>
@@ -736,7 +1021,7 @@ Parliamentary Affairs
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1654214400000" data-listing-file-modified-sort="1768902320403" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
+<div class="quarto-post image-right" data-index="8" data-listing-date-sort="1654214400000" data-listing-file-modified-sort="1775212100961" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../pub/PatentML.html" class="no-external"></a><a href="../pub/PatentML.html"><i class="ai  ai-open-access"></i> Linking innovations and patents - a machine learning assisted method</a>
@@ -756,7 +1041,7 @@ SSRN
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1473379200000" data-listing-file-modified-sort="1768902320402" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
+<div class="quarto-post image-right" data-index="9" data-listing-date-sort="1473379200000" data-listing-file-modified-sort="1775212100961" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../pub/DetectingInnovations.html" class="no-external"></a><a href="../pub/DetectingInnovations.html"><i class="ai  ai-open-access"></i> Detecting Important Swedish Innovations By Text Mining Articles From the 1970s</a>
@@ -787,16 +1072,16 @@ N/A
 <div class="quarto-post image-right" data-index="0">
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="" class="no-external">ABMM06 - ALM: Research Methods</a>
+<a href="" class="no-external">DIKA44: Project Management - Continuation</a>
 </h3>
 </div>
 <div class="metadata">
 <a href="" class="no-external">
 <div class="metadata-value listing-year">
-2025
+2026
 </div>
 <div class="metadata-value listing-level">
-Advanced
+First Cycle
 </div>
 <div class="metadata-value listing-School">
 Lund University
@@ -807,7 +1092,7 @@ Lund University
 <div class="quarto-post image-right" data-index="1">
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="" class="no-external">DIKM01: Digital Historia</a>
+<a href="" class="no-external">ABMM06 - ALM: Research Methods</a>
 </h3>
 </div>
 <div class="metadata">
@@ -827,7 +1112,7 @@ Lund University
 <div class="quarto-post image-right" data-index="2">
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="" class="no-external"> ABMF10: Digitalt kulturarv</a>
+<a href="" class="no-external">DIKM01: Digital Historia</a>
 </h3>
 </div>
 <div class="metadata">
@@ -847,13 +1132,13 @@ Lund University
 <div class="quarto-post image-right" data-index="3">
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="" class="no-external">HISS41 - Digital History</a>
+<a href="" class="no-external">ABMF10: Digitalt kulturarv</a>
 </h3>
 </div>
 <div class="metadata">
 <a href="" class="no-external">
 <div class="metadata-value listing-year">
-2024
+2025
 </div>
 <div class="metadata-value listing-level">
 Advanced
@@ -873,7 +1158,7 @@ Lund University
 <div class="metadata">
 <a href="" class="no-external">
 <div class="metadata-value listing-year">
-2023
+2024
 </div>
 <div class="metadata-value listing-level">
 Advanced
@@ -885,6 +1170,26 @@ Lund University
 </div>
 </div>
 <div class="quarto-post image-right" data-index="5">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="" class="no-external">HISS41 - Digital History</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="" class="no-external">
+<div class="metadata-value listing-year">
+2023
+</div>
+<div class="metadata-value listing-level">
+Advanced
+</div>
+<div class="metadata-value listing-School">
+Lund University
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="" class="no-external">ABMM06 - ALM: Research Methods</a>
@@ -912,7 +1217,7 @@ Lund University
 <h3 data-anchor-id="code"><a href="../code.html">Code</a></h3>
 <div id="listing-repo" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1766016000000" data-listing-file-modified-sort="1768902320401" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="27">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1766016000000" data-listing-file-modified-sort="1775212100959" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="27">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../code/kb-trend.html" class="no-external"></a><a href="../code/kb-trend.html"><iconify-icon inline="" icon="bi:terminal"></iconify-icon> kb-trend</a>
@@ -929,7 +1234,7 @@ Application
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1765324800000" data-listing-file-modified-sort="1768902320401" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1765324800000" data-listing-file-modified-sort="1775212100959" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../code/tok-reader.html" class="no-external"></a><a href="../code/tok-reader.html"><iconify-icon inline="" icon="bi:terminal"></iconify-icon> ToK reader</a>
@@ -946,7 +1251,7 @@ Application
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1763769600000" data-listing-file-modified-sort="1768902320401" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
+<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1763769600000" data-listing-file-modified-sort="1775212100959" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../code/jdc-reader.html" class="no-external"></a><a href="../code/jdc-reader.html"><iconify-icon inline="" icon="bi:terminal"></iconify-icon> Journal Digital Corpus - Reader</a>
@@ -963,7 +1268,7 @@ Application
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1760572800000" data-listing-file-modified-sort="1768902320401" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
+<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1760572800000" data-listing-file-modified-sort="1775212100959" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../code/jdc-map.html" class="no-external"></a><a href="../code/jdc-map.html"><iconify-icon inline="" icon="bi:terminal"></iconify-icon> Journal Digital Corpus - Map</a>
@@ -980,7 +1285,7 @@ Application
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1748822400000" data-listing-file-modified-sort="1768902320401" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
+<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1748822400000" data-listing-file-modified-sort="1775212100959" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../code/stum.html" class="no-external"></a><a href="../code//stum.html"><iconify-icon inline="" icon="bi:terminal"></iconify-icon> stum</a>
@@ -997,7 +1302,7 @@ Application
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1748822400000" data-listing-file-modified-sort="1768902320401" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
+<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1748822400000" data-listing-file-modified-sort="1775212100959" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../code/swescribe.html" class="no-external"></a><a href="../code/swescribe.html"><iconify-icon inline="" icon="bi:terminal"></iconify-icon> SweScribe</a>
@@ -1014,7 +1319,7 @@ Application
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1747958400000" data-listing-file-modified-sort="1768902320401" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
+<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1747958400000" data-listing-file-modified-sort="1775212100959" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../code/sca.html" class="no-external"></a><a href="../code/sca.html"><iconify-icon inline="" icon="bi:terminal"></iconify-icon> sca</a>
@@ -1031,7 +1336,7 @@ Application
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-listing-date-sort="1727913600000" data-listing-file-modified-sort="1768902320401" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="16">
+<div class="quarto-post image-right" data-index="7" data-listing-date-sort="1727913600000" data-listing-file-modified-sort="1775212100959" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="16">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../code/kultur-personalplaneraren.html" class="no-external"></a><a href="../code/kultur-personalplaneraren.html"><iconify-icon inline="" icon="bi:terminal"></iconify-icon> Personal Planerare</a>
@@ -1048,7 +1353,7 @@ Application
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-listing-date-sort="1704153600000" data-listing-file-modified-sort="1768902320401" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
+<div class="quarto-post image-right" data-index="8" data-listing-date-sort="1704153600000" data-listing-file-modified-sort="1775212100959" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../code/freewrite.html" class="no-external"></a><a href="../code/freewrite.html"><iconify-icon inline="" icon="bi:terminal"></iconify-icon> freewrite</a>
@@ -1065,7 +1370,7 @@ Application
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-listing-date-sort="1671148800000" data-listing-file-modified-sort="1768902320401" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
+<div class="quarto-post image-right" data-index="9" data-listing-date-sort="1671148800000" data-listing-file-modified-sort="1775212100958" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../code/citadel.html" class="no-external"></a><a href="../code/citadel.html"><iconify-icon inline="" icon="bi:code-square"></iconify-icon> CITADEL</a>
@@ -1090,7 +1395,7 @@ Application
 <h3 data-anchor-id="datasets"><a href="output.html">Datasets</a></h3>
 <div id="listing-datasets" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1767312000000" data-listing-file-modified-sort="1768902320402" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1767312000000" data-listing-file-modified-sort="1775212100960" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../cv/dataset/jdc-audiovisual.html" class="no-external"></a><a href="../cv/dataset/jdc-audiovisual.html"><iconify-icon inline="" icon="bi:globe"></iconify-icon> Audiovisual Analysis of Journal Digital</a>
@@ -1110,7 +1415,7 @@ Dataset with code
 
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1767312000000" data-listing-file-modified-sort="1768902320402" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1767312000000" data-listing-file-modified-sort="1775212100960" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../cv/dataset/jdc-geo.html" class="no-external"></a><a href="../cv/dataset/jdc-geo.html"><iconify-icon inline="" icon="bi:globe"></iconify-icon> Geographical Analysis of Journal Digital</a>
@@ -1130,7 +1435,7 @@ Dataset with code
 
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1749081600000" data-listing-file-modified-sort="1768902320401" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
+<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1749081600000" data-listing-file-modified-sort="1775212100960" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../cv/dataset/JournalDigitalCorpus.html" class="no-external"></a><a href="../cv/dataset/JournalDigitalCorpus.html"><iconify-icon inline="" icon="bi:file-text"></iconify-icon> Journal Digital Corpus</a>
@@ -1150,7 +1455,7 @@ Corpus
 
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1706659200000" data-listing-file-modified-sort="1768902320401" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="19">
+<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1706659200000" data-listing-file-modified-sort="1775212100960" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="19">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../cv/dataset/SWINNO-sqlite3.html" class="no-external"></a><a href="../cv/dataset/SWINNO-sqlite3.html"><iconify-icon inline="" icon="bi:database"></iconify-icon> SWINNO v3.0.0</a>
@@ -1170,7 +1475,7 @@ Dataset
 
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1704672000000" data-listing-file-modified-sort="1768902320402" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1704672000000" data-listing-file-modified-sort="1775212100960" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../cv/dataset/hs-yt.html" class="no-external"></a><a href="../cv/dataset/hs-yt.html"><iconify-icon inline="" icon="bi:globe"></iconify-icon> Supplementary material to ‘Automatic Identification of Hate Speech – A Case-Study of Alt-Right YouTube Videos’</a>
@@ -1190,7 +1495,7 @@ Annotated corpus
 
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1669248000000" data-listing-file-modified-sort="1768902320401" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1669248000000" data-listing-file-modified-sort="1775212100960" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../cv/dataset/hansard.html" class="no-external"></a><a href="../cv/dataset/hansard.html"><iconify-icon inline="" icon="bi:file-text"></iconify-icon> UK Hansard 1935-2014</a>
@@ -1210,7 +1515,7 @@ Corpus
 
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1669248000000" data-listing-file-modified-sort="1768902320401" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1669248000000" data-listing-file-modified-sort="1775212100960" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../cv/dataset/hgis.html" class="no-external"></a><a href="../cv/dataset/hgis.html"><iconify-icon inline="" icon="bi:globe"></iconify-icon> Historical GIS and Guidebooks:</a>
@@ -1231,6 +1536,253 @@ Corpus
 </div>
 </div>
 </div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="presentations" class="level3">
+<h3 data-anchor-id="presentations">Presentations</h3>
+<div id="listing-presentations" class="quarto-listing quarto-listing-container-custom">
+<ul>
+  
+    <li>
+      
+        <strong>Building a Job Ads Database from Swedish Digitized Newspapers</strong>
+      
+       — JADB
+       (2026-04-24, Invited talk)
+      <br><small>Johansson, M.</small>
+      
+    </li>
+  
+    <li>
+      
+        <strong>Från stum film till sjungande metadata: Multimodal AI-analys av svensk journalfilm under ett halvt sekel</strong>
+      
+       — Modern Times 1936
+       (2025-10-21, Presentation)
+      <br><small>Aspenskog, R. &amp; Johansson, M.</small>
+      
+    </li>
+  
+    <li>
+      
+        <strong>On the research project Modern Times 1936</strong>
+      
+       — Modern Times 1936
+       (2025-04-29, Invited talk)
+      <br><small>Johansson, M., Snickars, P., Stjernholm, E. &amp; Aspenskog, R.</small>
+      
+    </li>
+  
+    <li>
+      
+        <strong>From personal networks to public advertisements: Exploring historical recruitment practices through newspaper job ads</strong>
+      
+       — JADB
+       (2024-11-08, Presentation)
+      <br><small>Gladoic Håkansson, P., Karlsson, T., La Mela, M. &amp; Johansson, M.</small>
+      
+    </li>
+  
+    <li>
+      
+        <strong>Re-inventing the Wheel. Or: Following in the Footsteps of Keiji Kiriya, Sisyphus &amp; Saehrimnir</strong>
+      
+      
+       (2024-11-08, Presentation)
+      <br><small>Johansson, M.</small>
+      
+    </li>
+  
+    <li>
+      
+        <strong>Fallet och 'abortproblemet'. Att använda fallet som form i samtida facklitteratur om abort</strong>
+      
+      
+       (2024-11-08, Presentation)
+      <br><small>Hultman, A. et al.</small>
+      
+    </li>
+  
+    <li>
+      
+        <strong>Konfliktrepertoarer och demokratisering i Sverige. Tidiga utmaningar och resultat</strong>
+      
+       — Contentious Gatherings
+       (2024-11-07, Presentation)
+      <br><small>Olofsson, M., Johansson, M. &amp; Lundstedt, M.</small>
+      
+    </li>
+  
+    <li>
+      
+        <strong>Moderna Tider 1936, DigitaltMuseum &amp; AI</strong>
+      
+       — Modern Times 1936
+       (2024-09-25, Invited talk)
+      <br><small>Johansson, M.</small>
+      
+    </li>
+  
+    <li>
+      
+        <strong>Modern Times 1936</strong>
+      
+       — Modern Times 1936
+       (2024-05-28, Presentation)
+      <br><small>Stjernholm, E., Aspenskog, R., Johansson, M., Snickars, P. &amp; Eriksson, M.</small>
+      
+    </li>
+  
+    <li>
+      
+        <strong>The contentious swedes. Repertoires of contention and democratization in Sweden, 1820–1939</strong>
+      
+       — Contentious Gatherings
+       (2023-09-07, Presentation)
+      <br><small>Olofsson, M. &amp; Johansson, M.</small>
+      
+    </li>
+  
+    <li>
+      
+        <strong>Seminar on Structural Topic Modeling</strong>
+      
+       — Lund University
+       (2022-03-21, Workshop)
+      <br><small>Johansson, M.</small>
+      
+    </li>
+  
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="explorations" class="level3">
+<h3 data-anchor-id="explorations">Explorations</h3>
+<div id="listing-visualizations" class="quarto-listing quarto-listing-container-custom">
+<ul>
+  
+    <li>
+      <strong><a href="https://github.com/swinnoproject/datasette-lite">SWINNO Datasette Lite</a></strong> — SWINNO<br>
+      <small>Browser-based database explorer using Datasette Lite.</small>
+    </li>
+  
+    <li>
+      <strong><a href="https://modern36.github.io/jdc_reader/">JDC Reader</a></strong> — ModernTimes1936<br>
+      <small>JS corpus reader with stable URLs to individual entries.</small>
+    </li>
+  
+    <li>
+      <strong><a href="https://modern36.github.io/tropes_1500/">Tropes 1500</a></strong> — ModernTimes1936<br>
+      <small>Image and annotation browser with interactive bounding box visualizations.</small>
+    </li>
+  
+    <li>
+      <strong><a href="https://jobadsdata.github.io/jadb-1-timelines/">JADB Timelines</a></strong> — JADB<br>
+      <small>Interactive visualizations of job ad data over time.</small>
+    </li>
+  
+    <li>
+      <strong><a href="https://jobadsdata.github.io/JADB-37040/">JADB-37040</a></strong> — JADB<br>
+      <small>Interactive visualizations of occurrences of a specific work title.</small>
+    </li>
+  
+    <li>
+      <strong><a href="https://jobadsdata.github.io/HISCOTrend/">HISCOTrend</a></strong> — JADB<br>
+      <small>Interactive visualizations of all HISCO work titles.</small>
+    </li>
+  
+    <li>
+      <strong><a href="https://jobadsdata.github.io/YouthTrend/">YouthTrend</a></strong> — JADB<br>
+      <small>Interactive visualizations of youth job titles.</small>
+    </li>
+  
+    <li>
+      <strong><a href="https://digitalhistory-lund.github.io/ToK-explorer/">ToK Explorer</a></strong> — Tal om Kvinnor<br>
+      <small>Visualizations of counts and relative counts of utterances about women.</small>
+    </li>
+  
+    <li>
+      <strong><a href="https://digitalhistory-lund.github.io/SecToPat-PhilTrans-ExperimentExtraction-Example1/">SecToPat Experiment Visualization</a></strong> — Secrets to Patents<br>
+      <small>Visualization of an LLM experiment on historical text extraction.</small>
+    </li>
+  
+    <li>
+      <strong><a href="https://digital-history.se/">Digital History Map</a></strong> — Personal<br>
+      <small>Geographical visualization of Digital History projects.</small>
+    </li>
+  
+    <li>
+      <strong><a href="https://mathjoha.github.io/hanoi/">Towers of Hanoi</a></strong> — Personal<br>
+      <small>Towers of Hanoi in three.js.</small>
+    </li>
+  
+    <li>
+      <strong><a href="https://mathjoha.github.io/weekly/">Weekly Activity Tracker</a></strong> — Personal<br>
+      <small>GitHub activity tracker across projects.</small>
+    </li>
+  
+    <li>
+      <strong><a href="https://github.com/swinnoproject/website">SWINNO Dashboard</a></strong> — SWINNO<br>
+      <small>Interactive JS dashboard for innovation data.</small>
+    </li>
+  
+    <li>
+      <strong><a href="https://modern36.github.io/jdc-map/">JDC Map</a></strong> — ModernTimes1936<br>
+      <small>Browser-based visualization of locations mentioned in the corpus.</small>
+    </li>
+  
+    <li>
+      <strong><a href="https://digitalhistory-lund.github.io/ToK-Reader/">ToK Reader</a></strong> — Tal om Kvinnor<br>
+      <small>Corpus reader with pattern-marked utterances and static URLs.</small>
+    </li>
+  
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="events" class="level3">
+<h3 data-anchor-id="events">Events</h3>
+<div id="listing-events" class="quarto-listing quarto-listing-container-custom">
+<ul>
+  
+    <li>
+      <strong>DigitalHistory@Lund: Digitalhistorisk inspirationskonferens</strong> — Organiser
+      
+        (2023-09-27, Conference)
+      
+    </li>
+  
+    <li>
+      <strong>DigitalHistory@Lund Working Group</strong> — Organiser
+      
+        (2023-09-01 – 2026-06, Workshop series)
+      
+    </li>
+  
+    <li>
+      <strong>DigitalHistory@Lund Social Network Analysis för Historiker</strong> — Organiser
+      
+        (2023-05-09, Workshop)
+      
+    </li>
+  
+    <li>
+      <strong>DigitalHistory@Lund: Transcription of handwritten texts with Transkribus</strong> — Organiser
+      
+        (2022-04-01, Workshop)
+      
+    </li>
+  
+    <li>
+      <strong>Digitalhistorisk inspirationskonferens för HT-fakulteterna</strong> — Organiser
+      
+        (2021-09-23, Conference)
+      
+    </li>
+  
+</ul>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 
@@ -1640,7 +2192,7 @@ Corpus
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>© <a href="https://github.com/mathjoha/about">Mathias Johansson</a> 2025. All rights reserved.</p>
+<p>© <a href="https://github.com/mathjoha/about">Mathias Johansson</a> 2026. All rights reserved.</p>
 <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/mathjoha/about/edit/main/cv/full.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/mathjoha/about/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;

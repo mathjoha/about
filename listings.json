@@ -1,14 +1,10 @@
 [
   {
-    "listing": "/cv/projects.html",
-    "items": [
-      "/cv/project/contentiousgatherings.html",
-      "/cv/project/digitalhistoryatlund.html",
-      "/cv/project/modern36.html"
-    ]
+    "listing": "/cv/experience.html",
+    "items": []
   },
   {
-    "listing": "/cv/teaching.html",
+    "listing": "/cv/slides.html",
     "items": []
   },
   {
@@ -16,10 +12,8 @@
     "items": []
   },
   {
-    "listing": "/index.html",
-    "items": [
-      "/2025/05/fugue-ai-prelude.html"
-    ]
+    "listing": "/cv/teaching.html",
+    "items": []
   },
   {
     "listing": "/code.html",
@@ -37,8 +31,17 @@
     ]
   },
   {
+    "listing": "/index.html",
+    "items": [
+      "/2025/05/fugue-ai-prelude.html"
+    ]
+  },
+  {
     "listing": "/output.html",
     "items": [
+      "/pub/JDH_m36.html",
+      "/pub/WP_JADB.html",
+      "/pub/DigitalaMetoderVerktyg.html",
       "/pub/JDC.html",
       "/pub/StructuralReading.html",
       "/pub/HatespeechDetection.html",
@@ -64,49 +67,20 @@
       "/code/freewrite.html",
       "/code/citadel.html"
     ]
-  },
-  {
-    "listing": "/cv/full.html",
-    "items": [
-      "/cv/project/contentiousgatherings.html",
-      "/cv/project/digitalhistoryatlund.html",
-      "/cv/project/modern36.html",
-      "/pub/JDC.html",
-      "/pub/StructuralReading.html",
-      "/pub/HatespeechDetection.html",
-      "/pub/HGIS_czechoslovakia.html",
-      "/pub/democracydisplay.html",
-      "/pub/PatentML.html",
-      "/pub/DetectingInnovations.html",
-      "/cv/dataset/jdc-audiovisual.html",
-      "/cv/dataset/jdc-geo.html",
-      "/cv/dataset/JournalDigitalCorpus.html",
-      "/cv/dataset/SWINNO-sqlite3.html",
-      "/cv/dataset/hs-yt.html",
-      "/cv/dataset/hansard.html",
-      "/cv/dataset/hgis.html",
-      "/code/kb-trend.html",
-      "/code/tok-reader.html",
-      "/code/jdc-reader.html",
-      "/code/jdc-map.html",
-      "/code/stum.html",
-      "/code/swescribe.html",
-      "/code/sca.html",
-      "/code/kultur-personalplaneraren.html",
-      "/code/freewrite.html",
-      "/code/citadel.html"
-    ]
-  },
-  {
-    "listing": "/cv/experience.html",
-    "items": []
   },
   {
     "listing": "/cv/short.html",
     "items": [
       "/cv/project/contentiousgatherings.html",
+      "/cv/project/sectopat.html",
+      "/cv/project/tok.html",
+      "/cv/project/conceptualizing-empire.html",
       "/cv/project/digitalhistoryatlund.html",
+      "/cv/project/swinno.html",
       "/cv/project/modern36.html",
+      "/pub/JDH_m36.html",
+      "/pub/WP_JADB.html",
+      "/pub/DigitalaMetoderVerktyg.html",
       "/pub/JDC.html",
       "/pub/StructuralReading.html",
       "/pub/HatespeechDetection.html",
@@ -143,6 +117,57 @@
       "/cv/dataset/jdc-geo.html",
       "/cv/dataset/hgis.html",
       "/cv/dataset/hs-yt.html"
+    ]
+  },
+  {
+    "listing": "/cv/projects.html",
+    "items": [
+      "/cv/project/contentiousgatherings.html",
+      "/cv/project/sectopat.html",
+      "/cv/project/tok.html",
+      "/cv/project/conceptualizing-empire.html",
+      "/cv/project/digitalhistoryatlund.html",
+      "/cv/project/swinno.html",
+      "/cv/project/modern36.html"
+    ]
+  },
+  {
+    "listing": "/cv/full.html",
+    "items": [
+      "/cv/project/contentiousgatherings.html",
+      "/cv/project/sectopat.html",
+      "/cv/project/tok.html",
+      "/cv/project/conceptualizing-empire.html",
+      "/cv/project/digitalhistoryatlund.html",
+      "/cv/project/swinno.html",
+      "/cv/project/modern36.html",
+      "/pub/JDH_m36.html",
+      "/pub/WP_JADB.html",
+      "/pub/DigitalaMetoderVerktyg.html",
+      "/pub/JDC.html",
+      "/pub/StructuralReading.html",
+      "/pub/HatespeechDetection.html",
+      "/pub/HGIS_czechoslovakia.html",
+      "/pub/democracydisplay.html",
+      "/pub/PatentML.html",
+      "/pub/DetectingInnovations.html",
+      "/cv/dataset/jdc-audiovisual.html",
+      "/cv/dataset/jdc-geo.html",
+      "/cv/dataset/JournalDigitalCorpus.html",
+      "/cv/dataset/SWINNO-sqlite3.html",
+      "/cv/dataset/hs-yt.html",
+      "/cv/dataset/hansard.html",
+      "/cv/dataset/hgis.html",
+      "/code/kb-trend.html",
+      "/code/tok-reader.html",
+      "/code/jdc-reader.html",
+      "/code/jdc-map.html",
+      "/code/stum.html",
+      "/code/swescribe.html",
+      "/code/sca.html",
+      "/code/kultur-personalplaneraren.html",
+      "/code/freewrite.html",
+      "/code/citadel.html"
     ]
   }
 ]
