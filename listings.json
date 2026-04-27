@@ -1,42 +1,5 @@
 [
   {
-    "listing": "/cv/experience.html",
-    "items": []
-  },
-  {
-    "listing": "/cv/slides.html",
-    "items": []
-  },
-  {
-    "listing": "/cv/education.html",
-    "items": []
-  },
-  {
-    "listing": "/cv/teaching.html",
-    "items": []
-  },
-  {
-    "listing": "/code.html",
-    "items": [
-      "/code/kb-trend.html",
-      "/code/tok-reader.html",
-      "/code/jdc-reader.html",
-      "/code/jdc-map.html",
-      "/code/stum.html",
-      "/code/swescribe.html",
-      "/code/sca.html",
-      "/code/kultur-personalplaneraren.html",
-      "/code/freewrite.html",
-      "/code/citadel.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/2025/05/fugue-ai-prelude.html"
-    ]
-  },
-  {
     "listing": "/output.html",
     "items": [
       "/pub/JDH_m36.html",
@@ -67,6 +30,47 @@
       "/code/freewrite.html",
       "/code/citadel.html"
     ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/2025/05/fugue-ai-prelude.html"
+    ]
+  },
+  {
+    "listing": "/code.html",
+    "items": [
+      "/code/kb-trend.html",
+      "/code/tok-reader.html",
+      "/code/jdc-reader.html",
+      "/code/jdc-map.html",
+      "/code/stum.html",
+      "/code/swescribe.html",
+      "/code/sca.html",
+      "/code/kultur-personalplaneraren.html",
+      "/code/freewrite.html",
+      "/code/citadel.html"
+    ]
+  },
+  {
+    "listing": "/cv/experience.html",
+    "items": []
+  },
+  {
+    "listing": "/cv/datasets.html",
+    "items": [
+      "/cv/dataset/SWINNO-sqlite3.html",
+      "/cv/dataset/JournalDigitalCorpus.html",
+      "/cv/dataset/hansard.html",
+      "/cv/dataset/jdc-audiovisual.html",
+      "/cv/dataset/jdc-geo.html",
+      "/cv/dataset/hgis.html",
+      "/cv/dataset/hs-yt.html"
+    ]
+  },
+  {
+    "listing": "/cv/education.html",
+    "items": []
   },
   {
     "listing": "/cv/short.html",
@@ -108,18 +112,6 @@
     ]
   },
   {
-    "listing": "/cv/datasets.html",
-    "items": [
-      "/cv/dataset/SWINNO-sqlite3.html",
-      "/cv/dataset/JournalDigitalCorpus.html",
-      "/cv/dataset/hansard.html",
-      "/cv/dataset/jdc-audiovisual.html",
-      "/cv/dataset/jdc-geo.html",
-      "/cv/dataset/hgis.html",
-      "/cv/dataset/hs-yt.html"
-    ]
-  },
-  {
     "listing": "/cv/projects.html",
     "items": [
       "/cv/project/contentiousgatherings.html",
@@ -130,6 +122,10 @@
       "/cv/project/swinno.html",
       "/cv/project/modern36.html"
     ]
+  },
+  {
+    "listing": "/cv/teaching.html",
+    "items": []
   },
   {
     "listing": "/cv/full.html",
@@ -169,5 +165,9 @@
       "/code/freewrite.html",
       "/code/citadel.html"
     ]
+  },
+  {
+    "listing": "/cv/slides.html",
+    "items": []
   }
 ]
