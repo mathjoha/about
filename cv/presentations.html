@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-12-10">
 
-<title> ToK reader – MathJoha</title>
+<title>Presentations – MathJoha</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -32,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -43,9 +44,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-d24f4df05eecd01b3ef3e1bc0a390b86.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script src="../site_libs/quarto-contrib/iconify-1.0.8/iconify-icon.min.js"></script>
-<link href="../site_libs/quarto-contrib/devicons-1.0.0/all.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/devicons-1.0.0/size.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -61,7 +59,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-talks .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-authors','listing-date','listing-type','listing-event','listing-city','listing-country','listing-context','listing-slides',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-authors","listing-date","listing-type","listing-event","listing-city","listing-country","listing-context","listing-slides"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-talks'] = new List('listing-talks', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -76,7 +132,7 @@ ul.task-list li input[type="checkbox"] {
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-          <h1 class="quarto-secondary-nav-title"><a href="../code/tok-reader.html"><iconify-icon inline="" icon="bi:terminal"></iconify-icon> ToK reader</a></h1>
+          <h1 class="quarto-secondary-nav-title">Presentations</h1>
         </a>     
     </div>
   </nav>
@@ -142,7 +198,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../cv/presentations.html" class="sidebar-item-text sidebar-link">
+  <a href="../cv/presentations.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Presentations</span></a>
   </div>
 </li>
@@ -159,7 +215,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><a href="../code/tok-reader.html"><iconify-icon inline="" icon="bi:terminal"></iconify-icon> ToK reader</a></h1>
+<h1 class="title d-none d-lg-block">Presentations</h1>
 </div>
 
 
@@ -167,35 +223,189 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">2025-12-10</p>
-    </div>
-  </div>
   
     
   </div>
   
-<div>
-  <div class="abstract">
-    <div class="block-title">Abstract</div>
-    <p>This is a JavaScript based tool for reading exchanges of utterances from the Swedish parliamentary debates for the <em>Tal om Kvinnor</em> project. The material is retrieved from the SWERIK project and has been <a href="https://github.com/DigitalHistory-Lund/ToK-Preparer/tree/2025-12-09">pre processed</a> in preparation for this reader, namely:</p>
-    <ol type="1">
-    <li>The corpus has been segmented into individual utterances.</li>
-    <li>Speaker party and gender are in the utterance-level metadata.</li>
-    <li>Utterances have been tagged with categories relevant for the research project.</li>
-    <li>The corpus has been split into one file per year, from 1900-1940 (the period under study).</li>
-    </ol>
-    <p>The files are hosted next to the code that prepared them – and each year’s file is loaded into the reader as the user reaches that year. In this way the data becomes searchable, readable and browsable – accessible – to people without having to wrangle with .xml files. However, searches are limited to a single year at a time.</p>
-  </div>
-</div>
 
 
 </header>
 
 
-<p><a href="https://github.com/DigitalHistory-Lund/ToK-Reader"><i class="devicon  devicon-github-original ai-3x"></i></a> <a href="https://digitalhistory-lund.github.io/ToK-Reader/"><i class="devicon  devicon-python-plain ai-3x"></i></a></p>
+<div id="listing-talks" class="quarto-listing quarto-listing-container-custom">
+
+  <h3 class="anchored">Invited talks</h3>
+  <ul>
+    
+      <li>
+        
+          <strong><a href="https://example.com/jadb-slides">Building a Job Ads Database from Swedish Digitized Newspapers</a></strong>
+        
+        
+        <br><small><strong><u>Johansson, M.</u></strong></small>
+        
+        <br><small>Historical Labour Markets in Text · Graz, Austria · 2026-04-25</small>
+         <span class="badge bg-secondary">JADB</span>
+      </li>
+    
+      <li>
+        
+          <strong><a href="https://docs.google.com/presentation/d/e/2PACX-1vSQ9QhgHgEHVAM3a7RLem0Aq7r-YgfAW5Qh5qktOM3PLJAmlr_5Ts4Wog-F9dpVqcEUbHWu5p0ITR2w/pub?start=false&amp;loop=false&amp;delayms=3000">On the research project Modern Times 1936</a></strong>
+        
+        
+        <br><small>Snickars, P., Stjernholm, E., Aspenskog, R. &amp; <strong><u>Johansson, M.</u></strong></small>
+        
+        <br><small>Modern Times 1936 visiting JRC · Seville, Spain · 2025-04-29</small>
+         <span class="badge bg-secondary">Modern Times 1936</span>
+      </li>
+    
+      <li>
+        
+          <strong><a href="https://docs.google.com/presentation/d/e/2PACX-1vSjAdORrE2RAOfSPoZc1C0t7fKTiXHJBg1lsMyBAr_oixD8hXuKPThplAzIWoI0Xh_PsOls-Xkqmw-A/pub?start=false&amp;loop=false&amp;delayms=3000&amp;slide=id.g2dd87c58238_0_37">Moderna Tider 1936, DigitaltMuseum &amp; AI</a></strong>
+        
+        
+        <br><small><strong><u>Johansson, M.</u></strong></small>
+        
+        <br><small>E-kultur Seminariet · Stockholm, Sweden · 2024-09-25</small>
+         <span class="badge bg-secondary">Modern Times 1936</span>
+      </li>
+    
+  </ul>
+
+  <h3 class="anchored">Conference presentations</h3>
+  <ul>
+    
+      <li>
+        
+          <strong><a href="https://mathjoha.github.io/2026-07-30_DH26_AudioVisualMemory/">Audiovisual Memory: The Role of Preprocessing</a></strong>
+        
+        
+        <br><small><strong><u>Johansson, M.,</u></strong> &amp; Malmstedt, J.</small>
+        
+        <br><small>Digital Humanities 2026 · Daejeon, South Korea · 2026-07-30</small>
+         <span class="badge bg-secondary">Moderna Tider 1936</span>
+      </li>
+    
+      <li>
+        
+          <strong><a href="https://mathjoha.github.io/2026-07-30_DH26_AudioVisualMemory/">Structuring the Private: Local LLMs as Cross-Cultural Annotators in Early Modern Correspondence</a></strong>
+        
+        
+        <br><small><strong><u>Johansson, M.,</u></strong> Gao, M., Lundström, C. &amp; Hellman, L.</small>
+        
+        <br><small>Digital Humanities 2026 · Daejeon, South Korea · 2026-07-29</small>
+         <span class="badge bg-secondary">Rewriting the Past</span>
+      </li>
+    
+      <li>
+        
+          <strong>From personal networks to public advertisements: Exploring historical recruitment practices through newspaper job ads</strong>
+        
+        
+        <br><small>Gladoic Håkansson, P., Karlsson, T., La Mela, M. &amp; <strong><u>Johansson, M.</u></strong></small>
+        
+        <br><small>Arbetarhistorikermötet · Malmö, Sweden · 2025-11-12</small>
+         <span class="badge bg-secondary">JADB</span>
+      </li>
+    
+      <li>
+        
+          <strong><a href="https://docs.google.com/presentation/d/e/2PACX-1vTcnQynw-rAA_5jw4aEYswn-roqCcsR0ff1ZqL2qWYC_ZrTfN8iEePxzgoamNsx3GaGAfdnCCq5zj0E/pub?start=false&amp;loop=false&amp;delayms=3000">Från stum film till sjungande metadata: Multimodal AI-analys av svensk journalfilm under ett halvt sekel</a></strong>
+        
+        
+        <br><small>Aspenskog, R. &amp; <strong><u>Johansson, M.</u></strong></small>
+        
+        <br><small>Mediehistorisk konferens · Lund, Sweden · 2025-10-21</small>
+         <span class="badge bg-secondary">Modern Times 1936</span>
+      </li>
+    
+      <li>
+        
+          <strong>From personal networks to public advertisements: Exploring historical recruitment practices through newspaper job ads</strong>
+        
+        
+        <br><small>Gladoic Håkansson, P., Karlsson, T., La Mela, M. &amp; <strong><u>Johansson, M.</u></strong></small>
+        
+        <br><small>Digital History Sweden 6 · Växjö, Sweden · 2024-11-08</small>
+         <span class="badge bg-secondary">JADB</span>
+      </li>
+    
+      <li>
+        
+          <strong><a href="https://mathjoha.github.io/2024-11-08_DH6SWE_reinventing/">Re-inventing the Wheel. Or: Following in the Footsteps of Keiji Kiriya, Sisyphus &amp; Saehrimnir</a></strong>
+        
+        
+        <br><small><strong><u>Johansson, M.</u></strong></small>
+        
+        <br><small>Digital History Sweden 6 · Växjö, Sweden · 2024-11-08</small>
+        
+      </li>
+    
+      <li>
+        
+          <strong>Konfliktrepertoarer och demokratisering i Sverige. Tidiga utmaningar och resultat</strong>
+        
+        
+        <br><small>Olofsson, M., <strong><u>Johansson, M.</u></strong> &amp; Lundstedt, M.</small>
+        
+        <br><small>Digital History Sweden 6 · Växjö, Sweden · 2024-11-07</small>
+         <span class="badge bg-secondary">Contentious Gatherings</span>
+      </li>
+    
+      <li>
+        
+          <strong>Modern Times 1936</strong>
+        
+        
+        <br><small>Stjernholm, E., Aspenskog, R., <strong><u>Johansson, M.</u></strong>, Snickars, P. &amp; Eriksson, M.</small>
+        
+        <br><small>2024-05-28</small>
+         <span class="badge bg-secondary">Modern Times 1936</span>
+      </li>
+    
+      <li>
+        
+          <strong>The contentious swedes. Repertoires of contention and democratization in Sweden, 1820–1939</strong>
+        
+        
+        <br><small>Olofsson, M. &amp; <strong><u>Johansson, M.</u></strong></small>
+        
+        <br><small>2023-09-07</small>
+         <span class="badge bg-secondary">Contentious Gatherings</span>
+      </li>
+    
+  </ul>
+
+  <h3 class="anchored">Workshops</h3>
+  <ul>
+    
+      <li>
+        
+          <strong><a href="https://contentiousgatherings.github.io/2026-05-21-uppsala-workshop-slides/">Developing a pipeline for extracting contentious gatherings from historical Swedish newspapers, 1820–1939</a></strong>
+        
+        
+        <br><small><strong><u>Johansson, .M,</u></strong> Olofsson, O. &amp; Brink Pinto, A.</small>
+        
+        <br><small>From Archive to Dataset: Upppsala workshop on coding contention with new methods · Uppsala, Sweden · 2026-05-21</small>
+         <span class="badge bg-secondary">Contentious Gatherings</span>
+      </li>
+    
+      <li>
+        
+          <strong>Seminar on Structural Topic Modeling</strong>
+        
+        
+        <br><small><strong><u>Johansson, M.</u></strong></small>
+        
+        <br><small>2022-03-21</small>
+         <span class="badge bg-secondary">Lund University</span>
+      </li>
+    
+  </ul>
+
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+
 
 
 
@@ -608,7 +818,7 @@ ul.task-list li input[type="checkbox"] {
     </div>   
     <div class="nav-footer-center">
 <p>© <a href="https://github.com/mathjoha/about">Mathias Johansson</a> 2026. All rights reserved.</p>
-<div class="toc-actions"><ul><li><a href="https://github.com/mathjoha/about/edit/main/code/tok-reader.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/mathjoha/about/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+<div class="toc-actions"><ul><li><a href="https://github.com/mathjoha/about/edit/main/cv/presentations.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/mathjoha/about/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
