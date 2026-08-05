@@ -33,6 +33,7 @@ website:
         text: "CV - long"
 
       - cv/slides.qmd
+      - cv/presentations.qmd
   page-footer: "© [Mathias Johansson](https://github.com/mathjoha/about) 2026. All rights reserved."
 
 format:

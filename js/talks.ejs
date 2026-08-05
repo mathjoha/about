@@ -1,0 +1,46 @@
+```{=html}
+<%
+  const typeOrder = ["Keynote", "Invited talk", "Presentation", "Workshop"];
+  const typeHeadings = {
+    "Keynote": "Keynotes",
+    "Invited talk": "Invited talks",
+    "Presentation": "Conference presentations",
+    "Workshop": "Workshops"
+  };
+
+  const groups = {};
+  for (const it of items) {
+    const t = it.type || "Other";
+    (groups[t] = groups[t] || []).push(it);
+  }
+  const orderedTypes = [
+    ...typeOrder.filter(t => groups[t] && groups[t].length),
+    ...Object.keys(groups).filter(t => !typeOrder.includes(t)).sort()
+  ];
+%>
+<% for (const t of orderedTypes) { %>
+  <h3><%= typeHeadings[t] || t %></h3>
+  <ul>
+    <% for (const item of groups[t]) { %>
+      <li>
+        <% if (item.slides) { %>
+          <strong><a href="<%= item.slides %>"><%= item.title %></a></strong>
+        <% } else { %>
+          <strong><%= item.title %></strong>
+        <% } %>
+        <% if (item.upcoming) { %> <span class="badge bg-info">Upcoming</span><% } %>
+        <% if (item.authors) { %><br><small><%= item.authors %></small><% } %>
+        <%
+          const venueParts = [];
+          if (item.event) venueParts.push(item.event);
+          const loc = [item.city, item.country].filter(Boolean).join(", ");
+          if (loc) venueParts.push(loc);
+          if (item.date) venueParts.push(item.date);
+        %>
+        <% if (venueParts.length) { %><br><small><%= venueParts.join(" · ") %></small><% } %>
+        <% if (item.context) { %> <span class="badge bg-secondary"><%= item.context %></span><% } %>
+      </li>
+    <% } %>
+  </ul>
+<% } %>
+```

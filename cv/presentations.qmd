@@ -1,0 +1,14 @@
+---
+title: Presentations
+listing:
+  id: talks
+  template: ../js/talks.ejs
+  filter-ui: false
+  sort-ui: false
+  date-format: iso
+  contents: "presentations.yaml"
+  sort: [upcoming asc, date desc]
+---
+
+:::{ #talks }
+:::
