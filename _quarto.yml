@@ -5,6 +5,7 @@ project:
     prepare_full.py
   resources:
     - CV_MJ.latest.pdf
+    - Outputs_MJ.latest.pdf
   preview:
     port: 5057
 
