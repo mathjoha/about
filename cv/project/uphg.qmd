@@ -1,0 +1,29 @@
+---
+title: '<a href="/cv/project/uphg">Uppsala Patent History Group</a>'
+subtitle: ""
+start: "2026"
+end: "Now"
+active: 0
+abstract: |
+    We perform research and analysis on the business, economics and history of technology and
+    innovation using detailed historical intellectual property data.
+    We also develop and manage the
+    [ Swedish Historical Patents Infrastructure ](https://uphg.se) (SHPI).
+
+
+about:
+  id: all
+  template: jolla
+  links:
+    - icon: globe2
+      href: http://uphg.se/
+    - icon: github
+      href: https://github.com/uphg
+university: Uppsala University
+country: Sweden
+city: Uppsala
+---
+
+:::{#all}
+
+:::
