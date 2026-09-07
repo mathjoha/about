@@ -181,11 +181,11 @@ def load_yaml(filepath: Path) -> list:
 def clean_title(title: str) -> str:
     """Remove HTML links and Quarto shortcodes from titles."""
     # Remove HTML links: <a href="...">text</a> -> text
-    title = re.sub(r'<a[^>]*>([^<]*)</a>', r'\1', title)
+    title = re.sub(r"<a[^>]*>([^<]*)</a>", r"\1", title)
     # Remove Quarto shortcodes: {{< ... >}}
-    title = re.sub(r'\{\{<[^>]+>\}\}', '', title)
+    title = re.sub(r"\{\{<[^>]+>\}\}", "", title)
     # Remove markdown links: [text](url) -> text
-    title = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', title)
+    title = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", title)
     return title.strip()
 
 
@@ -193,8 +193,8 @@ def clean_html(text: str) -> str:
     """Remove HTML tags from text."""
     if not text:
         return ""
-    text = re.sub(r'<a[^>]*>([^<]*)</a>', r'\1', text)
-    text = re.sub(r'<[^>]+>', '', text)
+    text = re.sub(r"<a[^>]*>([^<]*)</a>", r"\1", text)
+    text = re.sub(r"<[^>]+>", "", text)
     return text.strip()
 
 
@@ -222,7 +222,9 @@ def format_experience(items: list) -> str:
 def format_education(items: list) -> str:
     """Format education entries."""
     # Sort by sort-order, then start desc
-    items = sorted(items, key=lambda x: (x.get("sort-order", 99), -int(x.get("start", "0"))))
+    items = sorted(
+        items, key=lambda x: (x.get("sort-order", 99), -int(x.get("start", "0")))
+    )
 
     lines = ["## Education\n"]
     for item in items:
@@ -260,7 +262,7 @@ def format_teaching(items: list) -> str:
         lines.append(f"{school} – {level}")
         if subtitle:
             # Clean up markdown links for PDF
-            subtitle = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', subtitle)
+            subtitle = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", subtitle)
             lines.append(f"\\")
             lines.append(subtitle)
         lines.append("")
@@ -278,7 +280,9 @@ def format_projects(project_dir: Path) -> str:
             projects.append(fm)
 
     # Sort by active desc, start asc
-    projects = sorted(projects, key=lambda x: (-float(x.get("active", 0) or 0), x.get("start", "")))
+    projects = sorted(
+        projects, key=lambda x: (-float(x.get("active", 0) or 0), x.get("start", ""))
+    )
 
     for item in projects:
         title = clean_title(item.get("title", ""))
@@ -325,7 +329,7 @@ def format_publications(pub_dir: Path) -> str:
         if isinstance(authors, list) and authors:
             author = ", ".join(authors)
         # Clean author formatting
-        author = re.sub(r'\*\*<u>([^<]+)</u>\*\*', r'**\1**', author)
+        author = re.sub(r"\*\*<u>([^<]+)</u>\*\*", r"**\1**", author)
 
         if subtitle:
             lines.append(f"**{title} {subtitle}**\\")
@@ -520,11 +524,9 @@ def format_code(code_dir: Path) -> str:
     return "\n".join(lines)
 
 
-def generate_qmd():
-    """Generate the PDF-ready QMD file."""
-    today = date.today().strftime("%Y-%m-%d")
-
-    frontmatter = f'''---
+def pdf_frontmatter(header_center: str, today: str) -> str:
+    """Return the PDF frontmatter block with a customisable center header."""
+    return f"""---
 format:
   pdf:
     documentclass: article
@@ -540,8 +542,8 @@ format:
       \\usepackage{{fancyhdr}}
       \\pagestyle{{fancy}}
       \\fancyhf{{}}
-      \\fancyhead[L]{{Mathias Johansson -- Systems Developer}}
-      \\fancyhead[C]{{CV}}
+      \\fancyhead[L]{{Mathias Johansson -- PhD Student}}
+      \\fancyhead[C]{{{header_center}}}
       \\fancyhead[R]{{{today}}}
       \\fancyfoot[L]{{mathjoha.se}}
       \\fancyfoot[R]{{\\thepage}}
@@ -549,8 +551,8 @@ format:
       \\renewcommand{{\\footrulewidth}}{{0.4pt}}
       \\fancypagestyle{{plain}}{{
         \\fancyhf{{}}
-        \\fancyhead[L]{{Mathias Johansson -- Systems Developer}}
-        \\fancyhead[C]{{CV}}
+        \\fancyhead[L]{{Mathias Johansson -- PhD Student}}
+        \\fancyhead[C]{{{header_center}}}
         \\fancyhead[R]{{{today}}}
         \\fancyfoot[L]{{mathjoha.se}}
         \\fancyfoot[R]{{\\thepage}}
@@ -559,9 +561,12 @@ format:
       }}
 ---
 
-'''
+"""
 
-    contact_info = """::: {layout="[75,25]" layout-valign="top"}
+
+def contact_block() -> str:
+    """Return the contact-info layout block used at the top of PDF documents."""
+    return """::: {layout="[75,25]" layout-valign="top"}
 
 ::: {}
 [mathjoha.se](https://mathjoha.se)\\
@@ -569,7 +574,7 @@ format:
 [github.com/mathjoha](https://github.com/mathjoha)\\
 [linkedin.com/MathiasJoha](https://linkedin.com/MathiasJoha)\\
 [orcid.org/0000-0002-3338-0551](https://orcid.org/0000-0002-3338-0551)\\
-[portal.research.lu.se/en/persons/mathias-johansson](https://portal.research.lu.se/en/persons/mathias-johansson)\\
+[https://www.uu.se/en/contact-and-organisation/staff?query=N26-1371](https://www.uu.se/en/contact-and-organisation/staff?query=N26-1371)\\
 [pypi.org/user/MathiasJoha](https://pypi.org/user/MathiasJoha/)
 :::
 
@@ -579,7 +584,13 @@ format:
 
 """
 
-    sections = [contact_info]
+
+def generate_qmd():
+    """Generate the PDF-ready QMD file."""
+    today = date.today().strftime("%Y-%m-%d")
+
+    frontmatter = pdf_frontmatter("CV", today)
+    sections = [contact_block()]
 
     # Experience
     exp_file = CV_DIR / "experience.yaml"

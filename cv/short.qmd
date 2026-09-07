@@ -7,7 +7,7 @@ about:
         - text: "{{< ai cv >}}"
           href: /CV_MJ.latest.pdf
         - text: "{{< ai academia >}}"
-          href: https://portal.research.lu.se/en/persons/mathias-johansson
+          href: https://www.uu.se/en/contact-and-organisation/staff?query=N26-1371
         - text: "{{< ai orcid >}}"
           href: https://orcid.org/0000-0002-3338-0551
         - icon: github

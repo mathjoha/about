@@ -10,6 +10,8 @@ docs/
 # Generated PDF CV
 cv_for_pdf.qmd
 cv_for_pdf.pdf
+outputs_for_pdf.qmd
+outputs_for_pdf.pdf
 
 # Grant application CV (private)
 cv/experience.private.yaml

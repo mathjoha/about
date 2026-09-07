@@ -37,3 +37,21 @@ if result.returncode != 0:
     print(f"PDF generation failed:\n{result.stderr}")
 else:
     print(f"Generated: {dst_pdf}")
+
+# Generate PDF Outputs
+outputs_script = os.path.join(root_dir, "generate_outputs_pdf.py")
+subprocess.run(["python3", outputs_script], cwd=root_dir, check=True)
+
+outputs_qmd = os.path.join(root_dir, "outputs_for_pdf.qmd")
+dst_outputs_pdf = os.path.join(root_dir, "Outputs_MJ.latest.pdf")
+result = subprocess.run(
+    ["quarto", "render", outputs_qmd, "--to", "pdf", "--output", "Outputs_MJ.latest.pdf"],
+    cwd=root_dir,
+    env=env,
+    capture_output=True,
+    text=True
+)
+if result.returncode != 0:
+    print(f"Outputs PDF generation failed:\n{result.stderr}")
+else:
+    print(f"Generated: {dst_outputs_pdf}")

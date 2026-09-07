@@ -1,18 +1,20 @@
+- title: "PhD Student"
+  desc: 'Department of Business Studies'
+  employer: Uppsala University
+  department: "Department of Art and Cultural Sciences"
+  start: "2026"
+  end: "Now"
+  country: Sweden
+  city: Uppsala
+
 - title: "Systems Developer"
   desc: 'Department of Art and Cultural Sciences'
   employer: Lund University
   department: "Department of Art and Cultural Sciences"
   start: "2023"
-  end: "Now"
+  end: "2026"
   country: Sweden
   city: Lund
-
-- title: "Systemingenjör"
-  employer: Tourbus AB
-  start: "2026"
-  end: "Now"
-  country: Sweden
-  city: Malmö
 
 - title: "Research Engineer"
   employer: "Lund University"
