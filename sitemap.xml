@@ -2,202 +2,202 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mathjoha.se/code.html</loc>
-    <lastmod>2026-08-05T19:06:37.766Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/index.html</loc>
-    <lastmod>2026-08-05T19:06:37.768Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/cv/short.html</loc>
-    <lastmod>2026-08-05T19:06:37.768Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/cv/projects.html</loc>
-    <lastmod>2026-08-05T19:06:37.768Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/cv/project/digitalhistoryatlund.html</loc>
-    <lastmod>2026-08-05T19:06:37.768Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/cv/project/contentiousgatherings.html</loc>
-    <lastmod>2026-08-05T19:06:37.768Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/cv/project/conceptualizing-empire.html</loc>
-    <lastmod>2026-08-05T19:06:37.767Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/cv/full.html</loc>
-    <lastmod>2026-08-05T19:07:06.956Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/cv/datasets.html</loc>
-    <lastmod>2026-08-05T19:06:37.767Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/cv/teaching.html</loc>
-    <lastmod>2026-08-05T19:06:37.768Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/cv/dataset/jdc-geo.html</loc>
-    <lastmod>2026-08-05T19:06:37.767Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/cv/dataset/hansard.html</loc>
-    <lastmod>2026-08-05T19:06:37.767Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/cv/dataset/JournalDigitalCorpus.html</loc>
-    <lastmod>2026-08-05T19:06:37.767Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/cv/dataset/jdc-audiovisual.html</loc>
-    <lastmod>2026-08-05T19:06:37.767Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/code/citadel.html</loc>
-    <lastmod>2026-08-05T19:06:37.766Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/code/kultur-personalplaneraren.html</loc>
-    <lastmod>2026-08-05T19:06:37.766Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/code/kb-trend.html</loc>
-    <lastmod>2026-08-05T19:06:37.766Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/code/sca.html</loc>
-    <lastmod>2026-08-05T19:06:37.766Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/code/swescribe.html</loc>
-    <lastmod>2026-08-05T19:06:37.766Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/pub/DigitalaMetoderVerktyg.html</loc>
-    <lastmod>2026-08-05T19:06:37.769Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/pub/HatespeechDetection.html</loc>
-    <lastmod>2026-08-05T19:06:37.769Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/pub/DetectingInnovations.html</loc>
-    <lastmod>2026-08-05T19:06:37.768Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/pub/JDC.html</loc>
-    <lastmod>2026-08-05T19:06:37.769Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/pub/democracydisplay.html</loc>
-    <lastmod>2026-08-05T19:06:37.769Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/2025/05/fugue-ai-prelude.html</loc>
-    <lastmod>2026-08-05T19:06:37.744Z</lastmod>
+    <lastmod>2026-09-07T07:19:56.114Z</lastmod>
   </url>
   <url>
     <loc>https://mathjoha.se/about.html</loc>
-    <lastmod>2026-08-05T19:06:37.762Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/pub/StructuralReading.html</loc>
-    <lastmod>2026-08-05T19:06:37.769Z</lastmod>
+    <lastmod>2026-09-07T07:19:56.111Z</lastmod>
   </url>
   <url>
     <loc>https://mathjoha.se/pub/HGIS_czechoslovakia.html</loc>
-    <lastmod>2026-08-05T19:06:37.769Z</lastmod>
+    <lastmod>2026-09-07T07:19:56.116Z</lastmod>
   </url>
   <url>
-    <loc>https://mathjoha.se/pub/WP_JADB.html</loc>
-    <lastmod>2026-08-05T19:06:37.769Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/pub/PatentML.html</loc>
-    <lastmod>2026-08-05T19:06:37.769Z</lastmod>
+    <loc>https://mathjoha.se/pub/HatespeechDetection.html</loc>
+    <lastmod>2026-09-07T07:19:56.116Z</lastmod>
   </url>
   <url>
     <loc>https://mathjoha.se/pub/JDH_m36.html</loc>
-    <lastmod>2026-08-05T19:06:37.769Z</lastmod>
+    <lastmod>2026-09-07T07:19:56.116Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/pub/StructuralReading.html</loc>
+    <lastmod>2026-09-07T07:19:56.116Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/pub/JDC.html</loc>
+    <lastmod>2026-09-07T07:19:56.116Z</lastmod>
   </url>
   <url>
     <loc>https://mathjoha.se/code/freewrite.html</loc>
-    <lastmod>2026-08-05T19:06:37.766Z</lastmod>
+    <lastmod>2026-09-07T07:19:56.114Z</lastmod>
   </url>
   <url>
-    <loc>https://mathjoha.se/code/jdc-reader.html</loc>
-    <lastmod>2026-08-05T19:06:37.766Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/code/tok-reader.html</loc>
-    <lastmod>2026-08-05T19:06:37.766Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/code/jdc-map.html</loc>
-    <lastmod>2026-08-05T19:06:37.766Z</lastmod>
+    <loc>https://mathjoha.se/code/kultur-personalplaneraren.html</loc>
+    <lastmod>2026-09-07T07:19:56.114Z</lastmod>
   </url>
   <url>
     <loc>https://mathjoha.se/code/stum.html</loc>
-    <lastmod>2026-08-05T19:06:37.766Z</lastmod>
+    <lastmod>2026-09-07T07:19:56.114Z</lastmod>
   </url>
   <url>
-    <loc>https://mathjoha.se/cv/presentations.html</loc>
-    <lastmod>2026-08-05T19:06:37.767Z</lastmod>
+    <loc>https://mathjoha.se/code/jdc-reader.html</loc>
+    <lastmod>2026-09-07T07:19:56.114Z</lastmod>
   </url>
   <url>
-    <loc>https://mathjoha.se/cv/dataset/hs-yt.html</loc>
-    <lastmod>2026-08-05T19:06:37.767Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/cv/dataset/SWINNO-sqlite3.html</loc>
-    <lastmod>2026-08-05T19:06:37.767Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/cv/dataset/hgis.html</loc>
-    <lastmod>2026-08-05T19:06:37.767Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mathjoha.se/cv/slides.html</loc>
-    <lastmod>2026-08-05T19:06:37.768Z</lastmod>
+    <loc>https://mathjoha.se/code/jdc-map.html</loc>
+    <lastmod>2026-09-07T07:19:56.114Z</lastmod>
   </url>
   <url>
     <loc>https://mathjoha.se/cv/failures.html</loc>
-    <lastmod>2026-08-05T19:06:37.767Z</lastmod>
+    <lastmod>2026-09-07T07:19:56.115Z</lastmod>
   </url>
   <url>
-    <loc>https://mathjoha.se/cv/education.html</loc>
-    <lastmod>2026-08-05T19:06:37.767Z</lastmod>
+    <loc>https://mathjoha.se/cv/dataset/hs-yt.html</loc>
+    <lastmod>2026-09-07T07:19:56.115Z</lastmod>
   </url>
   <url>
-    <loc>https://mathjoha.se/cv/project/sectopat.html</loc>
-    <lastmod>2026-08-05T19:06:37.768Z</lastmod>
+    <loc>https://mathjoha.se/cv/dataset/SWINNO-sqlite3.html</loc>
+    <lastmod>2026-09-07T07:19:56.115Z</lastmod>
   </url>
   <url>
-    <loc>https://mathjoha.se/cv/project/modern36.html</loc>
-    <lastmod>2026-08-05T19:06:37.768Z</lastmod>
+    <loc>https://mathjoha.se/cv/dataset/jdc-geo.html</loc>
+    <lastmod>2026-09-07T07:19:56.115Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/cv/datasets.html</loc>
+    <lastmod>2026-09-07T07:19:56.115Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/cv/presentations.html</loc>
+    <lastmod>2026-09-07T07:19:56.115Z</lastmod>
   </url>
   <url>
     <loc>https://mathjoha.se/cv/project/tok.html</loc>
-    <lastmod>2026-08-05T19:06:37.768Z</lastmod>
+    <lastmod>2026-09-07T07:19:56.115Z</lastmod>
   </url>
   <url>
-    <loc>https://mathjoha.se/cv/project/swinno.html</loc>
-    <lastmod>2026-08-05T19:06:37.768Z</lastmod>
+    <loc>https://mathjoha.se/cv/project/conceptualizing-empire.html</loc>
+    <lastmod>2026-09-07T07:19:56.115Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/cv/project/sectopat.html</loc>
+    <lastmod>2026-09-07T07:19:56.115Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/cv/projects.html</loc>
+    <lastmod>2026-09-07T07:19:56.115Z</lastmod>
   </url>
   <url>
     <loc>https://mathjoha.se/cv/experience.html</loc>
-    <lastmod>2026-08-05T19:06:37.767Z</lastmod>
+    <lastmod>2026-09-07T07:19:56.115Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/cv/education.html</loc>
+    <lastmod>2026-09-07T07:19:56.115Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/index.html</loc>
+    <lastmod>2026-09-07T07:19:56.115Z</lastmod>
   </url>
   <url>
     <loc>https://mathjoha.se/wg.html</loc>
-    <lastmod>2026-08-05T19:06:37.769Z</lastmod>
+    <lastmod>2026-09-07T07:19:56.116Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/cv/slides.html</loc>
+    <lastmod>2026-09-07T07:19:56.115Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/cv/teaching.html</loc>
+    <lastmod>2026-09-07T07:19:56.115Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/cv/project/contentiousgatherings.html</loc>
+    <lastmod>2026-09-07T07:19:56.115Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/cv/project/swinno.html</loc>
+    <lastmod>2026-09-07T07:19:56.115Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/cv/project/modern36.html</loc>
+    <lastmod>2026-09-07T07:19:56.115Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/cv/project/digitalhistoryatlund.html</loc>
+    <lastmod>2026-09-07T07:19:56.115Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/cv/full.html</loc>
+    <lastmod>2026-09-07T07:20:37.052Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/cv/dataset/jdc-audiovisual.html</loc>
+    <lastmod>2026-09-07T07:19:56.115Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/cv/dataset/JournalDigitalCorpus.html</loc>
+    <lastmod>2026-09-07T07:19:56.115Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/cv/dataset/hansard.html</loc>
+    <lastmod>2026-09-07T07:19:56.115Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/cv/dataset/hgis.html</loc>
+    <lastmod>2026-09-07T07:19:56.115Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/cv/short.html</loc>
+    <lastmod>2026-09-07T07:19:56.115Z</lastmod>
   </url>
   <url>
     <loc>https://mathjoha.se/output.html</loc>
-    <lastmod>2026-08-05T19:06:37.768Z</lastmod>
+    <lastmod>2026-09-07T07:19:56.116Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/code/kb-trend.html</loc>
+    <lastmod>2026-09-07T07:19:56.114Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/code/swescribe.html</loc>
+    <lastmod>2026-09-07T07:19:56.114Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/code/tok-reader.html</loc>
+    <lastmod>2026-09-07T07:19:56.114Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/code/citadel.html</loc>
+    <lastmod>2026-09-07T07:19:56.114Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/code/sca.html</loc>
+    <lastmod>2026-09-07T07:19:56.114Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/pub/democracydisplay.html</loc>
+    <lastmod>2026-09-07T07:19:56.116Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/pub/DigitalaMetoderVerktyg.html</loc>
+    <lastmod>2026-09-07T07:19:56.116Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/pub/PatentML.html</loc>
+    <lastmod>2026-09-07T07:19:56.116Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/pub/WP_JADB.html</loc>
+    <lastmod>2026-09-07T07:19:56.116Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/pub/DetectingInnovations.html</loc>
+    <lastmod>2026-09-07T07:19:56.116Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mathjoha.se/2025/05/fugue-ai-prelude.html</loc>
+    <lastmod>2026-09-07T07:19:56.096Z</lastmod>
   </url>
 </urlset>
