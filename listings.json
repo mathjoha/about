@@ -31,23 +31,11 @@
     "items": []
   },
   {
-    "listing": "/cv/projects.html",
-    "items": [
-      "/cv/project/contentiousgatherings.html",
-      "/cv/project/sectopat.html",
-      "/cv/project/tok.html",
-      "/cv/project/conceptualizing-empire.html",
-      "/cv/project/digitalhistoryatlund.html",
-      "/cv/project/swinno.html",
-      "/cv/project/modern36.html"
-    ]
-  },
-  {
-    "listing": "/cv/experience.html",
+    "listing": "/cv/teaching.html",
     "items": []
   },
   {
-    "listing": "/cv/education.html",
+    "listing": "/cv/slides.html",
     "items": []
   },
   {
@@ -57,12 +45,25 @@
     ]
   },
   {
-    "listing": "/cv/slides.html",
+    "listing": "/cv/education.html",
     "items": []
   },
   {
-    "listing": "/cv/teaching.html",
+    "listing": "/cv/experience.html",
     "items": []
+  },
+  {
+    "listing": "/cv/projects.html",
+    "items": [
+      "/cv/project/contentiousgatherings.html",
+      "/cv/project/sectopat.html",
+      "/cv/project/tok.html",
+      "/cv/project/conceptualizing-empire.html",
+      "/cv/project/digitalhistoryatlund.html",
+      "/cv/project/swinno.html",
+      "/cv/project/modern36.html",
+      "/cv/project/uphg.html"
+    ]
   },
   {
     "listing": "/cv/full.html",
@@ -74,6 +75,7 @@
       "/cv/project/digitalhistoryatlund.html",
       "/cv/project/swinno.html",
       "/cv/project/modern36.html",
+      "/cv/project/uphg.html",
       "/pub/JDH_m36.html",
       "/pub/WP_JADB.html",
       "/pub/DigitalaMetoderVerktyg.html",
@@ -113,6 +115,7 @@
       "/cv/project/digitalhistoryatlund.html",
       "/cv/project/swinno.html",
       "/cv/project/modern36.html",
+      "/cv/project/uphg.html",
       "/pub/JDH_m36.html",
       "/pub/WP_JADB.html",
       "/pub/DigitalaMetoderVerktyg.html",
