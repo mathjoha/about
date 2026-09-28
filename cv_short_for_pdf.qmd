@@ -1,0 +1,127 @@
+---
+format:
+  pdf:
+    documentclass: article
+    papersize: a4
+    fontsize: 10pt
+    geometry:
+      - margin=2cm
+    header-includes: |
+      \usepackage{titlesec}
+      \titleformat{\section}{\normalfont\fontsize{13}{15}\bfseries}{\thesection}{1em}{}
+      \titlespacing{\section}{0pt}{1.5ex plus 0.4ex minus 0.2ex}{0.6ex plus 0.2ex}
+      \setlength{\parskip}{0.4ex}
+      \usepackage{fancyhdr}
+      \pagestyle{fancy}
+      \fancyhf{}
+      \fancyhead[L]{Mathias Johansson -- PhD Student}
+      \fancyhead[C]{CV -- short}
+      \fancyhead[R]{2026-09-28}
+      \fancyfoot[L]{mathjoha.se}
+      \fancyfoot[R]{\thepage}
+      \renewcommand{\headrulewidth}{0.4pt}
+      \renewcommand{\footrulewidth}{0.4pt}
+      \fancypagestyle{plain}{
+        \fancyhf{}
+        \fancyhead[L]{Mathias Johansson -- PhD Student}
+        \fancyhead[C]{CV -- short}
+        \fancyhead[R]{2026-09-28}
+        \fancyfoot[L]{mathjoha.se}
+        \fancyfoot[R]{\thepage}
+        \renewcommand{\headrulewidth}{0.4pt}
+        \renewcommand{\footrulewidth}{0.4pt}
+      }
+---
+
+[mathjoha.se](https://mathjoha.se) · [mathiasjoha@gmail.com](mailto:mathiasjoha@gmail.com) · [orcid.org/0000-0002-3338-0551](https://orcid.org/0000-0002-3338-0551) · [github.com/mathjoha](https://github.com/mathjoha)
+
+## Position
+
+**PhD Student** — Uppsala University, Department of Business Studies (2026 – )\
+Member of the *Uppsala Patent History Group*, researching technological evolution in Sweden.
+
+## Prior Positions
+
+**Systems Developer** — Lund University, Department of Art and Cultural Sciences (2023 – 2026)
+
+**Research Engineer** — Lund University, *DigitalHistory@Lund*, Department of Media and Communication (2021 – 2023)\
+Interdepartmental research platform for digital history at Lund: supporting projects with data collection, cleaning and analysis; helping prepare grant applications; and running skills-training workshops and drop-in sessions for researchers.
+
+**Research Assistant** — Lund University, *Experimentally Organised Economy*, CIRCLE (2020 – 2021)
+
+**Research Assistant** — Lund University, *SWINNO*, Department of Economic History (2015 – 2018)\
+The SWINNO database of Swedish innovations from 1970 to the present (with a historical extension back to 1889), together with a series of research projects on the Swedish innovation system that draw on it.
+
+## Education
+
+**MSc Economic History** — Lund University, Department of Economic History (2016)\
+**BSc Finance and Banking** — Babeș-Bolyai University, Department of Finance (2014)
+
+## Publications
+
+*[in press]* **Johansson, M.**, Aspenskog, R., Malmstedt, J., Stjernholm, E. & Snickars, P. *Algorithmic toolboxes for the study of the filmic past on newsreels & AI*. Journal of Digital History.
+
+**Johansson, M.** & Stjernholm, E. (2026). *Digitala metoder och verktyg*. In B. Hamnell & F. Gåvertsson (eds.), *Att skriva idéhistoria*. DOI: 10.37852/oblu.348.c804
+
+Aspenskog, R., **Johansson, M.** & Snickars, P. (2025). *Journal Digital Corpus: Swedish Newsreel Transcriptions*. Journal of Open Humanities Data. DOI: 10.5334/johd.344
+
+**Johansson, M.** & van Waarden, B. (2024). *Structural Reading: Developing the method of Structural Collocation Analysis using a case study on parliamentary reporting*. Historical Methods. DOI: 10.1080/01615440.2024.2414259
+
+Eddebo, J., Hietanen, M. & **Johansson, M.** (2024). *Automatic Identification of Hate Speech — A Case-Study of alt-Right YouTube Videos*. F1000Research. DOI: 10.12688/f1000research.147107.1
+
+Bechmann Pedersen, S. & **Johansson, M.** (2023). *Historical GIS and Guidebooks: A Scalable Reading of Czechoslovak Tourist Attractions*. Digital Humanities Quarterly. DOI: 10.5281/zenodo.10498921
+
+van Waarden, B. & **Johansson, M.** (2023). *Democracy (Not) on Display: A Structural Collocation Analysis of the Mother of All Parliaments' Reluctance to Broadcast Herself*. Parliamentary Affairs. DOI: 10.1093/pa/gsad002
+
+## Datasets
+
+*Journal Digital Corpus* — Corpus, 2025. DOI: 10.5281/zenodo.15596191\
+*Geographical Analysis of Journal Digital* — Dataset with code, 2026. DOI: 10.5281/zenodo.18131655\
+*Audiovisual Analysis of Journal Digital* — Dataset with code, 2026. DOI: 10.5281/zenodo.18130784\
+*SWINNO v3.0.0* — Dataset, 2024. DOI: 10.5281/zenodo.10602308\
+*Hate Speech (alt-Right YouTube) supplementary corpus* — Annotated corpus, 2024. DOI: 10.5281/zenodo.10471915\
+*Historical GIS and Guidebooks* — 2022. DOI: 10.5281/zenodo.7418864\
+*UK Hansard 1935 – 2014* — Corpus, 2022. DOI: 10.5281/zenodo.7348818
+
+## Selected Projects
+
+**Uppsala Patent History Group** — Uppsala University, 2026 –. Research on the business, economics and history of technology and innovation using detailed historical intellectual property data; developing the Swedish Historical Patents Infrastructure.
+
+**Contentious Gatherings** — Lund University, VR-funded, 2024 – 2027. Repertoires of contention and democratisation in Sweden, 1820 – 1939, through public meetings, election meetings, and demonstration marches.
+
+**Modern Times 1936** — Lund University, 2023 – 2025. Multimodal AI analysis of Swedish newsreels — what software sees, hears and perceives when pattern recognition meets media-historical sources.
+
+**JADB — Job Ads Database** — Lund University, 2024 –. A new labour-market resource built from digitised Swedish newspapers, supporting historical research on recruitment and occupations.
+
+## Software
+
+**sca** — Python + SQLite implementation of *Structural Collocation Analysis*. `github.com/mathjoha/sca`
+
+**SweScribe** — Automatic speech recognition for Swedish newsreels. `github.com/mathjoha/swescribe`
+
+**kb-trend** — Trendline extraction from the National Library of Sweden search API (Python package + web app). `github.com/DigitalHistory-Lund/kb-trend`
+
+## Teaching
+
+**DIKA44 Project Management – Continuation** (2026, Lund, First Cycle) — Course Coordinator\
+**ABMM06 ALM: Research Methods** (2025, Lund, Advanced) — Two lectures on quantitative methods\
+**DIKM01 Digital Historia** (2025, Lund, Advanced) — Three digital labs\
+**ABMF10 Digitalt kulturarv** (2025, Lund, Advanced) — Three digital labs\
+**HISS41 Digital History** (2023 & 2024, Lund, Advanced) — Responsible for the methodology strand\
+**ABMM06 ALM: Research Methods** (2023, Lund, Advanced) — Three lectures on statistics and digital methods
+
+## Selected Presentations
+
+*Audiovisual Memory: The Role of Preprocessing* — Digital Humanities 2026, Daejeon, 2026-07-30 (with Malmstedt, J.)\
+*Structuring the Private: Local LLMs as Cross-Cultural Annotators in Early Modern Correspondence* — Digital Humanities 2026, Daejeon, 2026-07-29 (with Gao, Lundström & Hellman)\
+*Building a Job Ads Database from Swedish Digitized Newspapers* — Historical Labour Markets in Text, Graz, 2026-04-25 — **invited**\
+*On the research project Modern Times 1936* — Modern Times 1936 visiting JRC, Seville, 2025-04-29 — **invited** (with Snickars, Stjernholm & Aspenskog)\
+*Moderna Tider 1936, DigitaltMuseum & AI* — E-kultur Seminariet, Stockholm, 2024-09-25 — **invited**\
+*Konfliktrepertoarer och demokratisering i Sverige. Tidiga utmaningar och resultat* — Digital History Sweden 6, Växjö, 2024-11-07 (with Olofsson & Lundstedt)\
+*Seminar on Structural Topic Modeling* — Lund University, 2022-03-21 — workshop
+
+## Languages
+
+**Swedish** — native\
+**English** — fluent\
+**Romanian** — conversational
