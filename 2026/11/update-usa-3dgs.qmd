@@ -4,6 +4,8 @@ date: "2026-11-26"
 date-format: iso 
 description: "Summarizing some milestones, celebrating new experiences and experimenting with new technologies" 
 author: Mathias Johansson 
+image: ../../assets/images/3dgs_egyptian_head_barnes.jpg
+image-alt: "3D Gaussian Splat of a small Egyptian sculpture of a face at the Barnes Foundation"
 categories:
  - 3DGS
  - Kellogg

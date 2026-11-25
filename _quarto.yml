@@ -11,6 +11,8 @@ project:
 
 website:
   title: "MathJoha"
+  site-url: "https://mathjoha.se"
+  open-graph: true
   bread-crumbs: false
   repo-url: 'https://github.com/mathjoha/about'
   repo-actions: [edit, issue]
