@@ -2,7 +2,7 @@
 title: "PhD, three days in USA, and 3DGS" 
 date: "2026-11-26" 
 date-format: iso 
-description: "Update" 
+description: "Summarizing some milestones, celebrating new experiences and experimenting with new technologies" 
 author: Mathias Johansson 
 categories:
  - 3DGS
@@ -70,7 +70,7 @@ quick editing and a nice
 [tutorial](https://www.youtube.com/watch?v=2nG0XgPiEmY&pp=0gcJCUYIAYcqIYzv) for
 getting staretd.
 
-<iframe src="../../assets/3dgs_egyptian_head_barnes.html" width="80%" height="70%"></iframe>
+<iframe src="../../assets/3dgs_egyptian_head_barnes.html" style="width: 80%; height: 70vh; border: 0;"></iframe>
 
 The resulting model is quite impressively close to the original. Granted, the
 3DGS model would have been a lot better had I used a decent camera, had perfect

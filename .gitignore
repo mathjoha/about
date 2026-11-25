@@ -18,3 +18,5 @@ cv/experience.private.yaml
 generate_grant_pdf.py
 cv_grant.qmd
 cv_grant.pdf
+
+**/*.quarto_ipynb
