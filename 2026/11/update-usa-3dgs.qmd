@@ -11,52 +11,80 @@ categories:
  - Wharton
 ---
 
-Yesterday marked three months since I started my new position as a PhD Candidate at
-the Department of Business Studies (Företagsekonomi) at Uppsala University. Out
-of the five new PhD candidates that started this fall two of us are part of the
-Uppsala Patent History Group ([UPHG](https://www.uphg.se)). The experience so far has been
-hectic and exciting, as it often is to start any new venture. But this is also a
-fitting second half to an already busy and eventful year.
+Yesterday marked three months since I started my new position as a PhD Candidate
+at the Department of Business Studies (Företagsekonomi) at Uppsala University.
+Out of the five new PhD candidates that started this fall two of us are part of
+the Uppsala Patent History Group ([UPHG](https://www.uphg.se)). The experience
+so far has been hectic and exciting, as it often is to start any new venture.
+But this is also a fitting second half to an already busy and eventful year.
 
 During the spring it was hectic business as usual; applications to read, to
 comment on and to write, and then the ongoing projects that needs tending to,
 new projects that need starting, I took on the role of course coordinator for
 the first time time (on a course I had not taught before), and then there were a
 few trips. The most important and impactful thing that happened was that I
-applied for a PhD position at the department of Business Studies  at Uppsala University and got the job!
+applied for a PhD position at the department of Business Studies at Uppsala
+University and got the job!
 
 This meant that I by necessity spent most of my summer working intensly to
 finish up as much of my ongoing projects as possible before going to a
 conference in Daejeon and having a few weeks vacation before attending a two day
 interdisciplinary symposium of intellectual property in Gothenburg. Very
 exciting (pre-) start to kick off my new role, as I will be studying technology,
-relying primarily on patents. It was a very interesting event where I had the luxury of learning from some very talented and nice people. That we happened to meet up in beautiful
-Marstrand, after its busy season with perfect weather did not hurt at all.
+relying primarily on patents. It was a very interesting event where I had the
+luxury of learning from some very talented and nice people. That we happened to
+meet up in beautiful Marstrand, after its busy season with perfect weather did
+not hurt at all.
 
 The next week I spent in Uppsala, getting introduced to the department, having a
-kickoff and starting the first course. My life since then has been a bit of a blur:
-two courses back to back, interspersed with the research school for Management and IT's fall conference, 
-an internal conference and a workshop. I was supposed to attend the seventh Digital History in Sweden conference this year, but due to a mishap on the rails south of Stockholm I arrived home around 6:00 in the morning, so I decided to sleep instead.
+kickoff and starting the first course. My life since then has been a bit of a
+blur: two courses back to back, interspersed with the research school for
+Management and IT's fall conference, an internal conference and a workshop. I
+was supposed to attend the seventh Digital History in Sweden conference this
+year, but due to a mishap on the rails south of Stockholm I arrived home around
+6:00 in the morning, so I decided to sleep instead.
 
 This brings me to last week, in which I and my sister PhD Candidate tagged along
-with our supervisor to participate in a series of meetings and a workshops at Kellogg and
-Wharton business schools. We got the chance to not only meet with some very talented researchers, we also got to pitch our PhD projects and get suggestions and comments for how to proceed (and the potential pitfalls).
-After two days crammed with meetings (and a domestic flight) we managed to squeeze out about 
-half a day of sightseeing in Philadelphia, visiting the
-Liberty Bell, eating a Cheese Steak Sandwich and visiting [the Barnes](https://www.barnesfoundation.org/about).
-I am not quite sure how representative these three points are of the city as a whole, but they were all enjoyable.
+with our supervisor to participate in a series of meetings and a workshops at
+Kellogg and Wharton business schools. We got the chance to not only meet with
+some very talented researchers, we also got to pitch our PhD projects and get
+suggestions and comments for how to proceed (and the potential pitfalls). After
+two days crammed with meetings (and a domestic flight) we managed to squeeze out
+about half a day of sightseeing in Philadelphia, visiting the Liberty Bell,
+eating a Cheese Steak Sandwich and visiting
+[the Barnes](https://www.barnesfoundation.org/about). I am not quite sure how
+representative these three points are of the city as a whole, but they were all
+enjoyable.
 
-The Barnes is full of Cézanne's, Renoir's, far too few Monet's, too many famous painters for me to name or recall _and_ a cornucopia of artefacts from around the world.
-One of these that caught my interest was as small egyptian skuplture of a slightly deformed face.
-So I did what any normal person would do, I took out my phone and filmed it from as many angles as I could reasonably cover without attracting too much attention and created a 3D model (3D Gaussian Splat to me slightly more exact).
-During our visit, I had no idea how do this -- so I asked for help from an expert that turned me towards
-[Spirula Studio](https://github.com/harry7557558/spirula-studio) for generating the initial point cloud, [SuperSplat](https://superspl.at/editor) for doing some quick editing and a nice [tutorial](https://www.youtube.com/watch?v=2nG0XgPiEmY&pp=0gcJCUYIAYcqIYzv) for getting staretd.
+The Barnes is full of Cézanne's, Renoir's, far too few Monet's, too many famous
+painters for me to name or recall _and_ a cornucopia of artefacts from around
+the world. One of these that caught my interest was as small egyptian skuplture
+of a slightly deformed face. So I did what any normal person would do, I took
+out my phone and filmed it from as many angles as I could reasonably cover
+without attracting too much attention and created a 3D model (3D Gaussian Splat
+to me slightly more exact). During our visit, I had no idea how do this -- so I
+asked for help from an expert that turned me towards
+[Spirula Studio](https://github.com/harry7557558/spirula-studio) for generating
+the initial point cloud, [SuperSplat](https://superspl.at/editor) for doing some
+quick editing and a nice
+[tutorial](https://www.youtube.com/watch?v=2nG0XgPiEmY&pp=0gcJCUYIAYcqIYzv) for
+getting staretd.
 
 <iframe src="../../assets/3dgs_egyptian_head_barnes.html" width="80%" height="70%"></iframe>
 
-The resulting model is quite impressively close to the original. Granted, the 3DGS model would have been a lot better had I used a decent camera, had perfect lighting and taken my time. But the rusprising part is at how quick it was to generate this. Using the default settings in Spirula, and some minor editing in SuperSplat I spent less than an hour going from having a Video to this neat little embedded model.
-Other than playing around with model and level editors for videogames back in the day, I have no experience working with 3D modelling of any kind. Those with training and experience can probably tell, but I am still happy with the results.
+The resulting model is quite impressively close to the original. Granted, the
+3DGS model would have been a lot better had I used a decent camera, had perfect
+lighting and taken my time. But the rusprising part is at how quick it was to
+generate this. Using the default settings in Spirula, and some minor editing in
+SuperSplat I spent less than an hour going from having a Video to this neat
+little embedded model. Other than playing around with model and level editors
+for videogames back in the day, I have no experience working with 3D modelling
+of any kind. Those with training and experience can probably tell, but I am
+still happy with the results.
 
-On a related note, in the UPHG team we have started working more with the images from patents. Chiefly as a dimension for identifying patent families across international borders. But this little experiment with the egyptian head raises my hope that it will soon be possible to generate 3D models of the patented inventions using these drawings and diagrams from the patents.
-I am not quite sure what the scientific value would be, other than it would be extremely cool!
-
+On a related note, in the UPHG team we have started working more with the images
+from patents. Chiefly as a dimension for identifying patent families across
+international borders. But this little experiment with the egyptian head raises
+my hope that it will soon be possible to generate 3D models of the patented
+inventions using these drawings and diagrams from the patents. I am not quite
+sure what the scientific value would be, other than it would be extremely cool!
