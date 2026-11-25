@@ -1,13 +1,17 @@
 /* css styles */
 
-.footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  z-index: 1000;
-  background-color: rgb(220, 220, 220);
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-body {
-  padding-bottom: 3rem;
+#quarto-content {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 0;
+  width: 100%;
+  background-color: rgb(220, 220, 220);
 }
